@@ -1,10 +1,13 @@
 dictionary = 
 {
     ["DictKey_GroupName_1"] = "New Ship Group",
+    ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
     ["DictKey_UnitName_2"] = "Unit #001",
+    ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
     ["DictKey_WptName_3"] = "",
+    ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",

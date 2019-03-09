@@ -80,6 +80,55 @@ mission =
                 {
                     ["id"] = 2,
                     ["name"] = "USA",
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 3,
+                                ["heading"] = 0,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -101641.67774636,
+                                            ["y"] = -64166.739362012,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["canCargo"] = true,
+                                        ["category"] = "Cargos",
+                                        ["heading"] = 0,
+                                        ["mass"] = 1500,
+                                        ["name"] = "DictKey_GroupName_4",
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 3,
+                                        ["x"] = -101641.67774636,
+                                        ["y"] = -64166.739362012,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -101641.67774636,
+                                ["y"] = -64166.739362012,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                 }, -- end of [14]
                 [15] =
                 {
@@ -8939,7 +8988,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 38,
+    ["currentKey"] = 48,
     ["date"] =
     {
         ["Day"] = 1,
@@ -12176,11 +12225,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -125839.56742459,
-        ["centerY"] = -72830.245969842,
-        ["zoom"] = 117727.21004448,
+        ["centerX"] = -105082.93315659,
+        ["centerY"] = -58660.730705636,
+        ["zoom"] = 321183.83828856,
     }, -- end of ["map"]
-    ["maxDictId"] = 3,
+    ["maxDictId"] = 6,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
