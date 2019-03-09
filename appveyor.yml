@@ -10,7 +10,7 @@ cache:
 - C:\ProgramData\chocolatey\bin
 build_script:
 - cmd: 7za a -bb0 dummy.miz C:\projects\ATRM\* -xr!.git -x!*.miz -x!*.yml
-- cmd: IF /I "%APPVEYOR_REPO_TAG%"=="true" (ren dummy.miz ATRM%APPVEYOR_REPO_TAG_NAME%.miz) ELSE (ren dummy.miz OPUF_%APPVEYOR_BUILD_VERSION%.miz)
+- cmd: IF /I "%APPVEYOR_REPO_TAG%"=="true" (ren dummy.miz ATRM%APPVEYOR_REPO_TAG_NAME%.miz) ELSE (ren dummy.miz ATRM_%APPVEYOR_BUILD_VERSION%.miz)
 test: off
 artifacts:
 - path: '*.miz'
