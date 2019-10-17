@@ -7949,6 +7949,7 @@ mission =
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_555",
+                                ["radioSet"] = false,
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -8117,6 +8118,7 @@ mission =
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_558",
+                                ["radioSet"] = false,
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -8300,6 +8302,7 @@ mission =
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_561",
+                                ["radioSet"] = false,
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -8379,8 +8382,10 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
-                                            ["InnerBoard"] = 0,
-                                            ["OuterBoard"] = 0,
+                                            ["LAU3ROF"] = 0,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
                                         }, -- end of ["AddPropAircraft"]
                                         ["Radio"] =
                                         {
@@ -8414,26 +8419,26 @@ mission =
                                             {
                                                 ["channels"] =
                                                 {
-                                                    [1] = 305,
-                                                    [2] = 264,
-                                                    [3] = 265,
-                                                    [4] = 256,
-                                                    [5] = 254,
-                                                    [6] = 250,
-                                                    [7] = 270,
-                                                    [8] = 257,
-                                                    [9] = 255,
-                                                    [10] = 262,
-                                                    [11] = 259,
-                                                    [12] = 268,
-                                                    [13] = 269,
-                                                    [14] = 260,
-                                                    [15] = 263,
-                                                    [16] = 261,
-                                                    [17] = 267,
-                                                    [18] = 251,
-                                                    [19] = 253,
-                                                    [20] = 266,
+                                                    [1] = 127,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 139,
+                                                    [13] = 140,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
                                                 }, -- end of ["channels"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
@@ -8447,17 +8452,17 @@ mission =
                                             ["name"] = "Colt11",
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
-                                        ["livery_id"] = "VFA-37",
+                                        ["livery_id"] = "388th vFS",
                                         ["name"] = "DictKey_UnitName_562",
                                         ["onboard_num"] = "411",
-                                        ["parking"] = 17,
+                                        ["parking"] = "17",
                                         ["parking_id"] = "08",
                                         ["payload"] =
                                         {
-                                            ["ammo_type"] = 1,
+                                            ["ammo_type"] = 5,
                                             ["chaff"] = 60,
-                                            ["flare"] = 30,
-                                            ["fuel"] = 4900,
+                                            ["flare"] = 60,
+                                            ["fuel"] = 3249,
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
@@ -8466,7 +8471,7 @@ mission =
                                         ["psi"] = 0,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "FA-18C_hornet",
+                                        ["type"] = "F-16C_50",
                                         ["unitId"] = 166,
                                         ["x"] = -210102.4375,
                                         ["y"] = -173366.640625,
@@ -19152,7 +19157,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 11721,
+    ["currentKey"] = 12695,
     ["date"] =
     {
         ["Day"] = 1,
@@ -26063,9 +26068,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -211007.21069752,
-        ["centerY"] = -172464.87017598,
-        ["zoom"] = 3791.0857660518,
+        ["centerX"] = -210604.37993086,
+        ["centerY"] = -172575.34320592,
+        ["zoom"] = 6716.1396907925,
     }, -- end of ["map"]
     ["maxDictId"] = 578,
     ["pictureFileNameB"] =
