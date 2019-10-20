@@ -21174,6 +21174,86 @@ mission =
                                 ["x"] = -267770.03949411,
                                 ["y"] = -183786.42561105,
                             }, -- end of [74]
+                            [75] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56147,
+                                ["heading"] = 2.2514747350727,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_1896",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -210788.76860433,
+                                            ["y"] = -172439.14493774,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 2.2514747350727,
+                                        ["name"] = "DictKey_GroupName_1896",
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 152478,
+                                        ["x"] = -210788.76860433,
+                                        ["y"] = -172439.14493774,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -210788.76860433,
+                                ["y"] = -172439.14493774,
+                            }, -- end of [75]
+                            [76] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56148,
+                                ["heading"] = 0,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_1899",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -126526.17814033,
+                                            ["y"] = -88686.610587964,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_GroupName_1899",
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 152479,
+                                        ["x"] = -126526.17814033,
+                                        ["y"] = -88686.610587964,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -126526.17814033,
+                                ["y"] = -88686.610587964,
+                            }, -- end of [76]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -37849,7 +37929,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 56621,
+    ["currentKey"] = 60193,
     ["date"] =
     {
         ["Day"] = 19,
@@ -44760,11 +44840,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -195831.60567166,
-        ["centerY"] = -163126.64675409,
-        ["zoom"] = 102011.22458062,
+        ["centerX"] = -221136.71552163,
+        ["centerY"] = -224161.90370128,
+        ["zoom"] = 1454335.5213402,
     }, -- end of ["map"]
-    ["maxDictId"] = 1895,
+    ["maxDictId"] = 1901,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
