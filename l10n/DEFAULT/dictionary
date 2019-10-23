@@ -1,6 +1,7 @@
 dictionary = 
 {
     ["DictKey_ActionText_1920"] = "",
+    ["DictKey_ActionText_1923"] = "",
     ["DictKey_GroupName_1"] = "New Ship Group",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
@@ -21,7 +22,7 @@ dictionary =
     ["DictKey_GroupName_84"] = "New Airplane Group #007",
     ["DictKey_GroupName_92"] = "New Airplane Group #008",
     ["DictKey_GroupName_101"] = "RANGE 9",
-    ["DictKey_GroupName_108"] = "ARCO AR 201",
+    ["DictKey_GroupName_108"] = "ARCO AR 201 #IFF5311FR",
     ["DictKey_GroupName_112"] = "New Airplane Group #011",
     ["DictKey_GroupName_120"] = "STENNIS",
     ["DictKey_GroupName_123"] = "BORDER",
@@ -54,9 +55,9 @@ dictionary =
     ["DictKey_GroupName_260"] = "New Static Object #005",
     ["DictKey_GroupName_263"] = "New Static Object #006",
     ["DictKey_GroupName_266"] = "New Static Object #007",
-    ["DictKey_GroupName_269"] = "SHELL AR 301",
+    ["DictKey_GroupName_269"] = "SHELL AR 301 #IFF5312FR",
     ["DictKey_GroupName_273"] = "SHELL AR 302",
-    ["DictKey_GroupName_277"] = "Texaco AR 101",
+    ["DictKey_GroupName_277"] = "Texaco AR 101 #IFF5314FR",
     ["DictKey_GroupName_281"] = "New Airplane Group #010",
     ["DictKey_GroupName_286"] = "SHELL AR 303",
     ["DictKey_GroupName_290"] = "New Vehicle Group #007",
@@ -420,7 +421,7 @@ dictionary =
     ["DictKey_UnitName_85"] = "Pilot #009",
     ["DictKey_UnitName_93"] = "Pilot #010",
     ["DictKey_UnitName_102"] = "Pilot #011",
-    ["DictKey_UnitName_109"] = "ARCO 1",
+    ["DictKey_UnitName_109"] = "ARCO AR 201 #IFF5311FR",
     ["DictKey_UnitName_113"] = "Pilot #013",
     ["DictKey_UnitName_121"] = "Unit #007",
     ["DictKey_UnitName_124"] = "Pilot #014",
@@ -453,9 +454,9 @@ dictionary =
     ["DictKey_UnitName_261"] = "",
     ["DictKey_UnitName_264"] = "",
     ["DictKey_UnitName_267"] = "",
-    ["DictKey_UnitName_270"] = "SHELL1",
+    ["DictKey_UnitName_270"] = "SHELL AR 301 #IFF5312FR",
     ["DictKey_UnitName_274"] = "SHELL2",
-    ["DictKey_UnitName_278"] = "Texaco",
+    ["DictKey_UnitName_278"] = "Texaco AR 101 #IFF5314FR",
     ["DictKey_UnitName_282"] = "Pilot #012",
     ["DictKey_UnitName_287"] = "SHELL3",
     ["DictKey_UnitName_291"] = "Unit #003",
@@ -1905,11 +1906,27 @@ dictionary =
     ["DictKey_WptName_1895"] = "",
     ["DictKey_WptName_1898"] = "",
     ["DictKey_WptName_1901"] = "",
-    ["DictKey_descriptionBlueTask_3"] = "",
-    ["DictKey_descriptionNeutralsTask_4"] = "",
-    ["DictKey_descriptionRedTask_2"] = "",
-    ["DictKey_descriptionText_1"] = "AWACS BLUE\
+    ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
-DARKSTAR: Freq: 306.9, FL390",
+DARKSTAR: Freq: 306.9, FL390\
+\
+TANKERS BLUE\
+AR101: KC-135, Tacan 38X. Freq: 150.0, FL120\
+\
+AR201: KC-135, Tacan 39X. Freq: 151.0, FL200\
+\
+AR301: KC-135 MPRS, Tacan 40Y. Freq: 152.0, FL240\
+AR302: KC-135 MPRS, Tacan 41Y. Freq: 153.0, FL240\
+AR303: KC-135 MPRS, Tacan 42Y. Freq: 154.0, FL240\
+AR304: KC-135 MPRS, Tacan 46Y. Freq: 158.0, FL240\
+\
+",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_descriptionRedTask_2"] = "TANKERS RED\
+AR401 KC-135 MPRS, TACAN 43Y. Freq: 155.0, FL230\
+AR402 KC-135, TACAN 44X. Freq: 156.0, FL200\
+AR403 KC-135, TACAN 45X. Freq: 157.0, FL200\
+AR404 KC-135 MPRS, TACAN 47Y. Freq: 159.0, FL230",
+    ["DictKey_descriptionText_1"] = "",
     ["DictKey_sortie_5"] = "",
 } -- end of dictionary

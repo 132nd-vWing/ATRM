@@ -38047,7 +38047,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 90861,
+    ["currentKey"] = 101613,
     ["date"] =
     {
         ["Day"] = 19,
@@ -44958,11 +44958,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -143900.04274812,
-        ["centerY"] = -143158.83200934,
+        ["centerX"] = -320901.94015845,
+        ["centerY"] = -94924.826426298,
         ["zoom"] = 789486.61272119,
     }, -- end of ["map"]
-    ["maxDictId"] = 1921,
+    ["maxDictId"] = 1929,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
@@ -45027,9 +45027,10 @@ mission =
         ["actions"] =
         {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1902\"));",
-            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1918\")); mission.trig.func[2]=nil;",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1926\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1904\")); mission.trig.func[3]=nil;",
-            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1921\")); mission.trig.func[4]=nil;",
+            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1927\")); mission.trig.func[4]=nil;",
+            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1929\")); mission.trig.func[5]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -45037,6 +45038,7 @@ mission =
             [2] = "return(c_time_after(1) )",
             [3] = "return(c_time_after(2) )",
             [4] = "return(c_time_after(3) )",
+            [5] = "return(c_time_after(4) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -45053,12 +45055,14 @@ mission =
             [2] = true,
             [3] = true,
             [4] = true,
+            [5] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
             [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
             [3] = "if mission.trig.conditions[3]() then mission.trig.actions[3]() end",
             [4] = "if mission.trig.conditions[4]() then mission.trig.actions[4]() end",
+            [5] = "if mission.trig.conditions[5]() then mission.trig.actions[5]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -45429,7 +45433,7 @@ mission =
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_1918",
+                    ["file"] = "ResKey_Action_1926",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
@@ -45482,15 +45486,13 @@ mission =
             {
                 [1] =
                 {
-                    ["KeyDict_text"] = "DictKey_ActionText_1920",
                     ["ai_task"] =
                     {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_1921",
+                    ["file"] = "ResKey_Action_1927",
                     ["predicate"] = "a_do_script_file",
-                    ["text"] = "DictKey_ActionText_1920",
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "ATRM_AWACS",
@@ -45507,6 +45509,35 @@ mission =
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [4]
+        [5] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["file"] = "ResKey_Action_1929",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "ATRM_TANKERS",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 4,
+                    ["zone"] = 1155,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [5]
     }, -- end of ["trigrules"]
     ["version"] = 16,
     ["weather"] =

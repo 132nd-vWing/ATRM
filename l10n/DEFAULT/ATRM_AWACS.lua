@@ -27,8 +27,6 @@ awacs1spawn()
 
 
 awacs2 = SPAWN:New("AWACS2 #IFF:5212FR")
-
-
 function awacs2spawn()
   awacs2:OnSpawnGroup(
     function (awacs2_group)
@@ -37,7 +35,7 @@ function awacs2spawn()
         if awacs2_unit
         then
           awacs2_unit_fuel = awacs2_unit:GetFuel()
-            env.info(awacs2_group:GetName().." Fuelstate is "..awacs2_unit_fuel)
+          env.info(awacs2_group:GetName().." Fuelstate is "..awacs2_unit_fuel)
           if awacs2_unit_fuel <= 0.3
           then
             awacs2_group:ClearTasks()
@@ -45,13 +43,12 @@ function awacs2spawn()
             env.info(awacs2_group:GetName().." is low on fuel and RTBing")
             awacs2spawn()
           end
-           else
+        else
           awacs2_unit_fuel_scheduler:Stop()
           awacs2spawn()
-                  end
+        end
       end
       ,{},5,300)
     end):Spawn()
 end
-
-awacs_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blua AWACS DARKSTAR",awacs_menu,awacs2spawn)
+awacs2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue AWACS DARKSTAR",awacs_menu,awacs2spawn)
