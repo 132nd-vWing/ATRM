@@ -1,5 +1,6 @@
 dictionary = 
 {
+    ["DictKey_ActionText_1920"] = "",
     ["DictKey_GroupName_1"] = "New Ship Group",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
@@ -118,8 +119,8 @@ dictionary =
     ["DictKey_GroupName_481"] = "New Vehicle Group #061",
     ["DictKey_GroupName_484"] = "New Vehicle Group #062",
     ["DictKey_GroupName_487"] = "New Vehicle Group #063",
-    ["DictKey_GroupName_490"] = "AWACS 1",
-    ["DictKey_GroupName_494"] = "AWACS 2#001",
+    ["DictKey_GroupName_490"] = "AWACS1 #IFF:5211FR",
+    ["DictKey_GroupName_494"] = "AWACS2 #IFF:5212FR",
     ["DictKey_GroupName_498"] = "AR 402 ARCO AGGRESSOR",
     ["DictKey_GroupName_502"] = "AWACS AGGRESSOR",
     ["DictKey_GroupName_506"] = "AR 403 ARCO AGGRESSOR",
@@ -536,8 +537,8 @@ dictionary =
     ["DictKey_UnitName_482"] = "Unit #064",
     ["DictKey_UnitName_485"] = "Unit #065",
     ["DictKey_UnitName_488"] = "Unit #066",
-    ["DictKey_UnitName_491"] = "AWACS 1",
-    ["DictKey_UnitName_495"] = "AWACS 2",
+    ["DictKey_UnitName_491"] = "AWACS1 #IFF:5211FR",
+    ["DictKey_UnitName_495"] = "AWACS2 #IFF:5212FR",
     ["DictKey_UnitName_499"] = "AR 402 ARCO AGGRESSOR",
     ["DictKey_UnitName_503"] = "AWACS AGGRESSOR",
     ["DictKey_UnitName_507"] = "AR 403 ARCO AGGRESSOR",
@@ -1907,6 +1908,8 @@ dictionary =
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
-    ["DictKey_descriptionText_1"] = "",
+    ["DictKey_descriptionText_1"] = "AWACS BLUE\
+MAGIC: Freq:305.0, FL400\
+DARKSTAR: Freq: 306.9, FL390",
     ["DictKey_sortie_5"] = "",
 } -- end of dictionary
