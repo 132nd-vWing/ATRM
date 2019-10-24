@@ -3,9 +3,10 @@ mapResource =
     [""] = "ATRM_MENUS.lua",
     ["ResKey_Action_1902"] = "Moose.lua",
     ["ResKey_Action_1904"] = "ATRM_FOX.lua",
-    ["ResKey_Action_1926"] = "ATRM_MENUS.lua",
     ["ResKey_Action_1927"] = "ATRM_AWACS.lua",
     ["ResKey_Action_1929"] = "ATRM_TANKERS.lua",
+    ["ResKey_Action_2099"] = "ATRM_MENUS.lua",
+    ["ResKey_Action_2100"] = "ATRM_Range_10.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource

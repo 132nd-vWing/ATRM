@@ -2393,7 +2393,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 398,
+                                            ["alt"] = 61,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1127",
@@ -2410,8 +2410,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 500741.77265994,
-                                            ["y"] = -600767.31846859,
+                                            ["x"] = 500751.44717748,
+                                            ["y"] = -600769.84782308,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -2440,8 +2440,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2507,
-                                        ["x"] = 500741.77265994,
-                                        ["y"] = -600767.31846859,
+                                        ["x"] = 500751.44717748,
+                                        ["y"] = -600769.84782308,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -2455,8 +2455,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2508,
-                                        ["x"] = 500701.77265994,
-                                        ["y"] = -600767.31846859,
+                                        ["x"] = 500711.44717748,
+                                        ["y"] = -600769.84782308,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -2470,18 +2470,19 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2509,
-                                        ["x"] = 500661.77265994,
-                                        ["y"] = -600767.31846859,
+                                        ["x"] = 500671.44717748,
+                                        ["y"] = -600769.84782308,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 500741.77265994,
-                                ["y"] = -600767.31846859,
+                                ["x"] = 500751.44717748,
+                                ["y"] = -600769.84782308,
                             }, -- end of [4]
                             [5] =
                             {
                                 ["groupId"] = 1027,
                                 ["hidden"] = false,
+                                ["lateActivation"] = true,
                                 ["name"] = "DictKey_GroupName_1128",
                                 ["route"] =
                                 {
@@ -2492,7 +2493,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 398,
+                                            ["alt"] = 61,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1132",
@@ -2509,10 +2510,11 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 500737.45541897,
-                                            ["y"] = -600845.02880612,
+                                            ["x"] = 500753.53324994,
+                                            ["y"] = -600861.63501121,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
                                     ["spans"] =
                                     {
                                     }, -- end of ["spans"]
@@ -2538,8 +2540,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2510,
-                                        ["x"] = 500737.45541897,
-                                        ["y"] = -600845.02880612,
+                                        ["x"] = 500753.53324994,
+                                        ["y"] = -600861.63501121,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -2553,8 +2555,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2511,
-                                        ["x"] = 500697.45541897,
-                                        ["y"] = -600845.02880612,
+                                        ["x"] = 500713.53324994,
+                                        ["y"] = -600861.63501121,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -2568,13 +2570,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2512,
-                                        ["x"] = 500657.45541897,
-                                        ["y"] = -600845.02880612,
+                                        ["x"] = 500673.53324994,
+                                        ["y"] = -600861.63501121,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 500737.45541897,
-                                ["y"] = -600845.02880612,
+                                ["x"] = 500753.53324994,
+                                ["y"] = -600861.63501121,
                             }, -- end of [5]
                             [6] =
                             {
@@ -4366,7 +4368,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 398,
+                                            ["alt"] = 226,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1321",
@@ -4383,8 +4385,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 500193.32693474,
-                                            ["y"] = -590874.37301733,
+                                            ["x"] = 500208.17986532,
+                                            ["y"] = -590862.64555978,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -4413,8 +4415,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 4779,
-                                        ["x"] = 500193.32693474,
-                                        ["y"] = -590874.37301733,
+                                        ["x"] = 500208.17986532,
+                                        ["y"] = -590862.64555978,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -4428,8 +4430,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 4780,
-                                        ["x"] = 500153.32693474,
-                                        ["y"] = -590874.37301733,
+                                        ["x"] = 500168.17986532,
+                                        ["y"] = -590862.64555978,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -4443,13 +4445,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 4781,
-                                        ["x"] = 500113.32693474,
-                                        ["y"] = -590874.37301733,
+                                        ["x"] = 500122.91361504,
+                                        ["y"] = -590863.66054343,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 500193.32693474,
-                                ["y"] = -590874.37301733,
+                                ["x"] = 500208.17986532,
+                                ["y"] = -590862.64555978,
                             }, -- end of [23]
                             [24] =
                             {
@@ -4466,7 +4468,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 398,
+                                            ["alt"] = 221,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1326",
@@ -4483,8 +4485,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 500200.22945569,
-                                            ["y"] = -590662.69570811,
+                                            ["x"] = 500208.17986532,
+                                            ["y"] = -590667.8682443,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -4513,8 +4515,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 4782,
-                                        ["x"] = 500200.22945569,
-                                        ["y"] = -590662.69570811,
+                                        ["x"] = 500208.17986532,
+                                        ["y"] = -590667.8682443,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -4528,8 +4530,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 4783,
-                                        ["x"] = 500160.22945569,
-                                        ["y"] = -590662.69570811,
+                                        ["x"] = 500168.17986532,
+                                        ["y"] = -590667.8682443,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -4543,13 +4545,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 4784,
-                                        ["x"] = 500120.22945569,
-                                        ["y"] = -590662.69570811,
+                                        ["x"] = 500116.01109409,
+                                        ["y"] = -590669.400083,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 500200.22945569,
-                                ["y"] = -590662.69570811,
+                                ["x"] = 500208.17986532,
+                                ["y"] = -590667.8682443,
                             }, -- end of [24]
                             [25] =
                             {
@@ -4566,7 +4568,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 398,
+                                            ["alt"] = 228,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1331",
@@ -4583,8 +4585,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 500211.73365728,
-                                            ["y"] = -590273.85369442,
+                                            ["x"] = 500226.38335275,
+                                            ["y"] = -590298.3374495,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -4613,8 +4615,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Uragan_BM-27",
                                         ["unitId"] = 4785,
-                                        ["x"] = 500211.73365728,
-                                        ["y"] = -590273.85369442,
+                                        ["x"] = 500226.38335275,
+                                        ["y"] = -590298.3374495,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -4628,8 +4630,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Uragan_BM-27",
                                         ["unitId"] = 4788,
-                                        ["x"] = 500171.73365728,
-                                        ["y"] = -590273.85369442,
+                                        ["x"] = 500186.38335275,
+                                        ["y"] = -590298.3374495,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -4643,13 +4645,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 4789,
-                                        ["x"] = 500131.73365728,
-                                        ["y"] = -590273.85369442,
+                                        ["x"] = 500146.38335275,
+                                        ["y"] = -590298.3374495,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 500211.73365728,
-                                ["y"] = -590273.85369442,
+                                ["x"] = 500226.38335275,
+                                ["y"] = -590298.3374495,
                             }, -- end of [25]
                             [26] =
                             {
@@ -4666,7 +4668,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 398,
+                                            ["alt"] = 239,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1338",
@@ -4683,8 +4685,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 500211.73365728,
-                                            ["y"] = -589979.34613375,
+                                            ["x"] = 500222.74265526,
+                                            ["y"] = -590027.10548682,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -4713,8 +4715,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Smerch",
                                         ["unitId"] = 4790,
-                                        ["x"] = 500211.73365728,
-                                        ["y"] = -589979.34613375,
+                                        ["x"] = 500222.74265526,
+                                        ["y"] = -590027.10548682,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -4728,8 +4730,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Smerch",
                                         ["unitId"] = 4791,
-                                        ["x"] = 500171.73365728,
-                                        ["y"] = -589979.34613375,
+                                        ["x"] = 500182.74265526,
+                                        ["y"] = -590027.10548682,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -4743,13 +4745,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 4792,
-                                        ["x"] = 500131.73365728,
-                                        ["y"] = -589979.34613375,
+                                        ["x"] = 500142.74265526,
+                                        ["y"] = -590027.10548682,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 500211.73365728,
-                                ["y"] = -589979.34613375,
+                                ["x"] = 500222.74265526,
+                                ["y"] = -590027.10548682,
                             }, -- end of [26]
                             [27] =
                             {
@@ -4766,7 +4768,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 398,
+                                            ["alt"] = 252,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1343",
@@ -4783,8 +4785,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 500227.8395395,
-                                            ["y"] = -589643.42344737,
+                                            ["x"] = 500233.66474772,
+                                            ["y"] = -589683.05957443,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -4813,8 +4815,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 4793,
-                                        ["x"] = 500227.8395395,
-                                        ["y"] = -589643.42344737,
+                                        ["x"] = 500233.66474772,
+                                        ["y"] = -589683.05957443,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -4828,8 +4830,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 4794,
-                                        ["x"] = 500187.8395395,
-                                        ["y"] = -589643.42344737,
+                                        ["x"] = 500193.66474772,
+                                        ["y"] = -589683.05957443,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -4843,13 +4845,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 4795,
-                                        ["x"] = 500147.8395395,
-                                        ["y"] = -589643.42344737,
+                                        ["x"] = 500153.66474772,
+                                        ["y"] = -589683.05957443,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 500227.8395395,
-                                ["y"] = -589643.42344737,
+                                ["x"] = 500233.66474772,
+                                ["y"] = -589683.05957443,
                             }, -- end of [27]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
@@ -31905,8 +31907,8 @@ mission =
                         ["vangle"] = 0,
                         ["vnav"] = 1,
                     }, -- end of ["properties"]
-                    ["x"] = 116604.11777223,
-                    ["y"] = -199032.3055805,
+                    ["x"] = 51305.464017729,
+                    ["y"] = -213543.11752594,
                 }, -- end of [480]
                 [481] =
                 {
@@ -40808,7 +40810,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 129451,
+    ["currentKey"] = 159366,
     ["date"] =
     {
         ["Day"] = 19,
@@ -47741,11 +47743,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -209497.4578778,
-        ["centerY"] = -56013.716742546,
-        ["zoom"] = 1734438.9662269,
+        ["centerX"] = -337942.07322038,
+        ["centerY"] = 104478.73069465,
+        ["zoom"] = 845109.28531886,
     }, -- end of ["map"]
-    ["maxDictId"] = 2084,
+    ["maxDictId"] = 2100,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
@@ -47810,10 +47812,11 @@ mission =
         ["actions"] =
         {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1902\"));",
-            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1926\")); mission.trig.func[2]=nil;",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_2099\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1904\")); mission.trig.func[3]=nil;",
             [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1927\")); mission.trig.func[4]=nil;",
             [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1929\")); mission.trig.func[5]=nil;",
+            [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_2100\")); mission.trig.func[6]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -47822,6 +47825,7 @@ mission =
             [3] = "return(c_time_after(2) )",
             [4] = "return(c_time_after(3) )",
             [5] = "return(c_time_after(4) )",
+            [6] = "return(c_time_after(5) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -47839,6 +47843,7 @@ mission =
             [3] = true,
             [4] = true,
             [5] = true,
+            [6] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -47846,6 +47851,7 @@ mission =
             [3] = "if mission.trig.conditions[3]() then mission.trig.actions[3]() end",
             [4] = "if mission.trig.conditions[4]() then mission.trig.actions[4]() end",
             [5] = "if mission.trig.conditions[5]() then mission.trig.actions[5]() end",
+            [6] = "if mission.trig.conditions[6]() then mission.trig.actions[6]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -48216,7 +48222,7 @@ mission =
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_1926",
+                    ["file"] = "ResKey_Action_2099",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
@@ -48321,6 +48327,35 @@ mission =
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [5]
+        [6] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["file"] = "ResKey_Action_2100",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "ATRM_Range_10",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 5,
+                    ["zone"] = 1155,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [6]
     }, -- end of ["trigrules"]
     ["version"] = 16,
     ["weather"] =
