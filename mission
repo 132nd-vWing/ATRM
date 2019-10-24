@@ -5767,6 +5767,192 @@ mission =
                                         ["x"] = -211381.125,
                                         ["y"] = -171828.46875,
                                     }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NS430allow"] = true,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 16,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 3,
+                                            [3] = 2,
+                                            ["name"] = "Enfield32",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 259th DeMonteur Deathwing",
+                                        ["name"] = "DictKey_UnitName_2107",
+                                        ["onboard_num"] = "612",
+                                        ["parking"] = "253",
+                                        ["parking_id"] = "98",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 152546,
+                                        ["x"] = -211593.0625,
+                                        ["y"] = -171758.296875,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NS430allow"] = true,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 16,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 3,
+                                            [3] = 3,
+                                            ["name"] = "Enfield33",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 259th DeMonteur Deathwing",
+                                        ["name"] = "DictKey_UnitName_2108",
+                                        ["onboard_num"] = "050",
+                                        ["parking"] = 101,
+                                        ["parking_id"] = "94",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 152547,
+                                        ["x"] = -211392.921875,
+                                        ["y"] = -171600.78125,
+                                    }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["x"] = -211381.125,
                                 ["y"] = -171828.46875,
@@ -23589,6 +23775,86 @@ mission =
                                 ["x"] = -241966.84347504,
                                 ["y"] = 1110.0505709003,
                             }, -- end of [99]
+                            [100] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56194,
+                                ["heading"] = 0,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2101",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -371679.03953761,
+                                            ["y"] = 101754.94043646,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_GroupName_2101",
+                                        ["type"] = "NTTR Target 62-71 DMPI 113",
+                                        ["unitId"] = 152544,
+                                        ["x"] = -371679.03953761,
+                                        ["y"] = 101754.94043646,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -371679.03953761,
+                                ["y"] = 101754.94043646,
+                            }, -- end of [100]
+                            [101] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56195,
+                                ["heading"] = 0,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2104",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -372898.49869632,
+                                            ["y"] = 101257.83606604,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_GroupName_2104",
+                                        ["type"] = "NTTR Target 62-71 DMPI 113",
+                                        ["unitId"] = 152545,
+                                        ["x"] = -372898.49869632,
+                                        ["y"] = 101257.83606604,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -372898.49869632,
+                                ["y"] = 101257.83606604,
+                            }, -- end of [101]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -35228,7 +35494,7 @@ mission =
                             {
                                 ["groupId"] = 1858,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["name"] = "DictKey_GroupName_1531",
                                 ["route"] =
                                 {
@@ -35260,7 +35526,7 @@ mission =
                                             ["y"] = 107884.96055011,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                     ["spans"] =
                                     {
                                     }, -- end of ["spans"]
@@ -35401,7 +35667,7 @@ mission =
                             {
                                 ["groupId"] = 1860,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["name"] = "DictKey_GroupName_1544",
                                 ["route"] =
                                 {
@@ -35433,7 +35699,7 @@ mission =
                                             ["y"] = 98291.841808725,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                     ["spans"] =
                                     {
                                     }, -- end of ["spans"]
@@ -35705,7 +35971,7 @@ mission =
                             {
                                 ["groupId"] = 56132,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["name"] = "DictKey_GroupName_1766",
                                 ["route"] =
                                 {
@@ -35737,7 +36003,7 @@ mission =
                                             ["y"] = -124569.27214428,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                     ["spans"] =
                                     {
                                         [1] =
@@ -40810,7 +41076,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 159366,
+    ["currentKey"] = 163330,
     ["date"] =
     {
         ["Day"] = 19,
@@ -47743,11 +48009,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -337942.07322038,
-        ["centerY"] = 104478.73069465,
-        ["zoom"] = 845109.28531886,
+        ["centerX"] = -211172.96112353,
+        ["centerY"] = -172162.30916973,
+        ["zoom"] = 6015.8268268534,
     }, -- end of ["map"]
-    ["maxDictId"] = 2100,
+    ["maxDictId"] = 2108,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
