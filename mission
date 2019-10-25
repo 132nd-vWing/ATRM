@@ -1397,6 +1397,416 @@ mission =
                                 ["x"] = -242049.74260327,
                                 ["y"] = 1831.9581518031,
                             }, -- end of [33]
+                            [34] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56224,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2193",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248296.87331755,
+                                            ["y"] = -88326.002902179,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2193",
+                                        ["rate"] = 5,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 152576,
+                                        ["x"] = -248296.87331755,
+                                        ["y"] = -88326.002902179,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248296.87331755,
+                                ["y"] = -88326.002902179,
+                            }, -- end of [34]
+                            [35] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56225,
+                                ["heading"] = 5.9864793343406,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2196",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248317.6379184,
+                                            ["y"] = -88313.490211013,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 5.9864793343406,
+                                        ["name"] = "DictKey_GroupName_2196",
+                                        ["rate"] = 5,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 152577,
+                                        ["x"] = -248317.6379184,
+                                        ["y"] = -88313.490211013,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248317.6379184,
+                                ["y"] = -88313.490211013,
+                            }, -- end of [35]
+                            [36] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56229,
+                                ["heading"] = 1.2566370614359,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2208",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250782.51127744,
+                                            ["y"] = -91739.871306265,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 1.2566370614359,
+                                        ["name"] = "DictKey_GroupName_2208",
+                                        ["rate"] = 3,
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 152581,
+                                        ["x"] = -250782.51127744,
+                                        ["y"] = -91739.871306265,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250782.51127744,
+                                ["y"] = -91739.871306265,
+                            }, -- end of [36]
+                            [37] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56230,
+                                ["heading"] = 2.8972465583106,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2211",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250667.31240188,
+                                            ["y"] = -91738.01435099,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 2.8972465583106,
+                                        ["name"] = "DictKey_GroupName_2211",
+                                        ["rate"] = 3,
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 152582,
+                                        ["x"] = -250667.31240188,
+                                        ["y"] = -91738.01435099,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250667.31240188,
+                                ["y"] = -91738.01435099,
+                            }, -- end of [37]
+                            [38] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56231,
+                                ["heading"] = 5.9515727493007,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2214",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250709.43914992,
+                                            ["y"] = -91655.644807595,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 5.9515727493007,
+                                        ["name"] = "DictKey_GroupName_2214",
+                                        ["rate"] = 3,
+                                        ["type"] = "ATMZ-5",
+                                        ["unitId"] = 152583,
+                                        ["x"] = -250709.43914992,
+                                        ["y"] = -91655.644807595,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250709.43914992,
+                                ["y"] = -91655.644807595,
+                            }, -- end of [38]
+                            [39] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56232,
+                                ["heading"] = 4.5029494701454,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2217",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250711.61445808,
+                                            ["y"] = -91693.712700336,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 4.5029494701454,
+                                        ["name"] = "DictKey_GroupName_2217",
+                                        ["rate"] = 3,
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 152584,
+                                        ["x"] = -250711.61445808,
+                                        ["y"] = -91693.712700336,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250711.61445808,
+                                ["y"] = -91693.712700336,
+                            }, -- end of [39]
+                            [40] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56233,
+                                ["heading"] = 2.8972465583106,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2220",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250693.74301768,
+                                            ["y"] = -91731.379505049,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 2.8972465583106,
+                                        ["name"] = "DictKey_GroupName_2220",
+                                        ["rate"] = 3,
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 152585,
+                                        ["x"] = -250693.74301768,
+                                        ["y"] = -91731.379505049,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250693.74301768,
+                                ["y"] = -91731.379505049,
+                            }, -- end of [40]
+                            [41] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56234,
+                                ["heading"] = 2.8972465583106,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2223",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250653.28133424,
+                                            ["y"] = -91741.277389978,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 2.8972465583106,
+                                        ["name"] = "DictKey_GroupName_2223",
+                                        ["rate"] = 3,
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 152586,
+                                        ["x"] = -250653.28133424,
+                                        ["y"] = -91741.277389978,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250653.28133424,
+                                ["y"] = -91741.277389978,
+                            }, -- end of [41]
+                            [42] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56235,
+                                ["heading"] = 2.8972465583106,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2226",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250680.03825394,
+                                            ["y"] = -91734.642544037,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 2.8972465583106,
+                                        ["name"] = "DictKey_GroupName_2226",
+                                        ["rate"] = 3,
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 152587,
+                                        ["x"] = -250680.03825394,
+                                        ["y"] = -91734.642544037,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250680.03825394,
+                                ["y"] = -91734.642544037,
+                            }, -- end of [42]
+                            [43] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56239,
+                                ["heading"] = 2.8972465583106,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2238",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250706.05106277,
+                                            ["y"] = -91728.608513847,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 2.8972465583106,
+                                        ["name"] = "DictKey_GroupName_2238",
+                                        ["rate"] = 3,
+                                        ["type"] = "ATMZ-5",
+                                        ["unitId"] = 152591,
+                                        ["x"] = -250706.05106277,
+                                        ["y"] = -91728.608513847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250706.05106277,
+                                ["y"] = -91728.608513847,
+                            }, -- end of [43]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -8748,12 +9158,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_110",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 191.06999764484,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -8822,7 +9226,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 371.15612493244,
+                                            ["ETA"] = 373.84351166068,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -8842,8 +9246,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -343282.62134945,
-                                            ["y"] = -183669.57152097,
+                                            ["x"] = -340371.92487519,
+                                            ["y"] = -188678.06148162,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -8867,7 +9271,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Arco11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -2.5015005366812,
+                                        ["heading"] = -2.4208382628472,
                                         ["livery_id"] = "Standard USAF",
                                         ["name"] = "DictKey_UnitName_109",
                                         ["onboard_num"] = "021",
@@ -8881,7 +9285,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.5015005366812,
+                                        ["psi"] = 2.4208382628472,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 191.06999764484,
                                         ["type"] = "KC-135",
@@ -11382,12 +11786,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_271",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 188.06002446028,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -11457,7 +11855,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 372.68626514729,
+                                            ["ETA"] = 373.07606503226,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7315.2,
@@ -11477,8 +11875,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -341374.99488558,
-                                            ["y"] = -181952.70770349,
+                                            ["x"] = -339111.14769131,
+                                            ["y"] = -187777.50635028,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -11502,7 +11900,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Shell11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -2.4916531838582,
+                                        ["heading"] = -2.4059278973394,
                                         ["livery_id"] = "100th ARW",
                                         ["name"] = "DictKey_UnitName_270",
                                         ["onboard_num"] = "031",
@@ -11516,7 +11914,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.4916531838582,
+                                        ["psi"] = 2.4059278973394,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 188.06002446028,
                                         ["type"] = "KC135MPRS",
@@ -19601,6 +19999,237 @@ mission =
                                 ["x"] = -213383.359375,
                                 ["y"] = -173047.671875,
                             }, -- end of [43]
+                            [44] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 56243,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_2253",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_2255",
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -203731.60886902,
+                                            ["y"] = -42539.268979909,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 73.328371375855,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_2257",
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -194652.75735149,
+                                            ["y"] = -42369.678110846,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 376.38665292562,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_2258",
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -157280.1234996,
+                                            ["y"] = -41786.217674151,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 831.70085951961,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_2259",
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -158740.75429803,
+                                            ["y"] = 14350.202052824,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 1132.3004454713,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_2260",
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -195637.38638933,
+                                            ["y"] = 17971.83564595,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 1627.297807204,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_2261",
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -203732.6794633,
+                                            ["y"] = -42538.73368277,
+                                        }, -- end of [6]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 2000,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 4,
+                                            [2] = 3,
+                                            [3] = 1,
+                                            ["name"] = "Colt31",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.018677598981823,
+                                        ["livery_id"] = "104th FS Maryland ANG, Baltimore (MD)",
+                                        ["name"] = "DictKey_UnitName_2254",
+                                        ["onboard_num"] = "738",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.018677598981823,
+                                        ["skill"] = "High",
+                                        ["speed"] = 123.33333333333,
+                                        ["type"] = "A-10A",
+                                        ["unitId"] = 152597,
+                                        ["x"] = -203731.60886902,
+                                        ["y"] = -42539.268979909,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -203731.60886902,
+                                ["y"] = -42539.268979909,
+                            }, -- end of [44]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] =
@@ -23855,6 +24484,1288 @@ mission =
                                 ["x"] = -372898.49869632,
                                 ["y"] = 101257.83606604,
                             }, -- end of [101]
+                            [102] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56196,
+                                ["heading"] = 5.0265482457437,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2109",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240292.7377618,
+                                            ["y"] = -117861.76889555,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.0265482457437,
+                                        ["name"] = "DictKey_GroupName_2109",
+                                        ["type"] = "NTTR Target 62-22 DMPI 208",
+                                        ["unitId"] = 152548,
+                                        ["x"] = -240292.7377618,
+                                        ["y"] = -117861.76889555,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240292.7377618,
+                                ["y"] = -117861.76889555,
+                            }, -- end of [102]
+                            [103] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56197,
+                                ["heading"] = 4.9567350756639,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2112",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240313.31060209,
+                                            ["y"] = -117800.5778834,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.9567350756639,
+                                        ["name"] = "DictKey_GroupName_2112",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-22 DMPI 210",
+                                        ["unitId"] = 152549,
+                                        ["x"] = -240313.31060209,
+                                        ["y"] = -117800.5778834,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240313.31060209,
+                                ["y"] = -117800.5778834,
+                            }, -- end of [103]
+                            [104] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56198,
+                                ["heading"] = 4.9567350756639,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2115",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240322.80575915,
+                                            ["y"] = -117753.62960685,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.9567350756639,
+                                        ["name"] = "DictKey_GroupName_2115",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-22 DMPI 217",
+                                        ["unitId"] = 152550,
+                                        ["x"] = -240322.80575915,
+                                        ["y"] = -117753.62960685,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240322.80575915,
+                                ["y"] = -117753.62960685,
+                            }, -- end of [104]
+                            [105] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56199,
+                                ["heading"] = 4.9567350756639,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2118",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240342.85109071,
+                                            ["y"] = -117701.40624303,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.9567350756639,
+                                        ["name"] = "DictKey_GroupName_2118",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-32 DMPI 205",
+                                        ["unitId"] = 152551,
+                                        ["x"] = -240342.85109071,
+                                        ["y"] = -117701.40624303,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240342.85109071,
+                                ["y"] = -117701.40624303,
+                            }, -- end of [105]
+                            [106] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56200,
+                                ["heading"] = 2.7401669256311,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2121",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -238892.06321442,
+                                            ["y"] = -119001.87508458,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 2.7401669256311,
+                                        ["name"] = "DictKey_GroupName_2121",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-32 DMPI 216",
+                                        ["unitId"] = 152552,
+                                        ["x"] = -238892.06321442,
+                                        ["y"] = -119001.87508458,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -238892.06321442,
+                                ["y"] = -119001.87508458,
+                            }, -- end of [106]
+                            [107] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56201,
+                                ["heading"] = 4.9916416607038,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2124",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240273.10850275,
+                                            ["y"] = -118040.97284096,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.9916416607038,
+                                        ["name"] = "DictKey_GroupName_2124",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-41 DMPI 110",
+                                        ["unitId"] = 152553,
+                                        ["x"] = -240273.10850275,
+                                        ["y"] = -118040.97284096,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240273.10850275,
+                                ["y"] = -118040.97284096,
+                            }, -- end of [107]
+                            [108] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56202,
+                                ["heading"] = 3.700098014228,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2127",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240436.06918848,
+                                            ["y"] = -117997.33644881,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 3.700098014228,
+                                        ["name"] = "DictKey_GroupName_2127",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-41 DMPI 103",
+                                        ["unitId"] = 152554,
+                                        ["x"] = -240436.06918848,
+                                        ["y"] = -117997.33644881,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240436.06918848,
+                                ["y"] = -117997.33644881,
+                            }, -- end of [108]
+                            [109] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56203,
+                                ["heading"] = 4.9916416607038,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2130",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240255.73117844,
+                                            ["y"] = -117991.54400737,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.9916416607038,
+                                        ["name"] = "DictKey_GroupName_2130",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-41 DMPI 110",
+                                        ["unitId"] = 152555,
+                                        ["x"] = -240255.73117844,
+                                        ["y"] = -117991.54400737,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240255.73117844,
+                                ["y"] = -117991.54400737,
+                            }, -- end of [109]
+                            [110] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56204,
+                                ["heading"] = 4.9916416607038,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2133",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240237.96769137,
+                                            ["y"] = -118047.53760792,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.9916416607038,
+                                        ["name"] = "DictKey_GroupName_2133",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-41 DMPI 110",
+                                        ["unitId"] = 152556,
+                                        ["x"] = -240237.96769137,
+                                        ["y"] = -118047.53760792,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240237.96769137,
+                                ["y"] = -118047.53760792,
+                            }, -- end of [110]
+                            [111] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56205,
+                                ["heading"] = 0.1221730476396,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2136",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240258.82048054,
+                                            ["y"] = -117923.96552395,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.1221730476396,
+                                        ["name"] = "DictKey_GroupName_2136",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-51 DMPI 103",
+                                        ["unitId"] = 152557,
+                                        ["x"] = -240258.82048054,
+                                        ["y"] = -117923.96552395,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240258.82048054,
+                                ["y"] = -117923.96552395,
+                            }, -- end of [111]
+                            [112] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56206,
+                                ["heading"] = 4.9916416607038,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2139",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240283.92106009,
+                                            ["y"] = -117983.0484266,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.9916416607038,
+                                        ["name"] = "DictKey_GroupName_2139",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-41 DMPI 110",
+                                        ["unitId"] = 152558,
+                                        ["x"] = -240283.92106009,
+                                        ["y"] = -117983.0484266,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240283.92106009,
+                                ["y"] = -117983.0484266,
+                            }, -- end of [112]
+                            [113] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56207,
+                                ["heading"] = 0.1221730476396,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2142",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240217.50106496,
+                                            ["y"] = -117902.72657202,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.1221730476396,
+                                        ["name"] = "DictKey_GroupName_2142",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-53 DMPI 309",
+                                        ["unitId"] = 152559,
+                                        ["x"] = -240217.50106496,
+                                        ["y"] = -117902.72657202,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240217.50106496,
+                                ["y"] = -117902.72657202,
+                            }, -- end of [113]
+                            [114] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56208,
+                                ["heading"] = 0.1221730476396,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2145",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240190.85583435,
+                                            ["y"] = -117887.28006152,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.1221730476396,
+                                        ["name"] = "DictKey_GroupName_2145",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-53 DMPI 309",
+                                        ["unitId"] = 152560,
+                                        ["x"] = -240190.85583435,
+                                        ["y"] = -117887.28006152,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240190.85583435,
+                                ["y"] = -117887.28006152,
+                            }, -- end of [114]
+                            [115] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56209,
+                                ["heading"] = 0.1221730476396,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2148",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -240198.19292684,
+                                            ["y"] = -117861.7933192,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.1221730476396,
+                                        ["name"] = "DictKey_GroupName_2148",
+                                        ["rate"] = 1,
+                                        ["type"] = "NTTR Target 62-53 DMPI 309",
+                                        ["unitId"] = 152561,
+                                        ["x"] = -240198.19292684,
+                                        ["y"] = -117861.7933192,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -240198.19292684,
+                                ["y"] = -117861.7933192,
+                            }, -- end of [115]
+                            [116] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56214,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2163",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250718.74726727,
+                                            ["y"] = -91662.769729427,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2163",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 152566,
+                                        ["x"] = -250718.74726727,
+                                        ["y"] = -91662.769729427,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250718.74726727,
+                                ["y"] = -91662.769729427,
+                            }, -- end of [116]
+                            [117] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56215,
+                                ["heading"] = 4.4680428851055,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2166",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248329.13346461,
+                                            ["y"] = -88319.217100522,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.4680428851055,
+                                        ["name"] = "DictKey_GroupName_2166",
+                                        ["rate"] = 1,
+                                        ["type"] = "Tac_Bunker_Sand_1",
+                                        ["unitId"] = 152567,
+                                        ["x"] = -248329.13346461,
+                                        ["y"] = -88319.217100522,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248329.13346461,
+                                ["y"] = -88319.217100522,
+                            }, -- end of [117]
+                            [118] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56216,
+                                ["heading"] = 4.4680428851055,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2169",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248305.11553653,
+                                            ["y"] = -88322.773549799,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.4680428851055,
+                                        ["name"] = "DictKey_GroupName_2169",
+                                        ["rate"] = 1,
+                                        ["type"] = "Tac_Bunker_Sand_1",
+                                        ["unitId"] = 152568,
+                                        ["x"] = -248305.11553653,
+                                        ["y"] = -88322.773549799,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248305.11553653,
+                                ["y"] = -88322.773549799,
+                            }, -- end of [118]
+                            [119] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56218,
+                                ["heading"] = 2.8972465583106,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2175",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248337.95473578,
+                                            ["y"] = -88303.56843121,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 2.8972465583106,
+                                        ["name"] = "DictKey_GroupName_2175",
+                                        ["rate"] = 1,
+                                        ["type"] = "Tac_Bunker_Sand_1",
+                                        ["unitId"] = 152570,
+                                        ["x"] = -248337.95473578,
+                                        ["y"] = -88303.56843121,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248337.95473578,
+                                ["y"] = -88303.56843121,
+                            }, -- end of [119]
+                            [120] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56219,
+                                ["heading"] = 1.3264502315157,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2178",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248300.04728101,
+                                            ["y"] = -88301.983358796,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3264502315157,
+                                        ["name"] = "DictKey_GroupName_2178",
+                                        ["rate"] = 1,
+                                        ["type"] = "Tac_Bunker_Sand_1",
+                                        ["unitId"] = 152571,
+                                        ["x"] = -248300.04728101,
+                                        ["y"] = -88301.983358796,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248300.04728101,
+                                ["y"] = -88301.983358796,
+                            }, -- end of [120]
+                            [121] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56220,
+                                ["heading"] = 1.3264502315157,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2181",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248323.14864826,
+                                            ["y"] = -88295.036496363,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3264502315157,
+                                        ["name"] = "DictKey_GroupName_2181",
+                                        ["rate"] = 1,
+                                        ["type"] = "Tac_Bunker_Sand_1",
+                                        ["unitId"] = 152572,
+                                        ["x"] = -248323.14864826,
+                                        ["y"] = -88295.036496363,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248323.14864826,
+                                ["y"] = -88295.036496363,
+                            }, -- end of [121]
+                            [122] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56221,
+                                ["heading"] = 6.0911990894602,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2184",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248322.99973298,
+                                            ["y"] = -88316.586020619,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["canCargo"] = true,
+                                        ["category"] = "Cargos",
+                                        ["heading"] = 6.0911990894602,
+                                        ["mass"] = 1500,
+                                        ["name"] = "DictKey_GroupName_2184",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 152573,
+                                        ["x"] = -248322.99973298,
+                                        ["y"] = -88316.586020619,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248322.99973298,
+                                ["y"] = -88316.586020619,
+                            }, -- end of [122]
+                            [123] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56222,
+                                ["heading"] = 6.0911990894602,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2187",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248321.0847992,
+                                            ["y"] = -88315.564722605,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["canCargo"] = true,
+                                        ["category"] = "Cargos",
+                                        ["heading"] = 6.0911990894602,
+                                        ["mass"] = 1500,
+                                        ["name"] = "DictKey_GroupName_2187",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 152574,
+                                        ["x"] = -248321.0847992,
+                                        ["y"] = -88315.564722605,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248321.0847992,
+                                ["y"] = -88315.564722605,
+                            }, -- end of [123]
+                            [124] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56223,
+                                ["heading"] = 6.0911990894602,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2190",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -248321.40395483,
+                                            ["y"] = -88316.937091811,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["canCargo"] = true,
+                                        ["category"] = "Cargos",
+                                        ["heading"] = 6.0911990894602,
+                                        ["mass"] = 1500,
+                                        ["name"] = "DictKey_GroupName_2190",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 152575,
+                                        ["x"] = -248321.40395483,
+                                        ["y"] = -88316.937091811,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -248321.40395483,
+                                ["y"] = -88316.937091811,
+                            }, -- end of [124]
+                            [125] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56226,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2199",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250706.71697678,
+                                            ["y"] = -91611.907488616,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2199",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 152578,
+                                        ["x"] = -250706.71697678,
+                                        ["y"] = -91611.907488616,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250706.71697678,
+                                ["y"] = -91611.907488616,
+                            }, -- end of [125]
+                            [126] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56227,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2202",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250724.8385536,
+                                            ["y"] = -91686.83031041,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2202",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 152579,
+                                        ["x"] = -250724.8385536,
+                                        ["y"] = -91686.83031041,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250724.8385536,
+                                ["y"] = -91686.83031041,
+                            }, -- end of [126]
+                            [127] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56228,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2205",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250712.50369879,
+                                            ["y"] = -91637.490891179,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2205",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 152580,
+                                        ["x"] = -250712.50369879,
+                                        ["y"] = -91637.490891179,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250712.50369879,
+                                ["y"] = -91637.490891179,
+                            }, -- end of [127]
+                            [128] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56236,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2229",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250761.52748476,
+                                            ["y"] = -91749.450484541,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2229",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 152588,
+                                        ["x"] = -250761.52748476,
+                                        ["y"] = -91749.450484541,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250761.52748476,
+                                ["y"] = -91749.450484541,
+                            }, -- end of [128]
+                            [129] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56237,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2232",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250747.12200502,
+                                            ["y"] = -91752.668730016,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2232",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 152589,
+                                        ["x"] = -250747.12200502,
+                                        ["y"] = -91752.668730016,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250747.12200502,
+                                ["y"] = -91752.668730016,
+                            }, -- end of [129]
+                            [130] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56238,
+                                ["heading"] = 1.3089969389957,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2235",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -250776.54596365,
+                                            ["y"] = -91745.619239928,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "DictKey_GroupName_2235",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 152590,
+                                        ["x"] = -250776.54596365,
+                                        ["y"] = -91745.619239928,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -250776.54596365,
+                                ["y"] = -91745.619239928,
+                            }, -- end of [130]
+                            [131] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56240,
+                                ["heading"] = 2.8448866807508,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2241",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -252369.82433537,
+                                            ["y"] = -89618.566045434,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 2.8448866807508,
+                                        ["name"] = "DictKey_GroupName_2241",
+                                        ["rate"] = 1,
+                                        ["type"] = "Range_Tower_Main",
+                                        ["unitId"] = 152592,
+                                        ["x"] = -252369.82433537,
+                                        ["y"] = -89618.566045434,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -252369.82433537,
+                                ["y"] = -89618.566045434,
+                            }, -- end of [131]
+                            [132] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56241,
+                                ["heading"] = 2.8448866807508,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2244",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -252394.22986817,
+                                            ["y"] = -89645.769626858,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["heading"] = 2.8448866807508,
+                                        ["name"] = "DictKey_GroupName_2244",
+                                        ["shape_name"] = "sklad",
+                                        ["type"] = "Warehouse",
+                                        ["unitId"] = 152593,
+                                        ["x"] = -252394.22986817,
+                                        ["y"] = -89645.769626858,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -252394.22986817,
+                                ["y"] = -89645.769626858,
+                            }, -- end of [132]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -24419,6 +26330,136 @@ mission =
                                 ["x"] = -242069.96906654,
                                 ["y"] = 1008.6333141368,
                             }, -- end of [5]
+                            [6] =
+                            {
+                                ["groupId"] = 56242,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_2247",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 783,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_2251",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 5,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -243599.52133298,
+                                            ["y"] = 3671.3320180376,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = -243599.52133298,
+                                                ["y"] = 3671.3320180376,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = -243595.32046002,
+                                                ["y"] = 3663.163653956,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 5.1873997366475,
+                                        ["name"] = "DictKey_UnitName_2248",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 152594,
+                                        ["x"] = -243599.52133298,
+                                        ["y"] = 3671.3320180376,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["heading"] = 5.1873997366475,
+                                        ["name"] = "DictKey_UnitName_2249",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 152595,
+                                        ["x"] = -243607.80046491,
+                                        ["y"] = 3671.3911736735,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["heading"] = 5.1873997366475,
+                                        ["name"] = "DictKey_UnitName_2250",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 152596,
+                                        ["x"] = -243614.43197433,
+                                        ["y"] = 3671.9062423666,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -243599.52133298,
+                                ["y"] = 3671.3320180376,
+                            }, -- end of [6]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [14]
@@ -33104,6 +35145,294 @@ mission =
                     ["x"] = -242451.93866256,
                     ["y"] = 3414.3581873084,
                 }, -- end of [538]
+                [539] =
+                {
+                    ["callsignStr"] = "T6.1",
+                    ["comment"] = "",
+                    ["id"] = 1667,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -240329.93174946,
+                    ["y"] = -117909.71086159,
+                }, -- end of [539]
+                [540] =
+                {
+                    ["callsignStr"] = "T6.2",
+                    ["comment"] = "Weapon storage",
+                    ["id"] = 1769,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -248303.39026409,
+                    ["y"] = -88312.146219595,
+                }, -- end of [540]
+                [541] =
+                {
+                    ["callsignStr"] = "T6.3",
+                    ["comment"] = "Fuel site",
+                    ["id"] = 1871,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -250705.65100167,
+                    ["y"] = -91678.302509555,
+                }, -- end of [541]
+                [542] =
+                {
+                    ["callsignStr"] = "TCAA1",
+                    ["comment"] = "TRANSIT CORRIDOR AFRA",
+                    ["id"] = 1973,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -277874.96614355,
+                    ["y"] = -245757.53811782,
+                }, -- end of [542]
+                [543] =
+                {
+                    ["callsignStr"] = "TCAA2",
+                    ["comment"] = "",
+                    ["id"] = 1974,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -315056.31541708,
+                    ["y"] = -185200.45078465,
+                }, -- end of [543]
+                [544] =
+                {
+                    ["callsignStr"] = "TCAA3",
+                    ["comment"] = "",
+                    ["id"] = 1975,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -261169.35451353,
+                    ["y"] = -156070.90309677,
+                }, -- end of [544]
+                [545] =
+                {
+                    ["callsignStr"] = "TCAA4",
+                    ["comment"] = "",
+                    ["id"] = 1976,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -218642.92204243,
+                    ["y"] = -133133.92015812,
+                }, -- end of [545]
+                [546] =
+                {
+                    ["callsignStr"] = "TCAA5",
+                    ["comment"] = "",
+                    ["id"] = 1977,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -125614.59006463,
+                    ["y"] = -83003.268150273,
+                }, -- end of [546]
+                [547] =
+                {
+                    ["callsignStr"] = "TCDY4",
+                    ["comment"] = "",
+                    ["id"] = 2079,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -205440.59079068,
+                    ["y"] = -211471.4979922,
+                }, -- end of [547]
+                [548] =
+                {
+                    ["callsignStr"] = "TCDY3",
+                    ["comment"] = "",
+                    ["id"] = 2080,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -242803.75787989,
+                    ["y"] = -241783.67173081,
+                }, -- end of [548]
+                [549] =
+                {
+                    ["callsignStr"] = "TCDY2",
+                    ["comment"] = "",
+                    ["id"] = 2081,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -246536.45402371,
+                    ["y"] = -244201.13586439,
+                }, -- end of [549]
+                [550] =
+                {
+                    ["callsignStr"] = "TCDY1",
+                    ["comment"] = "TRANSIT CORRIDOR DARCY",
+                    ["id"] = 2082,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -268135.78170154,
+                    ["y"] = -258279.5217675,
+                }, -- end of [550]
+                [551] =
+                {
+                    ["callsignStr"] = "TCBA1",
+                    ["comment"] = "TRANSIT CORRIDOR BEDA",
+                    ["id"] = 2083,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -261131.41602142,
+                    ["y"] = -147769.22497289,
+                }, -- end of [551]
+                [552] =
+                {
+                    ["callsignStr"] = "TCBA2",
+                    ["comment"] = "",
+                    ["id"] = 2084,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -261268.44003842,
+                    ["y"] = -44569.631481812,
+                }, -- end of [552]
+                [553] =
+                {
+                    ["callsignStr"] = "TCBA3",
+                    ["comment"] = "",
+                    ["id"] = 2085,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -261032.68073203,
+                    ["y"] = 79860.144901325,
+                }, -- end of [553]
+                [554] =
+                {
+                    ["callsignStr"] = "TCCA1",
+                    ["comment"] = "TRANSIT CORRIDOR CARA",
+                    ["id"] = 2187,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -218431.06341964,
+                    ["y"] = -125937.37252105,
+                }, -- end of [554]
+                [555] =
+                {
+                    ["callsignStr"] = "TCCA2",
+                    ["comment"] = "",
+                    ["id"] = 2188,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -211291.96670849,
+                    ["y"] = -65921.650951991,
+                }, -- end of [555]
+                [556] =
+                {
+                    ["callsignStr"] = "TCCA3",
+                    ["comment"] = "",
+                    ["id"] = 2189,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -197634.38538905,
+                    ["y"] = 48526.404601752,
+                }, -- end of [556]
             }, -- end of ["nav_points"]
         }, -- end of ["blue"]
         ["red"] =
@@ -41076,7 +43405,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 163330,
+    ["currentKey"] = 186975,
     ["date"] =
     {
         ["Day"] = 19,
@@ -48009,11 +50338,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -211172.96112353,
-        ["centerY"] = -172162.30916973,
-        ["zoom"] = 6015.8268268534,
+        ["centerX"] = -234241.7865315,
+        ["centerY"] = -84848.81996453,
+        ["zoom"] = 224025.02732289,
     }, -- end of ["map"]
-    ["maxDictId"] = 2108,
+    ["maxDictId"] = 2261,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
