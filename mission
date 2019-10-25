@@ -12416,6 +12416,12 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_271",
+                                            ["properties"] =
+                                            {
+                                                ["addopt"] =
+                                                {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 188.06002446028,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -44425,7 +44431,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 207402,
+    ["currentKey"] = 220948,
     ["date"] =
     {
         ["Day"] = 19,
@@ -51358,11 +51364,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -289173.97136924,
-        ["centerY"] = 70977.19573884,
-        ["zoom"] = 1209082.1035544,
+        ["centerX"] = -196536.51875911,
+        ["centerY"] = -135191.0736652,
+        ["zoom"] = 1931145.9357971,
     }, -- end of ["map"]
-    ["maxDictId"] = 2319,
+    ["maxDictId"] = 2326,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
@@ -51427,10 +51433,10 @@ mission =
         ["actions"] =
         {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1902\"));",
-            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_2099\")); mission.trig.func[2]=nil;",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_2324\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1904\")); mission.trig.func[3]=nil;",
-            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1927\")); mission.trig.func[4]=nil;",
-            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1929\")); mission.trig.func[5]=nil;",
+            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_2321\")); mission.trig.func[4]=nil;",
+            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_2326\")); mission.trig.func[5]=nil;",
             [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_2319\")); mission.trig.func[6]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
@@ -51837,7 +51843,7 @@ mission =
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_2099",
+                    ["file"] = "ResKey_Action_2324",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
@@ -51895,7 +51901,7 @@ mission =
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_1927",
+                    ["file"] = "ResKey_Action_2321",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
@@ -51924,7 +51930,7 @@ mission =
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_1929",
+                    ["file"] = "ResKey_Action_2326",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
