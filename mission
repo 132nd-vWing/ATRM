@@ -44557,8 +44557,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = -126526.17814033,
-                                            ["y"] = -88686.610587964,
+                                            ["x"] = -126534.39939181,
+                                            ["y"] = -88655.215730295,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -44571,12 +44571,12 @@ mission =
                                         ["name"] = "DictKey_GroupName_1899",
                                         ["type"] = "house2arm",
                                         ["unitId"] = 152479,
-                                        ["x"] = -126526.17814033,
-                                        ["y"] = -88686.610587964,
+                                        ["x"] = -126534.39939181,
+                                        ["y"] = -88655.215730295,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -126526.17814033,
-                                ["y"] = -88686.610587964,
+                                ["x"] = -126534.39939181,
+                                ["y"] = -88655.215730295,
                             }, -- end of [76]
                             [77] =
                             {
@@ -59754,6 +59754,53 @@ mission =
                 {
                     ["id"] = 0,
                     ["name"] = "Russia",
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 56312,
+                                ["heading"] = 2.2514747350727,
+                                ["linkOffset"] = false,
+                                ["name"] = "DictKey_GroupName_2619",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -189178.37018004,
+                                            ["y"] = -176369.7087832,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 2.2514747350727,
+                                        ["name"] = "DictKey_GroupName_2619",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 152724,
+                                        ["x"] = -189178.37018004,
+                                        ["y"] = -176369.7087832,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -189178.37018004,
+                                ["y"] = -176369.7087832,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                     ["vehicle"] =
                     {
                         ["group"] =
@@ -68007,7 +68054,7 @@ mission =
             [24] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 277380,
+    ["currentKey"] = 285037,
     ["date"] =
     {
         ["Day"] = 19,
@@ -74940,11 +74987,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -280766.61675012,
-        ["centerY"] = -170602.15710716,
-        ["zoom"] = 800167.85893259,
+        ["centerX"] = -189331.12960263,
+        ["centerY"] = -176062.72752095,
+        ["zoom"] = 3541.7586837566,
     }, -- end of ["map"]
-    ["maxDictId"] = 2618,
+    ["maxDictId"] = 2621,
     ["pictureFileNameB"] =
     {
         [1] = "ResKey_ImageBriefing_2",
