@@ -7,6 +7,7 @@ mapResource =
     ["ResKey_Action_2321"] = "ATRM_AWACS.lua",
     ["ResKey_Action_2324"] = "ATRM_MENUS.lua",
     ["ResKey_Action_2326"] = "ATRM_TANKERS.lua",
+    ["ResKey_Action_2744"] = "ATRM_Range_14.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource
