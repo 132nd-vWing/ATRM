@@ -682,6 +682,7 @@ dictionary =
     ["DictKey_GroupName_2993"] = "New Static Object #009",
     ["DictKey_GroupName_3006"] = "F-14 #2",
     ["DictKey_GroupName_3012"] = "F-14 #2 - park 54",
+    ["DictKey_GroupName_3021"] = "CVN74_STENNIS_Tanker IFF#IFF5321FR",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -1882,6 +1883,7 @@ dictionary =
     ["DictKey_UnitName_3014"] = "F-14 #003",
     ["DictKey_UnitName_3015"] = "F-14 #006",
     ["DictKey_UnitName_3016"] = "F-14 #004",
+    ["DictKey_UnitName_3022"] = "CVN74_STENNIS_Tanker IFF#IFF5321FR",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -2910,6 +2912,10 @@ dictionary =
     ["DictKey_WptName_2995"] = "",
     ["DictKey_WptName_3011"] = "",
     ["DictKey_WptName_3017"] = "",
+    ["DictKey_WptName_3023"] = "",
+    ["DictKey_WptName_3024"] = "",
+    ["DictKey_WptName_3025"] = "",
+    ["DictKey_WptName_3026"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
