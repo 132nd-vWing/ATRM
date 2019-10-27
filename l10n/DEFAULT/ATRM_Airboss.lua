@@ -67,6 +67,9 @@ AirbossStennis:SetSoundfilesFolder("Airboss Soundfiles/")
 AirbossStennis2:SetSoundfilesFolder("Airboss Soundfiles/")
 
 
+AirbossStennis:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
+AirbossStennis2:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
+
 -- Skipper menu.
 AirbossStennis:SetMenuRecovery(30, 20, false)
 AirbossStennis2:SetMenuRecovery(30, 20, false)
@@ -82,9 +85,9 @@ AirbossStennis2:Load()
 ---- Enable trap sheet.
 --AirbossStennis:SetTrapSheet()
 
--- Start airboss class.
-AirbossStennis:Start()
-AirbossStennis2:Start()
+AirbossStennis:SetMaxFlightsPerStack(1)
+AirbossStennis2:SetMaxFlightsPerStack(1)
+
 
 --- Function called when recovery tanker is started.
 function tanker:OnAfterStart(From,Event,To)
@@ -92,6 +95,13 @@ function tanker:OnAfterStart(From,Event,To)
   AirbossStennis:SetRecoveryTanker(tanker)  
   -- Use tanker as radio relay unit for LSO transmissions.
   AirbossStennis:SetRadioRelayLSO(self:GetUnitName())
+  end
+  
+  function tanker2:OnAfterStart(From,Event,To)
+  -- Set recovery tanker.
+  AirbossStennis2:SetRecoveryTanker(tanker2)  
+  -- Use tanker as radio relay unit for LSO transmissions.
+  AirbossStennis2:SetRadioRelayLSO(self:GetUnitName())
   end
   
   --- Function called when rescue helo is started.
@@ -105,13 +115,11 @@ function rescuehelo2:OnAfterStart(From,Event,To)
   AirbossStennis2:SetRadioRelayMarshal(self:GetUnitName())
 end
   
+-- Start airboss class.
+AirbossStennis:Start()
+AirbossStennis2:Start()
 
-function tanker2:OnAfterStart(From,Event,To)
-  -- Set recovery tanker.
-  AirbossStennis2:SetRecoveryTanker(tanker2)  
-  -- Use tanker as radio relay unit for LSO transmissions.
-  AirbossStennis2:SetRadioRelayLSO(self:GetUnitName())
-  end
+
 
 
 
