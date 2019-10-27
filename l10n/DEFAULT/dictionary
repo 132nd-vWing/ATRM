@@ -2930,6 +2930,9 @@ dictionary =
     ["DictKey_WptName_3037"] = "",
     ["DictKey_WptName_3040"] = "",
     ["DictKey_WptName_3043"] = "",
+    ["DictKey_WptName_3044"] = "",
+    ["DictKey_WptName_3045"] = "",
+    ["DictKey_WptName_3046"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
