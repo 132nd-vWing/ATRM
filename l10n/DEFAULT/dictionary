@@ -687,6 +687,7 @@ dictionary =
     ["DictKey_GroupName_3034"] = "CVN68_NIMITZ_Rescue #IFFIFF5324",
     ["DictKey_GroupName_3038"] = "CVN68_NIMITZ_Tanker IFF#IFF5322",
     ["DictKey_GroupName_3041"] = "New Airplane Group",
+    ["DictKey_GroupName_3049"] = "New Airplane Group",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -1892,6 +1893,7 @@ dictionary =
     ["DictKey_UnitName_3035"] = "CVN68_NIMITZ_Rescue #IFFIFF5324",
     ["DictKey_UnitName_3039"] = "CVN68_NIMITZ_Tanker IFF#IFF5322",
     ["DictKey_UnitName_3042"] = "Pilot #026",
+    ["DictKey_UnitName_3050"] = "Pilot #026",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -2933,6 +2935,7 @@ dictionary =
     ["DictKey_WptName_3044"] = "",
     ["DictKey_WptName_3045"] = "",
     ["DictKey_WptName_3046"] = "",
+    ["DictKey_WptName_3051"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\

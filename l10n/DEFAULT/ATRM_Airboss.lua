@@ -67,57 +67,62 @@ AirbossStennis:SetSoundfilesFolder("Airboss Soundfiles/")
 AirbossStennis2:SetSoundfilesFolder("Airboss Soundfiles/")
 
 
+-- Load all saved player grades from your "Saved Games\DCS" folder (if lfs was desanitized).
 AirbossStennis:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
 AirbossStennis2:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
 
--- Skipper menu.
-AirbossStennis:SetMenuRecovery(30, 20, false)
-AirbossStennis2:SetMenuRecovery(30, 20, false)
--- Remove landed AI planes from flight deck.
+AirbossStennis:SetAutoSave()
+AirbossStennis2:SetAutoSave()
+
+-- Enable trap sheet.
+AirbossStennis:SetTrapSheet()
+AirbossStennis2:SetTrapSheet()
+
 AirbossStennis:SetDespawnOnEngineShutdown()
 AirbossStennis2:SetDespawnOnEngineShutdown()
--- Load all saved player grades from your "Saved Games\DCS" folder (if lfs was desanitized).
-AirbossStennis:Load()
-AirbossStennis2:Load()
----- Automatically save player results to your "Saved Games\DCS" folder each time a player get a final grade from the LSO.
---AirbossStennis:SetAutoSave()
---
----- Enable trap sheet.
---AirbossStennis:SetTrapSheet()
 
 AirbossStennis:SetMaxFlightsPerStack(1)
 AirbossStennis2:SetMaxFlightsPerStack(1)
 
 
+-- Skipper menu.
+AirbossStennis:SetMenuRecovery(30, 20, false)
+AirbossStennis2:SetMenuRecovery(30, 20, false)
+
+-- Start airboss class.
+AirbossStennis:Start()
+AirbossStennis2:Start()
+
+
+
+
+
 --- Function called when recovery tanker is started.
 function tanker:OnAfterStart(From,Event,To)
-  -- Set recovery tanker.
-  AirbossStennis:SetRecoveryTanker(tanker)  
-  -- Use tanker as radio relay unit for LSO transmissions.
+  AirbossStennis:SetRecoveryTanker(tanker)
   AirbossStennis:SetRadioRelayLSO(self:GetUnitName())
-  end
-  
-  function tanker2:OnAfterStart(From,Event,To)
-  -- Set recovery tanker.
-  AirbossStennis2:SetRecoveryTanker(tanker2)  
-  -- Use tanker as radio relay unit for LSO transmissions.
+end
+
+function tanker2:OnAfterStart(From,Event,To)
+  AirbossStennis2:SetRecoveryTanker(tanker2)
   AirbossStennis2:SetRadioRelayLSO(self:GetUnitName())
-  end
-  
-  --- Function called when rescue helo is started.
+end
+
+--- Function called when rescue helo is started.
 function rescuehelo:OnAfterStart(From,Event,To)
-  -- Use rescue helo as radio relay for Marshal.
   AirbossStennis:SetRadioRelayMarshal(self:GetUnitName())
 end
 
 function rescuehelo2:OnAfterStart(From,Event,To)
-  -- Use rescue helo as radio relay for Marshal.
   AirbossStennis2:SetRadioRelayMarshal(self:GetUnitName())
 end
-  
--- Start airboss class.
-AirbossStennis:Start()
-AirbossStennis2:Start()
+
+
+
+
+
+
+
 
 
 
