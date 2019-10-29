@@ -2,7 +2,6 @@ mapResource =
 {
     [""] = "ATRM_MENUS.lua",
     ["ResKey_Action_1904"] = "ATRM_FOX.lua",
-    ["ResKey_Action_2319"] = "ATRM_Range_10.lua",
     ["ResKey_Action_2321"] = "ATRM_AWACS.lua",
     ["ResKey_Action_2326"] = "ATRM_TANKERS.lua",
     ["ResKey_Action_3020"] = "ATRM_MENUS.lua",
@@ -10,6 +9,7 @@ mapResource =
     ["ResKey_Action_3028"] = "Moose.lua",
     ["ResKey_Action_3048"] = "ATRM_Airboss.lua",
     ["ResKey_Action_3216"] = "ATRM_Range_4.lua",
+    ["ResKey_Action_3250"] = "ATRM_Range_10.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource
