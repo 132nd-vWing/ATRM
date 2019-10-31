@@ -112,7 +112,7 @@ local function IADS_medium()
   end
   local evasion_for_client_planes_only = true
   local chance_for_evasive_action = 100
-  local Target_Smoke = true
+  local Target_Smoke = false
   local chance_for_group_relocating = 0
   local relocating_distance = 500
   local evasion_delay = math.random(3,8)
@@ -229,7 +229,7 @@ local function IADS_hard()
   end
   local evasion_for_client_planes_only = true
   local chance_for_evasive_action = 100
-  local Target_Smoke = true
+  local Target_Smoke = false
   local chance_for_group_relocating = 0
   local relocating_distance = 500
   local evasion_delay = math.random(3,8)
