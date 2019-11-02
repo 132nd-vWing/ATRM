@@ -764,6 +764,7 @@ dictionary =
     ["DictKey_GroupName_3414"] = "Al Dahfra Vehicles #008",
     ["DictKey_GroupName_3424"] = "New Airplane Group",
     ["DictKey_GroupName_3461"] = "R1_Ship_TGT #1",
+    ["DictKey_GroupName_3487"] = "ARCO AR 202",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -2102,6 +2103,7 @@ dictionary =
     ["DictKey_UnitName_3464"] = "R1_Ship_TGT#1_Escort2",
     ["DictKey_UnitName_3468"] = "R1_Ship_TGT#1_Supply1",
     ["DictKey_UnitName_3469"] = "R1_Ship_TGT#1_Supply2",
+    ["DictKey_UnitName_3488"] = "ARCO AR 202",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -3321,6 +3323,8 @@ dictionary =
     ["DictKey_WptName_3484"] = "",
     ["DictKey_WptName_3485"] = "",
     ["DictKey_WptName_3486"] = "",
+    ["DictKey_WptName_3489"] = "",
+    ["DictKey_WptName_3490"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
