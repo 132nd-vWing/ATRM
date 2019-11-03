@@ -86,8 +86,8 @@ AirbossStennis2:SetMaxFlightsPerStack(1)
 
 
 -- Skipper menu.
-AirbossStennis:SetMenuRecovery(30, 20, false)
-AirbossStennis2:SetMenuRecovery(30, 20, false)
+AirbossStennis:SetMenuRecovery(90, 30, false)
+AirbossStennis2:SetMenuRecovery(90, 30, false)
 
 -- Start airboss class.
 AirbossStennis:Start()
