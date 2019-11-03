@@ -116,11 +116,11 @@ local function range_14()
   end
 
   local firstspawn = math.random(60,180)
-  local firstspawn_east = math.random(60,180)
-  local followingspawns = math.random(120,360)
+  local firstspawn_east = math.random(90,250)
+  local followingspawns = math.random(150,500)
   friendlyspawn = math.random(240,1500)
   eastspawn_scheduler = SCHEDULER:New(nil,range_14_eastspawner,{},firstspawn_east,followingspawns)
-  local followingspawns = math.random(102,360)
+  local followingspawns = math.random(150,560)
   local firstspawn = math.random(30,180)
   if direction == 1 then direction = "North"
     friendlysouthscheduler = SCHEDULER:New(nil, function()
