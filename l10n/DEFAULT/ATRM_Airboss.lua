@@ -71,12 +71,8 @@ AirbossStennis2:SetSoundfilesFolder("Airboss Soundfiles/")
 AirbossStennis:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
 AirbossStennis2:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
 
-AirbossStennis:SetAutoSave()
-AirbossStennis2:SetAutoSave()
-
--- Enable trap sheet.
-AirbossStennis:SetTrapSheet()
-AirbossStennis2:SetTrapSheet()
+AirbossStennis:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
+AirbossStennis2:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
 
 AirbossStennis:SetDespawnOnEngineShutdown()
 AirbossStennis2:SetDespawnOnEngineShutdown()
