@@ -783,6 +783,7 @@ dictionary =
     ["DictKey_GroupName_3556"] = "F-14 #1 - park 49",
     ["DictKey_GroupName_3559"] = "F-14 #1 - park 50",
     ["DictKey_GroupName_3562"] = "F-14 #1 - park 51",
+    ["DictKey_GroupName_3566"] = "New Airplane Group",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -2140,6 +2141,7 @@ dictionary =
     ["DictKey_UnitName_3557"] = "F-14 #1 - park 49",
     ["DictKey_UnitName_3560"] = "F-14 #1 - park 50",
     ["DictKey_UnitName_3563"] = "F-14 #1 - park 51",
+    ["DictKey_UnitName_3567"] = "Pilot #026",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -3382,6 +3384,8 @@ dictionary =
     ["DictKey_WptName_3558"] = "",
     ["DictKey_WptName_3561"] = "",
     ["DictKey_WptName_3564"] = "",
+    ["DictKey_WptName_3568"] = "",
+    ["DictKey_WptName_3569"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
