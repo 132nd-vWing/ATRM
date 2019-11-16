@@ -803,7 +803,7 @@ dictionary =
     ["DictKey_GroupName_3737"] = "T15.4",
     ["DictKey_GroupName_3740"] = "T15.3",
     ["DictKey_GroupName_3743"] = "T15.2",
-    ["DictKey_GroupName_3746"] = "AWACS3",
+    ["DictKey_GroupName_3746"] = "AWACS3 #IFF:5213FR",
     ["DictKey_GroupName_3750"] = "ARCO AR 203 #IFF5322FR",
     ["DictKey_GroupName_3754"] = "AL_DAHFRA_PATRIOT",
     ["DictKey_GroupName_3767"] = "00 test2",
@@ -2251,7 +2251,7 @@ dictionary =
     ["DictKey_UnitName_3738"] = "T15.4",
     ["DictKey_UnitName_3741"] = "T15.3",
     ["DictKey_UnitName_3744"] = "T15.2",
-    ["DictKey_UnitName_3747"] = "AWACS3",
+    ["DictKey_UnitName_3747"] = "AWACS3 #IFF:5213FR",
     ["DictKey_UnitName_3751"] = "ARCO AR 203 #IFF5322FR",
     ["DictKey_UnitName_3755"] = "AL_DAHFRA_PATRIOT",
     ["DictKey_UnitName_3757"] = "AL_DAHFRA_PATRIOT #001",
@@ -3732,17 +3732,20 @@ dictionary =
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
+WIZARD: Freq: 308.0, FL390\
 \
 TANKERS BLUE\
 AR101: KC-135, Tacan 38X. Freq: 150.0, FL120\
 \
 AR201: KC-135, Tacan 39X. Freq: 151.0, FL200\
+AR202: KC-135, Tacan 48X. Freq: 141.0, FL200\
+AR203: KC-135, Tacan 49X. Freq: 140.0, FL200\
 \
 AR301: KC-135 MPRS, Tacan 40Y. Freq: 152.0, FL240\
 AR302: KC-135 MPRS, Tacan 41Y. Freq: 153.0, FL240\
 AR303: KC-135 MPRS, Tacan 42Y. Freq: 154.0, FL240\
 AR304: KC-135 MPRS, Tacan 46Y. Freq: 158.0, FL240\
-\
+AR305: KC-135 MPRS, Tacan 80Y. Freq: 139.0, FL240\
 ",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "TANKERS RED\

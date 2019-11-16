@@ -79,3 +79,31 @@ function awacs3spawn()
     end):Spawn()
 end
 awacs3_menu_spawn = MENU_MISSION_COMMAND:New("Spawn RED AWACS FOCUS",awacs_menu,awacs3spawn)
+
+
+awacs4 = SPAWN:New("AWACS3 #IFF:5213FR")
+function awacs4spawn()
+  awacs4:OnSpawnGroup(
+    function (awacs4_group)
+      awacs4_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
+        awacs4_unit = awacs4_group:GetUnit(1)
+        if awacs4_unit
+        then
+          awacs4_unit_fuel = awacs4_unit:GetFuel()
+          env.info(awacs4_group:GetName().." Fuelstate is "..awacs4_unit_fuel)
+          if awacs4_unit_fuel <= 0.3
+          then
+            awacs4_group:ClearTasks()
+            awacs4_unit_fuel_scheduler:Stop()
+            env.info(awacs4_group:GetName().." is low on fuel and RTBing")
+            awacs4spawn()
+          end
+        else
+          awacs4_unit_fuel_scheduler:Stop()
+          awacs4spawn()
+        end
+      end
+      ,{},5,400)
+    end):Spawn()
+end
+awacs4_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue AWACS WIZARD",awacs_menu,awacs4spawn)
