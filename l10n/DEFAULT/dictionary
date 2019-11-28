@@ -906,6 +906,7 @@ dictionary =
     ["DictKey_GroupName_4267"] = "Silkworm Missile",
     ["DictKey_GroupName_4270"] = "HVT_Group1_MLRS #001",
     ["DictKey_GroupName_4290"] = "R12_AR_SA9",
+    ["DictKey_GroupName_4294"] = "A-10C #7",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -2562,6 +2563,10 @@ dictionary =
     ["DictKey_UnitName_4274"] = "HVT_Group1_MLRS #007",
     ["DictKey_UnitName_4291"] = "R12_AR_SA9",
     ["DictKey_UnitName_4292"] = "R12_AR_SA9 #001",
+    ["DictKey_UnitName_4295"] = "A-10C #7-1",
+    ["DictKey_UnitName_4296"] = "A-10C #7-2",
+    ["DictKey_UnitName_4297"] = "A-10C #7-3",
+    ["DictKey_UnitName_4298"] = "A-10C #7-4",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -4090,6 +4095,7 @@ dictionary =
     ["DictKey_WptName_4288"] = "",
     ["DictKey_WptName_4289"] = "",
     ["DictKey_WptName_4293"] = "",
+    ["DictKey_WptName_4299"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
