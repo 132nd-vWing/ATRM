@@ -11,7 +11,7 @@ bombtargets_Range4={"R4 Bombing circle N", "R4 Bombing circle S" }
 Range4=RANGE:New("Range 4")
 
 
-Range4:DebugON()
+Range4:DebugOFF()
 Range4:SetMaxStrafeAlt(3000)
 -- Distance between foul line and strafe target. Note that this could also be done manually by simply measuring the distance between the target and the foul line in the ME.
 Range4_Strafepit1=UNIT:FindByName("R4_strafepit_N")
