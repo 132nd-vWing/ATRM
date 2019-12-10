@@ -1,4 +1,4 @@
-range_12_menu_root = MENU_MISSION:New("Range 12",range_root_menu)
+range_12_menu_root = MENU_MISSION:New("Range 12",range_root_menu7_12)
 
 -- Deactivate all Threatsites at the start --
 ThreatSite_1 = GROUP:FindByName("Threatsite_12_1")

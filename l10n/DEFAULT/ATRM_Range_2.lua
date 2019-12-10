@@ -1,5 +1,5 @@
-local range_2_menu_root = MENU_MISSION:New("Range 2",range_root_menu)
-local range_9_menu_root = MENU_MISSION:New("Range 9",range_root_menu)
+local range_2_menu_root = MENU_MISSION:New("Range 2",range_root_menu1_6)
+local range_9_menu_root = MENU_MISSION:New("Range 9",range_root_menu1_6)
 ---BASIC SEAD
 --
 

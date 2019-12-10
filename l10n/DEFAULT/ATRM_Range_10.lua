@@ -1,4 +1,4 @@
-range_10_menu_root = MENU_MISSION:New("Range 10",range_root_menu)
+range_10_menu_root = MENU_MISSION:New("Range 10",range_root_menu7_12)
 ---BASIC AR Tasking at Range10
 local function range_10()
   local timeuntilmove = 15 -- time in minutes to move the groups
