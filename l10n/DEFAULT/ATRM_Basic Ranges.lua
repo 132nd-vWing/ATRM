@@ -66,3 +66,37 @@ Range13:SetRangeControl(120.50)
 Range13:SetInstructorRadio(120.50)
 Range13:Start()
 
+
+
+
+Range5_Strafepit_Table={"R5_strafepit_N", "R5_strafepit_S"}
+
+-- Table of bombing target names.
+bombtargets_Range5={"R5 bombing circle NW", "R5 bombing circle SW" }
+
+-- Create a range object.
+Range5=RANGE:New("Range 5")
+
+
+Range5:DebugOFF()
+Range5:SetMaxStrafeAlt(3000)
+-- Distance between foul line and strafe target. Note that this could also be done manually by simply measuring the distance between the target and the foul line in the ME.
+Range5_Strafepit1=UNIT:FindByName("R5_strafepit_N")
+Range5_Foulline1=UNIT:FindByName("R5_foul line_N")
+
+
+
+Range5_fouldist=Range5_Strafepit1:GetCoordinate():Get2DDistance(Range5_Foulline1:GetCoordinate())
+
+
+-- Add strafe pits. Each pit (left and right) consists of two targets.
+Range5:AddStrafePit(Range5_Strafepit_Table, 5000, 800, nil, true, 20, Range5_fouldist)
+
+
+
+-- Add bombing targets. A good hit is if the bomb falls less then 50 m from the target.
+Range5:AddBombingTargets(bombtargets_Range5, 50)
+
+Range5:SetRangeControl(136.75)
+Range5:SetInstructorRadio(136.75)
+Range5:Start()
