@@ -2,6 +2,7 @@ _SETTINGS:SetPlayerMenuOff()
 
 awacs_root_menu = MENU_MISSION:New("AWACS and TANKER Control")
 range_root_menu = MENU_MISSION:New("RANGE Control")
+RANGE.MenuF10Root=MENU_MISSION:New("Basic Ranges",range_root_menu).MenuPath
 range_root_menu1_6 = MENU_MISSION:New("RANGES 1-6",range_root_menu)
 range_root_menu7_12 = MENU_MISSION:New("RANGES 7-12",range_root_menu)
 range_root_menu13_18 = MENU_MISSION:New("RANGES 13-18",range_root_menu)
