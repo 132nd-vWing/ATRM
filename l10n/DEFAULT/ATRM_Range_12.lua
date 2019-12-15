@@ -115,7 +115,7 @@ end
 
 --- Threat Sites---
 ActiveThreatSites = {}
-local function Sam_Footprints()
+function Sam_Footprints()
   if #ActiveThreatSites ~= 0
   then
     for _,activeSam in ipairs(ActiveThreatSites) do
@@ -126,7 +126,7 @@ local function Sam_Footprints()
   end
 end
 
-local function InactiveThreadSites(ActiveThreatSites, SamtoRemove)
+function InactiveThreadSites(ActiveThreatSites, SamtoRemove)
   for i,SamtoRemove in ipairs(ActiveThreatSites)
   do
     if SamtoRemove == SamtoRemove
@@ -147,7 +147,7 @@ Menu_ThreatSite_4_On = MENU_MISSION_COMMAND:New("Activate Threat Site 4",range_1
 Menu_ThreatSite_5_On = MENU_MISSION_COMMAND:New("Activate Threat Site 5",range_12_menu_root,ThreatSite_5_threat_on)
 Menu_Threat_ListActive = MENU_MISSION_COMMAND:New("List Active Threat Sites",range_12_menu_root,Sam_Footprints)
 
-local range_12_threatsites= {
+range_12_threatsites= {
   "Threatsite_12_1",
   "Threatsite_12_2",
   "Threatsite_12_3",
@@ -156,7 +156,7 @@ local range_12_threatsites= {
 }
 
 
-local function range12_allon()
+function range12_allon()
   if Menu_ThreatSite_1_On then ThreatSite_1_threat_on()
   end
   if Menu_ThreatSite_2_On then ThreatSite_2_threat_on()
@@ -169,7 +169,7 @@ local function range12_allon()
   end
 end
 
-local function range12_alloff()
+function range12_alloff()
   if Menu_ThreatSite_1_Off then ThreatSite_1_threat_off()
   end
   if Menu_ThreatSite_2_Off then ThreatSite_2_threat_off()
@@ -185,8 +185,13 @@ end
 
 ----- IADS OFF
 function IADS_OFF()
+if r12_onsched then 
+  r12_onsched:Stop()
+  end
+if   r12_offsched then
+  r12_offsched:Stop()
+  end
   range_12_IADS_off_memu:Remove()
-  range12schedulerstopper = true
   _evadeRadars = {}
   range_12_IADS_medium = MENU_MISSION_COMMAND:New("Scenariotraining, IADS MEDIUM",range_12_menu_root,IADS_medium)
   range_12_IADS_hard = MENU_MISSION_COMMAND:New("Scenariotraining, IADS HARD",range_12_menu_root,IADS_hard)
@@ -195,7 +200,6 @@ function IADS_OFF()
   range12_alloff()
   Sam_Footprints()
 end
-
 
 
 -----/IADS OFF
@@ -223,7 +227,7 @@ function IADS_medium()
   local evasion_delay = math.random(3,9)
   local radar_delay = math.random(60,180)
   local move_distance = 0
-  local _evadeRadars = {}
+  _evadeRadars = {}
   if SEAD_enabled_Sams then SEAD_enabled_Sams:Clear()
   else
     SEAD_enabled_Sams = SET_GROUP:New()
@@ -322,12 +326,9 @@ end
 --- IADS HARD
 
 function IADS_hard()
-  range12schedulerstopper = false
   range12_alloff()
   range12_allon()
   Sam_Footprints()
-  if SEAD_enabled_Sams then SEAD_enabled_Sams:Clear()
-  end
   range_12_IADS_hard:Remove()
   if range_12_IADS_easy then
     range_12_IADS_easy:Remove()
@@ -335,7 +336,6 @@ function IADS_hard()
   if range_12_IADS_medium then
     range_12_IADS_medium:Remove()
   end
-
   local evasion_for_client_planes_only = true
   local chance_for_evasive_action = 100
   local Target_Smoke = false
@@ -344,11 +344,8 @@ function IADS_hard()
   local evasion_delay = math.random(3,9)
   local radar_delay = math.random(60,180)
   local move_distance = math.random(30,100)
-  local _evadeRadars = {}
-  if SEAD_enabled_Sams then SEAD_enabled_Sams:Clear()
-  else
-    SEAD_enabled_Sams = SET_GROUP:New()
-  end
+  _evadeRadars = {}
+  SEAD_enabled_Sams = SET_GROUP:New()
   for i,_groupname in ipairs(range_12_threatsites) do
     if GROUP:FindByName(_groupname) then
       SEAD_enabled_Sams:AddGroup(GROUP:FindByName(_groupname))
@@ -366,33 +363,37 @@ function IADS_hard()
         then
           env.info("Radar detected for UNIT ".._unit:GetName())
           table.insert(_evadeRadars,_unit:GetName())
-          r12_onsched = SCHEDULER:New(nil,function()
-            if range12schedulerstopper == true then
-              SCHEDULER:New( nil,
-                function()
-                  r12_onsched:Stop()
-                end, {}, 10
-              )
-            end
-            _unit:OptionAlarmStateGreen()
-            env.info("Radar switching off for ".._unit:GetName())
-          end,{},math.random(1,60),160+math.random(1,60))
-          r12_offsched = SCHEDULER:New(nil,function()
-            if range12schedulerstopper == true then
-              SCHEDULER:New( nil,
-                function()
-                  r12_offsched:Stop()
-                end, {}, 10
-              )      
-            end
-            _unit:OptionAlarmStateRed()
-            env.info("Radar switching on for ".._unit:GetName())
-          end,{},80+math.random(1,60),160+math.random(1,60))
-        else
         end
       end
     end
   )
+
+
+
+  r12_onsched = SCHEDULER:New(nil,function()
+    for _,evasive_radar in pairs(_evadeRadars) do
+      if GROUP:FindByName(evasive_radar) then
+        SCHEDULER:New(nil,function()
+          local Radar_group_name = GROUP:FindByName(evasive_radar)
+          local _unit = Radar_group_name:GetUnit(1)
+          _unit:OptionAlarmStateGreen()
+          env.info("Radar switching off for ".._unit:GetName())
+        end,{},math.random(1,80))
+      end
+    end
+  end,{},math.random(1,60),160+math.random(1,60))
+  r12_offsched = SCHEDULER:New(nil,function()
+    for _,evasive_radar in pairs(_evadeRadars) do
+      if GROUP:FindByName(evasive_radar) then local Radar_group_name = GROUP:FindByName(evasive_radar)
+        SCHEDULER:New(nil,function()
+          local _unit = Radar_group_name:GetUnit(1)
+          _unit:OptionAlarmStateRed()
+          env.info("Radar switching on for ".._unit:GetName())
+        end,{},math.random(1,80))
+      end
+    end
+  end,{},80+math.random(1,60),160+math.random(1,60))
+
 
   if evasion_for_client_planes_only == true
   then
