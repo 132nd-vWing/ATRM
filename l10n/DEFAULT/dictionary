@@ -1250,6 +1250,7 @@ dictionary =
     ["DictKey_GroupName_5868"] = "R4_Statics #001",
     ["DictKey_GroupName_5871"] = "R4_Statics #002",
     ["DictKey_GroupName_5874"] = "R4_Statics #003",
+    ["DictKey_GroupName_5877"] = "Tarawa",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -3438,6 +3439,9 @@ dictionary =
     ["DictKey_UnitName_5869"] = "R4_Statics",
     ["DictKey_UnitName_5872"] = "R4_Statics #001",
     ["DictKey_UnitName_5875"] = "R4_Statics #001",
+    ["DictKey_UnitName_5878"] = "Tarawa",
+    ["DictKey_UnitName_5881"] = "Unit #219",
+    ["DictKey_UnitName_5882"] = "Unit #220",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -5548,6 +5552,8 @@ dictionary =
     ["DictKey_WptName_5870"] = "",
     ["DictKey_WptName_5873"] = "",
     ["DictKey_WptName_5876"] = "",
+    ["DictKey_WptName_5879"] = "",
+    ["DictKey_WptName_5880"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
