@@ -18,4 +18,5 @@ function AlDafraSam_off()
   end
 end
 misc1 = MENU_MISSION_COMMAND:New("Deactivate AlDafra AirDefenses",range_root_menu_misc,AlDafraSam_off)
+AlDafraSam_off()
 --- /AlDafra SAM
