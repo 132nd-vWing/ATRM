@@ -16,17 +16,6 @@ local function range_10()
     local templatename_sam_spawner = SPAWN:New(templatename_sam):SpawnInZone(range_10_zone,true)
   end
   range_10_menu:Remove()
-
-  if range_10_IADS_medium then
-    range_10_IADS_medium:Remove()
-  end
-  if range_10_IADS_easy then
-    range_10_IADS_easy:Remove()
-  end
-  if range_10_IADS_hard then
-    range_10_IADS_hard:Remove()
-  end
-
   range_10_menu_sam_menu = MENU_MISSION_COMMAND:New("Activate Anti Air at Range 10",range_10_menu_root,range_10_SAMs)
   --  if range_10_IADS_medium then
   --    range_10_menu_sam_menu:Remove()
@@ -37,6 +26,7 @@ local function range_10()
   range_10_template_set = SET_GROUP:New():FilterPrefixes(templatename):FilterStart()
   range_10_template_set:ForEachGroup(function(_group)
     local range_10_spawnedgroups = SPAWN:New(_group:GetName()):SpawnInZone(range_10_zone,true)
+    range_10_spawnedgroups:OptionAlarmStateGreen()
   end
   )
   -- move targets_periodically
@@ -356,4 +346,5 @@ local function IADS_hard()
   end
 end
 range_10_IADS_hard = MENU_MISSION_COMMAND:New("Scenariotraing, IADS HARD",range_10_menu_root,IADS_hard)
+
 ---/IADS HARD
