@@ -38,11 +38,23 @@ local function range_7()
 end
 
 range_7_menu = MENU_MISSION_COMMAND:New("Activate AR Targets at Range 7",range_7_menu_root,range_7)
-
 ---/BASIC AR Tasking at Range7
 
+--- CAS Scenario
+local function range_7_CAS2()
+range_7_menu_CAS2:Remove()
+trigger.action.setUserFlag(110,true)
+end
 
 
-
-
-
+local function range_7_CAS1()
+range_7_menu_CAS1:Remove()
+SPAWN:New("R7_CAS_Outpost_AD"):Spawn()
+SPAWN:New("R7_CAS_Outpost_AD_Manpad"):Spawn()
+SPAWN:New("R7_CAS_IFV_PLT1"):Spawn()
+SPAWN:New("R7_VIP_convoy1"):Spawn()
+range_7_menu_CAS2 = MENU_MISSION_COMMAND:New("Start CAS Scenario at Range 7",range_7_menu_root,range_7_CAS2)
+end
+if GROUP:FindByName("R7_CAS_Outpost_AD") then 
+range_7_menu_CAS1 = MENU_MISSION_COMMAND:New("Prep CAS Scenario at Range 7",range_7_menu_root,range_7_CAS1)
+end
