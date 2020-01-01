@@ -1261,6 +1261,7 @@ dictionary =
     ["DictKey_GroupName_5901"] = "Fastjet_MQ_Checkout_SA8_EAST",
     ["DictKey_GroupName_5905"] = "FW_Fastjet_MQ_Checkout_Activate",
     ["DictKey_GroupName_5920"] = "New Airplane Group",
+    ["DictKey_GroupName_5933"] = "Fastjet_MQ_Checkout_Manpad",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -3460,6 +3461,9 @@ dictionary =
     ["DictKey_UnitName_5903"] = "Fastjet_MQ_Checkout_SA8_EAST #001",
     ["DictKey_UnitName_5906"] = "FW_Fastjet_MQ_Checkout_Activate",
     ["DictKey_UnitName_5921"] = "Pilot #029",
+    ["DictKey_UnitName_5934"] = "Fastjet_MQ_Checkout_Manpad",
+    ["DictKey_UnitName_5935"] = "FW_Fastjet_MQ_checkout_SA15 #001",
+    ["DictKey_UnitName_5937"] = "Fastjet_MQ_Checkout_Manpad #001",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -5579,6 +5583,7 @@ dictionary =
     ["DictKey_WptName_5907"] = "",
     ["DictKey_WptName_5922"] = "",
     ["DictKey_WptName_5923"] = "",
+    ["DictKey_WptName_5936"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
