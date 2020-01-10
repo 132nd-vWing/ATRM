@@ -16,6 +16,17 @@ local function range_10()
     local templatename_sam_spawner = SPAWN:New(templatename_sam):SpawnInZone(range_10_zone,true)
   end
   range_10_menu:Remove()
+
+  if range_10_IADS_medium then
+    range_10_IADS_medium:Remove()
+  end
+  if range_10_IADS_easy then
+    range_10_IADS_easy:Remove()
+  end
+  if range_10_IADS_hard then
+    range_10_IADS_hard:Remove()
+  end
+
   range_10_menu_sam_menu = MENU_MISSION_COMMAND:New("Activate Anti Air at Range 10",range_10_menu_root,range_10_SAMs)
   --  if range_10_IADS_medium then
   --    range_10_menu_sam_menu:Remove()
@@ -26,7 +37,6 @@ local function range_10()
   range_10_template_set = SET_GROUP:New():FilterPrefixes(templatename):FilterStart()
   range_10_template_set:ForEachGroup(function(_group)
     local range_10_spawnedgroups = SPAWN:New(_group:GetName()):SpawnInZone(range_10_zone,true)
-    range_10_spawnedgroups:OptionAlarmStateGreen()
   end
   )
   -- move targets_periodically
@@ -346,5 +356,123 @@ local function IADS_hard()
   end
 end
 range_10_IADS_hard = MENU_MISSION_COMMAND:New("Scenariotraing, IADS HARD",range_10_menu_root,IADS_hard)
-
 ---/IADS HARD
+
+
+---TS_10 on off
+
+function ThreatSite_6_threat_on()
+  if ThreatSite_6 then
+    ThreatSite_6:SetAIOn()
+    Menu_ThreatSite_6_On:Remove()
+    Menu_ThreatSite_6_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 6",range_10_menu_root,ThreatSite_6_threat_off)
+    table.insert(ActiveThreatSites,"Threatsite_6")
+  end
+end
+
+function ThreatSite_6_threat_off()
+  if ThreatSite_6 then
+    ThreatSite_6:SetAIOff()
+    Menu_ThreatSite_6_Off:Remove()
+    Menu_ThreatSite_6_On = MENU_MISSION_COMMAND:New("Activate Threat Site 6",range_10_menu_root,ThreatSite_6_threat_on)
+    InactiveThreadSites(ActiveThreatSites, "Threatsite_6")
+  end
+end
+ThreatSite_6 = SPAWN:New("Threatsite_6"):Spawn()
+
+
+local evasion_for_client_planes_only = true
+local chance_for_evasive_action = 100
+local Target_Smoke = false
+local chance_for_group_relocating = 0
+local relocating_distance = 500
+local evasion_delay = math.random(3,8)
+local radar_delay = math.random(60,180)
+local move_distance = 0
+local _evadeRadars_range10 = {}
+
+
+  
+BASE:HandleEvent(EVENTS.Shot)
+
+  local Sam_group_name_6 = ThreatSite_6:GetName()
+    env.info("Sam GROUP Name is "..Sam_group_name_6)
+  local Sam_units_6 = ThreatSite_6:GetUnits()
+    for i,_unit in ipairs(Sam_units_6) do
+      if
+        _unit:HasAttribute("SAM SR") or _unit:HasAttribute("SAM TR")
+      then
+        env.info("Radar detected for UNIT ".._unit:GetName())
+        table.insert(_evadeRadars_range10,_unit:GetName())
+      else
+      end
+    end
+  
+
+if evasion_for_client_planes_only == true
+then
+  function BASE:OnEventShot(EventData)
+    local clientplane = EventData.IniPlayerName
+    if clientplane ~= nil
+    then
+      env.info("a missile has been shot by "..clientplane)
+      local SEAD_Weapon_Name = EventData.Weapon:getTypeName()
+      if SEAD_Weapon_Name == "weapons.missiles.AGM_88" then
+        local SEAD_Target = EventData.Weapon:getTarget()
+        local SEAD_Target_Name = Unit.getName(SEAD_Target)
+        local SEAD_Target_Unit = UNIT:FindByName(SEAD_Target_Name)
+        local SEAD_Target_GROUP = SEAD_Target_Unit:GetGroup()
+        local SEAD_Shooter_Unit = EventData.IniUnit
+        local SEAD_Shooter_Name = SEAD_Shooter_Unit:GetName()
+        for _,evasive_radar in pairs(_evadeRadars_range10) do
+          if evasive_radar == SEAD_Target_Name
+          then
+            env.info(SEAD_Shooter_Name.." has fired "..SEAD_Weapon_Name.." at "..SEAD_Target_Name)
+            env.info("AGM_88 shot detected from  "..SEAD_Shooter_Name.." on "..SEAD_Target_Name)
+            if math.random(1,100) <= chance_for_evasive_action
+            then
+              Radar_Unit_Evasive_Action(SEAD_Target_Unit)
+            end
+          end
+        end
+      end
+    end
+  end
+end
+
+function Radar_Unit_Evasive_Action(_unit) -- define the evasive action of the SAMsite when shot at by a HARM
+  if Target_Smoke == true then
+    _unit:SmokeRed()
+end
+local evasion_delay = math.random(3,8)
+env.info("Sam waiting "..evasion_delay.."seconds before taking evasive measure")
+SCHEDULER:New(nil,
+  function()
+    if  math.random(1,100) <= chance_for_group_relocating
+    then
+      env.info(_unit:GetName().." now taking evasive action")
+      env.info(_unit:GetName().."Air Defemse System now relocating "..relocating_distance.." meters")
+      _unit:OptionAlarmStateGreen()
+      local _groupcoordinate = _unit:GetCoordinate()
+      local _tocoordinate = _groupcoordinate:Translate( relocating_distance, math.random(359) )
+      local _ToCoord_vec2 = _tocoordinate:GetVec2()
+      _unit:TaskRouteToVec2( _ToCoord_vec2 )
+      _unit:OptionAlarmStateGreen()
+      local radarbackon = SCHEDULER:New(nil,
+        function()
+          _unit:OptionAlarmStateRed()
+          env.info("radar back on")
+        end,{},radar_delay)
+    else
+      env.info(_unit:GetName().." switching off Radar")
+      _unit:OptionAlarmStateGreen()
+      local radarbackon = SCHEDULER:New(nil,
+        function()
+          _unit:OptionAlarmStateRed()
+          env.info("radar back on")
+        end,{},radar_delay)
+    end
+  end,{},evasion_delay)
+end
+
+Menu_ThreatSite_6_On = MENU_MISSION_COMMAND:New("Activate Threat Site 6",range_10_menu_root,ThreatSite_6_threat_on)
