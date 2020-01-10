@@ -13,7 +13,8 @@ local function range_10()
   local range_10_zone = ZONE_POLYGON:New("range_10_zone",GROUP:FindByName("AR_zone_R10"))
   function range_10_SAMs()
     range_10_menu_sam_menu:Remove()
-    local templatename_sam_spawner = SPAWN:New(templatename_sam):SpawnInZone(range_10_zone,true)
+    local templatename_sam_spawner = SPAWN:New(templatename_sam)
+    templatename_sam_spawner:SpawnInZone(range_10_zone,true)
   end
   range_10_menu:Remove()
 
@@ -36,7 +37,8 @@ local function range_10()
   --  end
   range_10_template_set = SET_GROUP:New():FilterPrefixes(templatename):FilterStart()
   range_10_template_set:ForEachGroup(function(_group)
-    local range_10_spawnedgroups = SPAWN:New(_group:GetName()):SpawnInZone(range_10_zone,true)
+    local range_10_spawnedgroups = SPAWN:New(_group:GetName())
+    range_10_spawnedgroups:SpawnInZone(range_10_zone,true)
   end
   )
   -- move targets_periodically
