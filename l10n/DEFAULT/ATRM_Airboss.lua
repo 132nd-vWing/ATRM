@@ -1,7 +1,7 @@
 AIRBOSS.MenuF10Root=MENU_MISSION:New("Carrier Control").MenuPath
 
 -- S-3B Recovery Tanker spawning in air.
-local tanker=RECOVERYTANKER:New("CVN74_STENNIS", "CVN74_STENNIS_Tanker IFF#IFF5321FR")
+local tanker=RECOVERYTANKER:New("CVN74_STENNIS", "CVN74_STENNIS_Tanker#IFF5321FR")
 tanker:SetRespawnInAir()
 tanker:SetRadio(142.5)
 tanker:SetModex(511)
@@ -9,7 +9,7 @@ tanker:SetTACAN(48, "C74")
 tanker:__Start(3)
 
 -- S-3B Recovery Tanker spawning in air.
-local tanker2=RECOVERYTANKER:New("CVN68_NIMITZ", "CVN68_NIMITZ_Tanker IFF#IFF5322")
+local tanker2=RECOVERYTANKER:New("CVN68_NIMITZ", "CVN68_NIMITZ_Tanker#IFF5322")
 tanker2:SetRespawnInAir()
 tanker2:SetRadio(143.5)
 tanker2:SetModex(512)
