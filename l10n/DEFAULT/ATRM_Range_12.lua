@@ -15,13 +15,13 @@ ThreatSite_3:SetAIOff()
 ThreatSite_4:SetAIOff()
 ThreatSite_5:SetAIOff()
 
-
+Threat_Sites_R12 = MENU_MISSION:New("Threat Sites",range_12_menu_root)
 
 function ThreatSite_1_threat_on()
   if ThreatSite_1 then
     ThreatSite_1:SetAIOn()
     Menu_ThreatSite_1_On:Remove()
-    Menu_ThreatSite_1_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 1",range_12_menu_root,ThreatSite_1_threat_off)
+    Menu_ThreatSite_1_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 1",Threat_Sites_R12,ThreatSite_1_threat_off)
     table.insert(ActiveThreatSites,"Threatsite1")
   end
 end
@@ -30,7 +30,7 @@ function ThreatSite_1_threat_off()
   if ThreatSite_1 then
     ThreatSite_1:SetAIOff()
     Menu_ThreatSite_1_Off:Remove()
-    Menu_ThreatSite_1_On = MENU_MISSION_COMMAND:New("Activate Threat Site 1",range_12_menu_root,ThreatSite_1_threat_on)
+    Menu_ThreatSite_1_On = MENU_MISSION_COMMAND:New("Activate Threat Site 1",Threat_Sites_R12,ThreatSite_1_threat_on)
     InactiveThreadSites(ActiveThreatSites, "Threatsite1")
   end
 end
@@ -39,7 +39,7 @@ function ThreatSite_2_threat_on()
   if ThreatSite_2 then
     ThreatSite_2:SetAIOn()
     Menu_ThreatSite_2_On:Remove()
-    Menu_ThreatSite_2_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 2",range_12_menu_root,ThreatSite_2_threat_off)
+    Menu_ThreatSite_2_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 2",Threat_Sites_R12,ThreatSite_2_threat_off)
     table.insert(ActiveThreatSites,"Threatsite2")
   end
 end
@@ -48,7 +48,7 @@ function ThreatSite_2_threat_off()
   if ThreatSite_2 then
     ThreatSite_2:SetAIOff()
     Menu_ThreatSite_2_Off:Remove()
-    Menu_ThreatSite_2_On = MENU_MISSION_COMMAND:New("Activate Threat Site 2",range_12_menu_root,ThreatSite_2_threat_on)
+    Menu_ThreatSite_2_On = MENU_MISSION_COMMAND:New("Activate Threat Site 2",Threat_Sites_R12,ThreatSite_2_threat_on)
     InactiveThreadSites(ActiveThreatSites, "Threatsite2")
   end
 end
@@ -59,7 +59,7 @@ function ThreatSite_3_threat_on()
   if ThreatSite_3 then
     ThreatSite_3:SetAIOn()
     Menu_ThreatSite_3_On:Remove()
-    Menu_ThreatSite_3_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 3",range_12_menu_root,ThreatSite_3_threat_off)
+    Menu_ThreatSite_3_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 3",Threat_Sites_R12,ThreatSite_3_threat_off)
     table.insert(ActiveThreatSites,"Threatsite3")
   end
 end
@@ -69,7 +69,7 @@ function ThreatSite_3_threat_off()
   if ThreatSite_3 then
     ThreatSite_3:SetAIOff()
     Menu_ThreatSite_3_Off:Remove()
-    Menu_ThreatSite_3_On = MENU_MISSION_COMMAND:New("Activate Threat Site 3",range_12_menu_root,ThreatSite_3_threat_on)
+    Menu_ThreatSite_3_On = MENU_MISSION_COMMAND:New("Activate Threat Site 3",Threat_Sites_R12,ThreatSite_3_threat_on)
     InactiveThreadSites(ActiveThreatSites, "Threatsite3")
   end
 end
@@ -79,7 +79,7 @@ function ThreatSite_4_threat_on()
   if ThreatSite_4 then
     ThreatSite_4:SetAIOn()
     Menu_ThreatSite_4_On:Remove()
-    Menu_ThreatSite_4_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 4",range_12_menu_root,ThreatSite_4_threat_off)
+    Menu_ThreatSite_4_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 4",Threat_Sites_R12,ThreatSite_4_threat_off)
     table.insert(ActiveThreatSites,"Threatsite4")
   end
 end
@@ -88,7 +88,7 @@ function ThreatSite_4_threat_off()
   if ThreatSite_4 then
     ThreatSite_4:SetAIOff()
     Menu_ThreatSite_4_Off:Remove()
-    Menu_ThreatSite_4_On = MENU_MISSION_COMMAND:New("Activate Threat Site 4",range_12_menu_root,ThreatSite_4_threat_on)
+    Menu_ThreatSite_4_On = MENU_MISSION_COMMAND:New("Activate Threat Site 4",Threat_Sites_R12,ThreatSite_4_threat_on)
     InactiveThreadSites(ActiveThreatSites, "Threatsite4")
   end
 end
@@ -97,7 +97,7 @@ function ThreatSite_5_threat_on()
   if ThreatSite_5 then
     ThreatSite_5:SetAIOn()
     Menu_ThreatSite_5_On:Remove()
-    Menu_ThreatSite_5_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 5",range_12_menu_root,ThreatSite_5_threat_off)
+    Menu_ThreatSite_5_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 5",Threat_Sites_R12,ThreatSite_5_threat_off)
     table.insert(ActiveThreatSites,"Threatsite5")
   end
 end
@@ -106,7 +106,7 @@ function ThreatSite_5_threat_off()
   if ThreatSite_5 then
     ThreatSite_5:SetAIOff()
     Menu_ThreatSite_5_Off:Remove()
-    Menu_ThreatSite_5_On = MENU_MISSION_COMMAND:New("Activate Threat Site 5",range_12_menu_root,ThreatSite_5_threat_on)
+    Menu_ThreatSite_5_On = MENU_MISSION_COMMAND:New("Activate Threat Site 5",Threat_Sites_R12,ThreatSite_5_threat_on)
     InactiveThreadSites(ActiveThreatSites, "Threatsite5")
   end
 end
@@ -140,12 +140,12 @@ end
 
 
 
-Menu_ThreatSite_1_On = MENU_MISSION_COMMAND:New("Activate Threat Site 1",range_12_menu_root,ThreatSite_1_threat_on)
-Menu_ThreatSite_2_On = MENU_MISSION_COMMAND:New("Activate Threat Site 2",range_12_menu_root,ThreatSite_2_threat_on)
-Menu_ThreatSite_3_On = MENU_MISSION_COMMAND:New("Activate Threat Site 3",range_12_menu_root,ThreatSite_3_threat_on)
-Menu_ThreatSite_4_On = MENU_MISSION_COMMAND:New("Activate Threat Site 4",range_12_menu_root,ThreatSite_4_threat_on)
-Menu_ThreatSite_5_On = MENU_MISSION_COMMAND:New("Activate Threat Site 5",range_12_menu_root,ThreatSite_5_threat_on)
-Menu_Threat_ListActive = MENU_MISSION_COMMAND:New("List Active Threat Sites",range_12_menu_root,Sam_Footprints)
+Menu_ThreatSite_1_On = MENU_MISSION_COMMAND:New("Activate Threat Site 1",Threat_Sites_R12,ThreatSite_1_threat_on)
+Menu_ThreatSite_2_On = MENU_MISSION_COMMAND:New("Activate Threat Site 2",Threat_Sites_R12,ThreatSite_2_threat_on)
+Menu_ThreatSite_3_On = MENU_MISSION_COMMAND:New("Activate Threat Site 3",Threat_Sites_R12,ThreatSite_3_threat_on)
+Menu_ThreatSite_4_On = MENU_MISSION_COMMAND:New("Activate Threat Site 4",Threat_Sites_R12,ThreatSite_4_threat_on)
+Menu_ThreatSite_5_On = MENU_MISSION_COMMAND:New("Activate Threat Site 5",Threat_Sites_R12,ThreatSite_5_threat_on)
+Menu_Threat_ListActive = MENU_MISSION_COMMAND:New("List Active Threat Sites",Threat_Sites_R12,Sam_Footprints)
 
 range_12_threatsites= {
   "Threatsite_12_1",
@@ -185,11 +185,11 @@ end
 
 ----- IADS OFF
 function IADS_OFF()
-if r12_onsched then 
-  r12_onsched:Stop()
+  if r12_onsched then
+    r12_onsched:Stop()
   end
-if   r12_offsched then
-  r12_offsched:Stop()
+  if   r12_offsched then
+    r12_offsched:Stop()
   end
   range_12_IADS_off_memu:Remove()
   _evadeRadars = {}
@@ -473,8 +473,332 @@ end
 
 ---/IADS HARD
 
-
-
-
 range_12_IADS_medium = MENU_MISSION_COMMAND:New("Scenariotraining, IADS MEDIUM",range_12_menu_root,IADS_medium)
 range_12_IADS_hard = MENU_MISSION_COMMAND:New("Scenariotraining, IADS HARD",range_12_menu_root,IADS_hard)
+
+
+
+
+
+-- Range 12 On Demand Spawning--
+Range12_Groups = SET_GROUP:New():FilterCategoryGround():FilterPrefixes("Range12 Target"):FilterStart()
+
+
+-- ON DEMAND SPAWNING --
+BlueSpawnerR12 = UNIT:FindByName("BlueInfantryR12")
+RedSpawnerR12 = UNIT:FindByName("REDInfantryR12")
+Recon_HMMWV_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_1: Recon_HMMWV_vehicle", "Range12 Target1")
+Recon_HMMWV_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_1: Recon_HMMWV_section", "Range12 Target2")
+Recon_BRDM_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_1: Recon_BRDM_vehicle", "Range12 Target3")
+Recon_BRDM_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_1: Recon_BRDM_section", "Range12 Target4")
+Recon_STRYKER_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_1: Recon_stryker_vehicle", "Range12 Target5")
+Recon_STRYKER_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_1: Recon_stryker_section", "Range12 Target6")
+IFV_BMP2_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_BMP2_vehicle", "Range12 Target7" )
+IFV_BMP2_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_BMP2_section", "Range12 Target8")
+IFV_LAV25_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_LAV25_vehicle", "Range12 Target9")
+IFV_LAV25_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_LAV25_section", "Range12 Target10")
+IFV_BRADLEY_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_Bradley_vehicle", "Range12 Target11")
+IFV_BRADLEY_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_Bradley_section", "Range12 Target12")
+IFV_BMP3_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_BMP3_vehicle", "Range12 Target13")
+IFV_BMP3_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_BMP3_section", "Range12 Target14")
+IFV_BTR_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_BTR_vehicle", "Range12 Target15")
+IFV_BTR_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_BTR_section", "Range12 Target16")
+IFV_M113_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_M113_vehicle", "Range12 Target17")
+IFV_M113_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_2: IFV_M113_section", "Range12 Target18")
+MBT_T72_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_T72_vehicle", "Range12 Target19")
+MBT_T72_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_T72_section", "Range12 Target20")
+MBT_T80_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_T80_vehicle", "Range12 Target21")
+MBT_T80_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_T80_section", "Range12 Target122")
+MBT_ABRAMS_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_Abrams_vehicle", "Range12 Target23")
+MBT_ABRAMS_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_Abrams_section", "Range12 Target24")
+MBT_LEO2_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_Leo2_vehicle", "Range12 Target25")
+MBT_LEO2_section_R12 = SPAWN:NewWithAlias("_ON_DEMAND_3: MBT_Leo2_section", "Range12 Target26")
+MISC_SHILKA_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_4: Misc_Shilka_vehicle", "Range12 Target27")
+MISC_C2_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_4: Misc_C2_vehicle", "Range12 Target28")
+MISC_ARTY_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_4: Misc_Arty_vehicle", "Range12 Target29")
+MISC_MLRS_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_4: Misc_MLRS_vehicle", "Range12 Target30")
+MISC_SA13_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_4: Misc_SA-13_vehicle", "Range12 Target31")
+MISC_SA19_vehicle_R12 = SPAWN:NewWithAlias("_ON_DEMAND_4: Misc_SA-19_vehicle", "Range12 Target32")
+
+
+function _ON_DEMAND_12_Recon_HMMWV_vehicle_R12 ()
+  Recon_HMMWV_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  Recon_HMMWV_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_12_Recon_HMMWV_section_R12 ()
+  Recon_HMMWV_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  Recon_HMMWV_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_12_Recon_BRDM_vehicle_R12 ()
+  Recon_BRDM_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  Recon_BRDM_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_12_Recon_BRDM_section_R12 ()
+  Recon_BRDM_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  Recon_BRDM_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_12_Recon_STRYKER_vehicle_R12 ()
+  Recon_STRYKER_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  Recon_STRYKER_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_12_Recon_STRYKER_section_R12 ()
+  Recon_STRYKER_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  Recon_STRYKER_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BMP2_vehicle_R12 ()
+  IFV_BMP2_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BMP2_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BMP2_section_R12 ()
+  IFV_BMP2_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BMP2_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_LAV25_vehicle_R12 ()
+  IFV_LAV25_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_LAV25_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_LAV25_section_R12 ()
+  IFV_LAV25_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_LAV25_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BRADLEY_vehicle_R12 ()
+  IFV_BRADLEY_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BRADLEY_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BRADLEY_section_R12 ()
+  IFV_BRADLEY_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BRADLEY_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BMP3_vehicle_R12 ()
+  IFV_BMP3_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BMP3_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BMP3_section_R12 ()
+  IFV_BMP3_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BMP3_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BTR_vehicle_R12 ()
+  IFV_BTR_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BTR_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_BTR_section_R12 ()
+  IFV_BTR_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_BTR_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_M113_vehicle_R12 ()
+  IFV_M113_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_M113_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_2_IFV_M113_section_R12 ()
+  IFV_M113_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  IFV_M113_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_T72_vehicle_R12 ()
+  MBT_T72_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_T72_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_T72_section_R12 ()
+  MBT_T72_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_T72_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_T80_vehicle_R12 ()
+  MBT_T80_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_T80_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_T80_section_R12 ()
+  MBT_T80_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_T80_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_ABRAMS_vehicle_R12 ()
+  MBT_ABRAMS_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_ABRAMS_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_ABRAMS_section_R12 ()
+  MBT_ABRAMS_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_ABRAMS_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_LEO2_vehicle_R12 ()
+  MBT_LEO2_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_LEO2_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+function _ON_DEMAND_3_MBT_LEO2_section_R12 ()
+  MBT_LEO2_section_R12:OnSpawnGroup(function(group)
+
+    end)
+  MBT_LEO2_section_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(BlueSpawnerR12)
+end
+
+
+function _ON_DEMAND_4_MISC_SHILKA_vehicle_R12 ()
+  MISC_SHILKA_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MISC_SHILKA_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_4_MISC_C2_vehicle_R12 ()
+  MISC_C2_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MISC_C2_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_4_MISC_ARTY_vehicle_R12 ()
+  MISC_ARTY_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MISC_ARTY_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_4_MISC_MLRS_vehicle_R12 ()
+  MISC_MLRS_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MISC_MLRS_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_4_MISC_SA13_vehicle_R12 ()
+  MISC_SA13_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MISC_SA13_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+function _ON_DEMAND_4_MISC_SA19_vehicle_R12 ()
+  MISC_SA19_vehicle_R12:OnSpawnGroup(function(group)
+
+    end)
+  MISC_SA19_vehicle_R12:InitRandomizePosition(true,20,5):SpawnFromUnit(RedSpawnerR12)
+end
+
+spawn_menu_OD_R12 = MENU_MISSION:New("On Demand Spawning",range_12_menu_root)
+spawn_menu_OD_Recon_R12 = MENU_MISSION:New("On Demand - RECON",spawn_menu_OD_R12)
+spawn_menu_OD_IFV_R12 = MENU_MISSION:New("On Demand - IFV",spawn_menu_OD_R12)
+spawn_menu_OD_IFV_R12_BMP2 = MENU_MISSION:New("On Demand - IFV - BMP2",spawn_menu_OD_IFV_R12)
+spawn_menu_OD_IFV_R12_LAV25 = MENU_MISSION:New("On Demand - IFV - LAV25",spawn_menu_OD_IFV_R12)
+spawn_menu_OD_IFV_R12_BRADLEY = MENU_MISSION:New("On Demand - IFV - Bradley",spawn_menu_OD_IFV_R12)
+spawn_menu_OD_IFV_R12_BMP3 = MENU_MISSION:New("On Demand - IFV - BMP3",spawn_menu_OD_IFV_R12)
+spawn_menu_OD_IFV_R12_BTR = MENU_MISSION:New("On Demand - IFV - BTR",spawn_menu_OD_IFV_R12)
+spawn_menu_OD_IFV_R12_M113 = MENU_MISSION:New("On Demand - IFV - M113",spawn_menu_OD_IFV_R12)
+spawn_menu_OD_MBT_R12 = MENU_MISSION:New("On Demand - MBT",spawn_menu_OD_R12)
+spawn_menu_OD_MBT_R12_T72 = MENU_MISSION:New("On Demand - MBT- T72",spawn_menu_OD_MBT_R12)
+spawn_menu_OD_MBT_R12_T80 = MENU_MISSION:New("On Demand - MBT -T80",spawn_menu_OD_MBT_R12)
+spawn_menu_OD_MBT_R12_ABRAMS = MENU_MISSION:New("On Demand - MBT - Abrams",spawn_menu_OD_MBT_R12)
+spawn_menu_OD_MBT_R12_LEO2 = MENU_MISSION:New("On Demand - MBT - Leopard2",spawn_menu_OD_MBT_R12)
+spawn_menu_OD_MISC_R12 = MENU_MISSION:New("On Demand - MISC",spawn_menu_OD_R12)
+
+-- ON DEMAND SPAWNING --
+
+
+--local menu_ON_DEMAND_12_Recon_HMMWV_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn Recon HMMWV Vehicle",spawn_menu_OD_Recon_R12,_ON_DEMAND_12_Recon_HMMWV_vehicle_R12)
+local menu_ON_DEMAND_12_Recon_HMMWV_section_R12 = MENU_MISSION_COMMAND:New("Spawn Recon HMMWV Section",spawn_menu_OD_Recon_R12,_ON_DEMAND_12_Recon_HMMWV_section_R12)
+--local menu_ON_DEMAND_12_Recon_BRDM_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn Recon BRDM Vehicle",spawn_menu_OD_Recon_R12,_ON_DEMAND_12_Recon_BRDM_vehicle_R12)
+local menu_ON_DEMAND_12_Recon_BRDM_section_R12 = MENU_MISSION_COMMAND:New("Spawn Recon BRDM Section",spawn_menu_OD_Recon_R12,_ON_DEMAND_12_Recon_BRDM_section_R12)
+--local menu_ON_DEMAND_12_Recon_STRYKER_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn Recon STRYKER Vehicle",spawn_menu_OD_Recon_R12,_ON_DEMAND_12_Recon_STRYKER_vehicle_R12)
+local menu_ON_DEMAND_12_Recon_STRYKER_section_R12 = MENU_MISSION_COMMAND:New("Spawn Recon STRYKER Section",spawn_menu_OD_Recon_R12,_ON_DEMAND_12_Recon_STRYKER_section_R12)
+
+--local menu_ON_DEMAND_2_IFV_BMP2_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BMP2 Vehicle",spawn_menu_OD_IFV_R12_BMP2,_ON_DEMAND_2_IFV_BMP2_vehicle_R12)
+local menu_ON_DEMAND_2_IFV_BMP2_section_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BMP2 Section",spawn_menu_OD_IFV_R12_BMP2,_ON_DEMAND_2_IFV_BMP2_section_R12)
+--local menu_ON_DEMAND_2_IFV_LAV25_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn IFV LAV25 Vehicle",spawn_menu_OD_IFV_R12_LAV25,_ON_DEMAND_2_IFV_LAV25_vehicle_R12)
+local menu_ON_DEMAND_2_IFV_LAV25_section_R12 = MENU_MISSION_COMMAND:New("Spawn IFV LAV25 Section",spawn_menu_OD_IFV_R12_LAV25,_ON_DEMAND_2_IFV_LAV25_section_R12)
+--local menu_ON_DEMAND_2_IFV_BRADLEY_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BRADLEY Vehicle",spawn_menu_OD_IFV_R12_BRADLEY,_ON_DEMAND_2_IFV_BRADLEY_vehicle_R12)
+local menu_ON_DEMAND_2_IFV_BRADLEY_section_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BRADLEY Section",spawn_menu_OD_IFV_R12_BRADLEY,_ON_DEMAND_2_IFV_BRADLEY_section_R12)
+--local menu_ON_DEMAND_2_IFV_BMP3_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BMP3 Vehicle",spawn_menu_OD_IFV_R12_BMP3,_ON_DEMAND_2_IFV_BMP3_vehicle_R12)
+local menu_ON_DEMAND_2_IFV_BMP3_section_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BMP3 Section",spawn_menu_OD_IFV_R12_BMP3,_ON_DEMAND_2_IFV_BMP3_section_R12)
+--local menu_ON_DEMAND_2_IFV_BTR_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BTR Vehicle",spawn_menu_OD_IFV_R12_BTR,_ON_DEMAND_2_IFV_BTR_vehicle_R12)
+local menu_ON_DEMAND_2_IFV_BTR_section_R12 = MENU_MISSION_COMMAND:New("Spawn IFV BTR Section",spawn_menu_OD_IFV_R12_BTR,_ON_DEMAND_2_IFV_BTR_section_R12)
+--local menu_ON_DEMAND_2_IFV_M113_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn IFV M113 Vehicle",spawn_menu_OD_IFV_R12_M113,_ON_DEMAND_2_IFV_M113_vehicle_R12)
+local menu_ON_DEMAND_2_IFV_M113_section_R12 = MENU_MISSION_COMMAND:New("Spawn IFV M113 Section",spawn_menu_OD_IFV_R12_M113,_ON_DEMAND_2_IFV_M113_section_R12)
+
+--local menu_ON_DEMAND_3_MBT_T72_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn MBT T72 Vehicle",spawn_menu_OD_MBT_R12_T72,_ON_DEMAND_3_MBT_T72_vehicle_R12)
+local menu_ON_DEMAND_3_MBT_T72_section_R12 = MENU_MISSION_COMMAND:New("Spawn MBT T72 Section",spawn_menu_OD_MBT_R12_T72,_ON_DEMAND_3_MBT_T72_section_R12)
+--local menu_ON_DEMAND_3_MBT_T80_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn MBT T80 Vehicle",spawn_menu_OD_MBT_R12_T80,_ON_DEMAND_3_MBT_T80_vehicle_R12)
+local menu_ON_DEMAND_3_MBT_T80_section_R12 = MENU_MISSION_COMMAND:New("Spawn MBT T80 Section",spawn_menu_OD_MBT_R12_T80,_ON_DEMAND_3_MBT_T80_section_R12)
+--local menu_ON_DEMAND_3_MBT_ABRAMS_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn MBT ABRAMS Vehicle",spawn_menu_OD_MBT_R12_ABRAMS,_ON_DEMAND_3_MBT_ABRAMS_vehicle_R12)
+local menu_ON_DEMAND_3_MBT_ABRAMS_section_R12 = MENU_MISSION_COMMAND:New("Spawn MBT ABRAMS Section",spawn_menu_OD_MBT_R12_ABRAMS,_ON_DEMAND_3_MBT_ABRAMS_section_R12)
+--local menu_ON_DEMAND_3_MBT_LEO2_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn MBT Leopard2 Vehicle",spawn_menu_OD_MBT_R12_LEO2,_ON_DEMAND_3_MBT_LEO2_vehicle_R12)
+local menu_ON_DEMAND_3_MBT_LEO2_section_R12 = MENU_MISSION_COMMAND:New("Spawn MBT Leopard2 Section",spawn_menu_OD_MBT_R12_LEO2,_ON_DEMAND_3_MBT_LEO2_section_R12)
+
+local menu_ON_DEMAND_4_MISC_SHILKA_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn SHILKA Vehicle",spawn_menu_OD_MISC_R12,_ON_DEMAND_4_MISC_SHILKA_vehicle_R12)
+local menu_ON_DEMAND_4_MISC_C2_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn C2 Vehicle",spawn_menu_OD_MISC_R12,_ON_DEMAND_4_MISC_C2_vehicle_R12)
+local menu_ON_DEMAND_4_MISC_ARTY_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn Artillery Vehicle",spawn_menu_OD_MISC_R12,_ON_DEMAND_4_MISC_ARTY_vehicle_R12)
+local menu_ON_DEMAND_4_MISC_MLRS_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn MLRS Vehicle",spawn_menu_OD_MISC_R12,_ON_DEMAND_4_MISC_MLRS_vehicle_R12)
+local menu_ON_DEMAND_4_MISC_SA13_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn SA13 Vehicle",spawn_menu_OD_MISC_R12,_ON_DEMAND_4_MISC_SA13_vehicle_R12)
+local menu_ON_DEMAND_4_MISC_SA19_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn SA19 Vehicle",spawn_menu_OD_MISC_R12,_ON_DEMAND_4_MISC_SA19_vehicle_R12)
+
+
