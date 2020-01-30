@@ -1,5 +1,6 @@
 local range_2_menu_root = MENU_MISSION:New("Range 2",range_root_menu1_6)
 local range_9_menu_root = MENU_MISSION:New("Range 9",range_root_menu1_6)
+local range_2_menu_more = MENU_MISSION:New("more ...",range_2_menu_root)
 ---BASIC SEAD
 --
 
@@ -49,6 +50,14 @@ local ThreatSite_12 = SPAWN:New("Threatsite_12"):Spawn()
 SEAD_enabled_Sams_range2:AddGroup(ThreatSite_12)
 local ThreatSite_13 = SPAWN:New("Threatsite_13"):Spawn()
 SEAD_enabled_Sams_range2:AddGroup(ThreatSite_13)
+local ThreatSite_21 = SPAWN:New("Threatsite_21"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_21)
+local ThreatSite_22 = SPAWN:New("Threatsite_22"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_22)
+local ThreatSite_23 = SPAWN:New("Threatsite_23"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_23)
+local ThreatSite_24 = SPAWN:New("Threatsite_24"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_24)
 
 ThreatSite_7:SetAIOff()
 ThreatSite_8:SetAIOff()
@@ -57,7 +66,10 @@ ThreatSite_10:SetAIOff()
 ThreatSite_11:SetAIOff()
 ThreatSite_12:SetAIOff()
 ThreatSite_13:SetAIOff()
-
+ThreatSite_21:SetAIOff()
+ThreatSite_22:SetAIOff()
+ThreatSite_23:SetAIOff()
+ThreatSite_24:SetAIOff()
 
 function ThreatSite_7_threat_on()
   if ThreatSite_7 then
@@ -187,6 +199,77 @@ function ThreatSite_13_threat_off()
   end
 end
 
+function ThreatSite_21_threat_on()
+  if ThreatSite_21 then
+    ThreatSite_21:SetAIOn()
+    Menu_ThreatSite_21_On:Remove()
+    Menu_ThreatSite_21_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 21",range_2_menu_more,ThreatSite_21_threat_off)
+    table.insert(ActiveThreatSites,"Threatsite_21")
+  end
+end
+
+function ThreatSite_21_threat_off()
+  if ThreatSite_21 then
+    ThreatSite_21:SetAIOff()
+    Menu_ThreatSite_21_Off:Remove()
+    Menu_ThreatSite_21_On = MENU_MISSION_COMMAND:New("Activate Threat Site 21",range_2_menu_more,ThreatSite_21_threat_on)
+    InactiveThreadSites(ActiveThreatSites, "Threatsite_21")
+  end
+end
+
+function ThreatSite_22_threat_on()
+  if ThreatSite_22 then
+    ThreatSite_22:SetAIOn()
+    Menu_ThreatSite_22_On:Remove()
+    Menu_ThreatSite_22_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 22",range_2_menu_more,ThreatSite_22_threat_off)
+    table.insert(ActiveThreatSites,"Threatsite_22")
+  end
+end
+
+function ThreatSite_22_threat_off()
+  if ThreatSite_22 then
+    ThreatSite_22:SetAIOff()
+    Menu_ThreatSite_22_Off:Remove()
+    Menu_ThreatSite_22_On = MENU_MISSION_COMMAND:New("Activate Threat Site 22",range_2_menu_more,ThreatSite_22_threat_on)
+    InactiveThreadSites(ActiveThreatSites, "Threatsite_22")
+  end
+end
+
+function ThreatSite_23_threat_on()
+  if ThreatSite_23 then
+    ThreatSite_23:SetAIOn()
+    Menu_ThreatSite_23_On:Remove()
+    Menu_ThreatSite_23_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 23",range_2_menu_more,ThreatSite_23_threat_off)
+    table.insert(ActiveThreatSites,"Threatsite_23")
+  end
+end
+
+function ThreatSite_23_threat_off()
+  if ThreatSite_23 then
+    ThreatSite_23:SetAIOff()
+    Menu_ThreatSite_23_Off:Remove()
+    Menu_ThreatSite_23_On = MENU_MISSION_COMMAND:New("Activate Threat Site 23",range_2_menu_more,ThreatSite_23_threat_on)
+    InactiveThreadSites(ActiveThreatSites, "Threatsite_23")
+  end
+end
+
+function ThreatSite_24_threat_on()
+  if ThreatSite_24 then
+    ThreatSite_24:SetAIOn()
+    Menu_ThreatSite_24_On:Remove()
+    Menu_ThreatSite_24_Off = MENU_MISSION_COMMAND:New("Deactivate Threat Site 24",range_2_menu_more,ThreatSite_24_threat_off)
+    table.insert(ActiveThreatSites,"Threatsite_24")
+  end
+end
+
+function ThreatSite_24_threat_off()
+  if ThreatSite_24 then
+    ThreatSite_24:SetAIOff()
+    Menu_ThreatSite_24_Off:Remove()
+    Menu_ThreatSite_24_On = MENU_MISSION_COMMAND:New("Activate Threat Site 24",range_2_menu_more,ThreatSite_24_threat_on)
+    InactiveThreadSites(ActiveThreatSites, "Threatsite_24")
+  end
+end
 
 
 
@@ -205,6 +288,10 @@ Menu_ThreatSite_10_On = MENU_MISSION_COMMAND:New("Activate Threat Site 10",range
 Menu_ThreatSite_11_On = MENU_MISSION_COMMAND:New("Activate Threat Site 11",range_2_menu_root,ThreatSite_11_threat_on)
 Menu_ThreatSite_12_On = MENU_MISSION_COMMAND:New("Activate Threat Site 12",range_2_menu_root,ThreatSite_12_threat_on)
 Menu_ThreatSite_13_On = MENU_MISSION_COMMAND:New("Activate Threat Site 13",range_2_menu_root,ThreatSite_13_threat_on)
+Menu_ThreatSite_21_On = MENU_MISSION_COMMAND:New("Activate Threat Site 21",range_2_menu_more,ThreatSite_21_threat_on)
+Menu_ThreatSite_22_On = MENU_MISSION_COMMAND:New("Activate Threat Site 22",range_2_menu_more,ThreatSite_22_threat_on)
+Menu_ThreatSite_23_On = MENU_MISSION_COMMAND:New("Activate Threat Site 23",range_2_menu_more,ThreatSite_23_threat_on)
+Menu_ThreatSite_24_On = MENU_MISSION_COMMAND:New("Activate Threat Site 24",range_2_menu_more,ThreatSite_24_threat_on)
 Menu_Threat_ListActive = MENU_MISSION_COMMAND:New("List Active Threat Sites",range_2_menu_root, Sam_Footprints )
 Menu_Threat_ListActive = MENU_MISSION_COMMAND:New("List Active Threat Sites",range_9_menu_root, Sam_Footprints )
 
@@ -218,7 +305,11 @@ local range_2_threatsites = {
   "Threatsite_10",
   "Threatsite_11",
   "Threatsite_12",
-  "Threatsite_13",}
+  "Threatsite_13",
+  "Threatsite_21",
+  "Threatsite_22",
+  "Threatsite_23",
+  "Threatsite_24",}
 
 
 
