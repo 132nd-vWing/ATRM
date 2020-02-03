@@ -1304,6 +1304,8 @@ dictionary =
     ["DictKey_GroupName_6107"] = "Threatsite_22",
     ["DictKey_GroupName_6111"] = "Threatsite_23",
     ["DictKey_GroupName_6115"] = "Threatsite_24",
+    ["DictKey_GroupName_6119"] = "BlueInfantryR7",
+    ["DictKey_GroupName_6123"] = "REDInfantryR7",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -3565,6 +3567,8 @@ dictionary =
     ["DictKey_UnitName_6113"] = "Unit #280",
     ["DictKey_UnitName_6116"] = "Unit #281",
     ["DictKey_UnitName_6117"] = "Unit #282",
+    ["DictKey_UnitName_6120"] = "BlueInfantryR7",
+    ["DictKey_UnitName_6124"] = "REDInfantryR7",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -5727,6 +5731,9 @@ dictionary =
     ["DictKey_WptName_6110"] = "",
     ["DictKey_WptName_6114"] = "",
     ["DictKey_WptName_6118"] = "",
+    ["DictKey_WptName_6121"] = "",
+    ["DictKey_WptName_6122"] = "",
+    ["DictKey_WptName_6125"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
