@@ -1,5 +1,6 @@
 -- FOX script (replaces Missiletrainer)
 fox=FOX:New()
-fox:SetExplosionDistance(200)
+fox:SetExplosionDistance(60)
 fox:SetDisableF10Menu(true)
+fox:SetDefaultLaunchAlerts(false)
 fox:Start()

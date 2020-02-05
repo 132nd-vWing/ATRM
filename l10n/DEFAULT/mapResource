@@ -1,7 +1,6 @@
 mapResource = 
 {
     [""] = "ATRM_MENUS.lua",
-    ["ResKey_Action_1904"] = "ATRM_FOX.lua",
     ["ResKey_Action_3918"] = "ATRM_TANKERS.lua",
     ["ResKey_Action_3931"] = "ATRM_AWACS.lua",
     ["ResKey_Action_5278"] = "ATRM_Range_2.lua",
@@ -18,6 +17,7 @@ mapResource =
     ["ResKey_Action_6127"] = "ATRM_Range_7.lua",
     ["ResKey_Action_6135"] = "ATRM_Range_4.lua",
     ["ResKey_Action_6143"] = "ATRM_Range_6.lua",
+    ["ResKey_Action_6145"] = "ATRM_FOX.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource
