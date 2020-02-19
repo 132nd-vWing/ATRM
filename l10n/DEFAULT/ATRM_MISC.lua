@@ -9,9 +9,12 @@ fox:Start()
 
 --- ATIS
 atisAlDhafra=ATIS:New("Al Dhafra AB", 126.400)
+atisAlDhafra:SetZuluTimeDifference(4)
 atisAlDhafra:SetTowerFrequencies(126.200)
 atisAlDhafra:SetTACAN(96)
 atisAlDhafra:SetMapMarks(true)
+atisAlDhafra:SetRadioRelayUnitName("Radio Relay ATIS #001")
+atisAlDhafra:SetSubtitleDuration(0)
 --atisAlDhafra:SetVOR(114.9)
 
 --atisAlDhafra_active = atisAlDhafra:GetActiveRunway()
@@ -25,35 +28,53 @@ atisAlDhafra:Start()
 
 
 atisAlAin=ATIS:New("Al Ain International Airport", 119.400)
+atisAlAin:SetZuluTimeDifference(4)
 atisAlAin:SetTowerFrequencies(119.200)
 atisAlAin:SetMapMarks(true)
+atisAlAin:SetRadioRelayUnitName("Radio Relay ATIS #002")
+atisAlAin:SetSubtitleDuration(0)
 atisAlAin:Start()
 
 
 atisAlMinhad=ATIS:New("Al Minhad AB", 121.400)
+atisAlMinhad:SetZuluTimeDifference(4)
 atisAlMinhad:SetTowerFrequencies(121.200)
 atisAlMinhad:SetMapMarks(true)
+atisAlMinhad:SetRadioRelayUnitName("Radio Relay ATIS #003")
+atisAlMinhad:SetSubtitleDuration(0)
 atisAlMinhad:Start()
 
 atisLiwa=ATIS:New("Liwa Airbase", 119.300)
+atisLiwa:SetZuluTimeDifference(4)
 atisLiwa:SetTowerFrequencies(119.300)
 atisLiwa:SetMapMarks(true)
+atisLiwa:SetRadioRelayUnitName("Radio Relay ATIS #004")
+atisLiwa:SetSubtitleDuration(0)
 atisLiwa:Start()
 
 atisSasAlNakheel=ATIS:New("Sas Al Nakheel Airport", 128.400)
+atisSasAlNakheel:SetZuluTimeDifference(4)
 atisSasAlNakheel:SetTowerFrequencies(128.200)
 atisSasAlNakheel:SetMapMarks(true)
+atisSasAlNakheel:SetRadioRelayUnitName("Radio Relay ATIS #005")
+atisSasAlNakheel:SetSubtitleDuration(0)
 atisSasAlNakheel:Start()
 
-atisRasAlKaimah=ATIS:New("Ras Al Khaimah", 118.400)
-atisRasAlKaimah:SetTowerFrequencies(118.200)
-atisRasAlKaimah:SetMapMarks(true)
-atisRasAlKaimah:Start()
-
 atisFujairah=ATIS:New("Fujairah Intl", 124.400)
+atisFujairah:SetZuluTimeDifference(4)
 atisFujairah:SetTowerFrequencies(124.200)
 atisFujairah:SetMapMarks(true)
+atisFujairah:SetRadioRelayUnitName("Radio Relay ATIS #006")
+atisFujairah:SetSubtitleDuration(0)
 atisFujairah:Start()
+
+atisRasAlKaimah=ATIS:New("Ras Al Khaimah", 118.400)
+atisRasAlKaimah:SetZuluTimeDifference(4)
+atisRasAlKaimah:SetTowerFrequencies(118.200)
+atisRasAlKaimah:SetMapMarks(true)
+atisRasAlKaimah:SetRadioRelayUnitName("Radio Relay ATIS #007")
+atisRasAlKaimah:SetSubtitleDuration(0)
+atisRasAlKaimah:Start()
 
 --- ATIS
 

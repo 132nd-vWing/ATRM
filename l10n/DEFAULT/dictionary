@@ -1343,6 +1343,7 @@ dictionary =
     ["DictKey_GroupName_6374"] = "Radio Relay ATIS #006",
     ["DictKey_GroupName_6377"] = "Radio Relay ATIS #005",
     ["DictKey_GroupName_6380"] = "Radio Relay ATIS #005",
+    ["DictKey_GroupName_6385"] = "Radio Relay ATIS #007",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -3673,6 +3674,7 @@ dictionary =
     ["DictKey_UnitName_6375"] = "Radio Relay ATIS #006",
     ["DictKey_UnitName_6378"] = "Radio Relay ATIS #005",
     ["DictKey_UnitName_6381"] = "Radio Relay ATIS #005",
+    ["DictKey_UnitName_6386"] = "Radio Relay ATIS #007",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -5955,6 +5957,7 @@ dictionary =
     ["DictKey_WptName_6376"] = "",
     ["DictKey_WptName_6379"] = "",
     ["DictKey_WptName_6382"] = "",
+    ["DictKey_WptName_6387"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
