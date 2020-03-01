@@ -1391,6 +1391,7 @@ dictionary =
     ["DictKey_GroupName_6637"] = "New Airplane Group",
     ["DictKey_GroupName_6643"] = "New Airplane Group #001",
     ["DictKey_GroupName_6654"] = "R14_AR_Activate",
+    ["DictKey_GroupName_6657"] = "F/A-18 AGR #4",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -3825,6 +3826,10 @@ dictionary =
     ["DictKey_UnitName_6638"] = "Pilot #029",
     ["DictKey_UnitName_6644"] = "Pilot #030",
     ["DictKey_UnitName_6655"] = "R14_AR_Activate",
+    ["DictKey_UnitName_6658"] = "F/A-18 AGR #4-1",
+    ["DictKey_UnitName_6659"] = "F/A-18 AGR #4-2",
+    ["DictKey_UnitName_6660"] = "F/A-18 AGR #3-3",
+    ["DictKey_UnitName_6661"] = "F/A-18 AGR #3-4",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -6219,6 +6224,7 @@ dictionary =
     ["DictKey_WptName_6652"] = "",
     ["DictKey_WptName_6653"] = "",
     ["DictKey_WptName_6656"] = "",
+    ["DictKey_WptName_6662"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
