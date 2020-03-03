@@ -3,7 +3,6 @@ mapResource =
     [""] = "ATRM_MENUS.lua",
     ["ResKey_Action_3918"] = "ATRM_TANKERS.lua",
     ["ResKey_Action_3931"] = "ATRM_AWACS.lua",
-    ["ResKey_Action_5278"] = "ATRM_Range_2.lua",
     ["ResKey_Action_5330"] = "ATRM_MENUS.lua",
     ["ResKey_Action_5338"] = "ATRM_Basic Ranges.lua",
     ["ResKey_Action_5919"] = "ATRM_Range_9.lua",
@@ -16,7 +15,8 @@ mapResource =
     ["ResKey_Action_6135"] = "ATRM_Range_4.lua",
     ["ResKey_Action_6143"] = "ATRM_Range_6.lua",
     ["ResKey_Action_6394"] = "ATRM_MISC.lua",
-    ["ResKey_Action_6416"] = "Moose.lua",
+    ["ResKey_Action_6664"] = "Moose.lua",
+    ["ResKey_Action_6667"] = "ATRM_Range_2.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource

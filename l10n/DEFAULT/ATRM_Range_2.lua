@@ -1,5 +1,5 @@
 local range_2_menu_root = MENU_MISSION:New("Range 2",range_root_menu1_6)
-local range_9_menu_root = MENU_MISSION:New("Range 9",range_root_menu1_6)
+local range_9_menu_root = MENU_MISSION:New("Range 9",range_root_menu7_12)
 local range_2_menu_more = MENU_MISSION:New("more ...",range_2_menu_root)
 ---BASIC SEAD
 --
@@ -410,6 +410,92 @@ end
 
 
 
+----
+function resetrange()
+
+SEAD_enabled_Sams_range2:Clear()
+local ActiveThreatSites = {}
+
+local ThreatSite_7 = SPAWN:New("Threatsite_7"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_7)
+local ThreatSite_8 = SPAWN:New("Threatsite_8"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_8)
+local ThreatSite_9 = SPAWN:New("Threatsite_9"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_9)
+local ThreatSite_10 = SPAWN:New("Threatsite_10"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_10)
+local ThreatSite_11 = SPAWN:New("Threatsite_11"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_11)
+local ThreatSite_12 = SPAWN:New("Threatsite_12"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_12)
+local ThreatSite_13 = SPAWN:New("Threatsite_13"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_13)
+local ThreatSite_21 = SPAWN:New("Threatsite_21"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_21)
+local ThreatSite_22 = SPAWN:New("Threatsite_22"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_22)
+local ThreatSite_23 = SPAWN:New("Threatsite_23"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_23)
+local ThreatSite_24 = SPAWN:New("Threatsite_24"):Spawn()
+SEAD_enabled_Sams_range2:AddGroup(ThreatSite_24)
+
+ThreatSite_7:SetAIOff()
+ThreatSite_8:SetAIOff()
+ThreatSite_9:SetAIOff()
+ThreatSite_10:SetAIOff()
+ThreatSite_11:SetAIOff()
+ThreatSite_12:SetAIOff()
+ThreatSite_13:SetAIOff()
+ThreatSite_21:SetAIOff()
+ThreatSite_22:SetAIOff()
+ThreatSite_23:SetAIOff()
+ThreatSite_24:SetAIOff()
 
 
+if Menu_ThreatSite_7_Off then 
+ThreatSite_7_threat_off()
+ThreatSite_7_threat_on()
+end
+if Menu_ThreatSite_8_Off then 
+ThreatSite_8_threat_off()
+ThreatSite_8_threat_on()
+end
+if Menu_ThreatSite_9_Off then 
+ThreatSite_9_threat_off()
+ThreatSite_9_threat_on()
+end
+if Menu_ThreatSite_10_Off then 
+ThreatSite_10_threat_off()
+ThreatSite_10_threat_on()
+end
+if Menu_ThreatSite_11_Off then 
+ThreatSite_11_threat_off()
+ThreatSite_11_threat_on()
+end
+if Menu_ThreatSite_12_Off then 
+ThreatSite_12_threat_off()
+ThreatSite_12_threat_on()
+end
+if Menu_ThreatSite_13_Off then 
+ThreatSite_13_threat_off()
+ThreatSite_13_threat_on()
+end
+if Menu_ThreatSite_21_Off then 
+ThreatSite_21_threat_off()
+ThreatSite_21_threat_on()
+end
+if Menu_ThreatSite_22_Off then 
+ThreatSite_22_threat_off()
+ThreatSite_22_threat_on()
+end
+if Menu_ThreatSite_23_Off then 
+ThreatSite_23_threat_off()
+ThreatSite_23_threat_on()
+end
+if Menu_ThreatSite_24_Off then 
+ThreatSite_24_threat_off()
+ThreatSite_24_threat_on()
+end
 
+end
+MENU_MISSION_COMMAND:New("Rearm all Threatsites",range_2_menu_root,resetrange)
