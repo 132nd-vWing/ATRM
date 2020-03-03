@@ -23,7 +23,8 @@ function tanker1spawn()
       ,{},5,300)
     end):Spawn()
 end
-tanker1spawn()
+tanker1_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR201",tanker_menu_blue1,tanker1spawn)
+
 
 tanker2 = SPAWN:New("SHELL AR 301 #IFF5312FR")
 function tanker2spawn()
@@ -49,7 +50,8 @@ function tanker2spawn()
       ,{},5,300)
     end):Spawn()
 end
-tanker2spawn()
+tanker2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR301",tanker_menu_blue1,tanker2spawn)
+
 
 tanker3 = SPAWN:New("Texaco AR 101 #IFF5314FR")
 function tanker3spawn()
