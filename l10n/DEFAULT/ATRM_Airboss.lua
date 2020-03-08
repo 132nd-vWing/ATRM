@@ -20,12 +20,12 @@ tanker2:__Start(3)
 rescuehelo=RESCUEHELO:New("CVN74_STENNIS", "CVN74_STENNIS_Rescue #IFFIFF5323FR")
 rescuehelo:SetModex(42)
 rescuehelo:SetRespawnInAir()
-rescuehelo:__Start(4)
+-- rescuehelo:__Start(4)
 
 rescuehelo2=RESCUEHELO:New("CVN68_NIMITZ", "CVN68_NIMITZ_Rescue #IFFIFF5324")
 rescuehelo2:SetModex(43)
 rescuehelo2:SetRespawnInAir()
-rescuehelo2:__Start(4)
+-- rescuehelo2:__Start(4)
 
 
 
@@ -104,22 +104,16 @@ function tanker2:OnAfterStart(From,Event,To)
   AirbossStennis2:SetRadioRelayLSO(self:GetUnitName())
 end
 
---- Function called when rescue helo is started.
-function rescuehelo:OnAfterStart(From,Event,To)
-  AirbossStennis:SetRadioRelayMarshal(self:GetUnitName())
-end
-
-function rescuehelo2:OnAfterStart(From,Event,To)
-  AirbossStennis2:SetRadioRelayMarshal(self:GetUnitName())
-end
-
-
-
-
-
-
-
-
+----- Function called when rescue helo is started.
+--function rescuehelo:OnAfterStart(From,Event,To)
+--  AirbossStennis:SetRadioRelayMarshal(self:GetUnitName())
+--end
+--
+--function rescuehelo2:OnAfterStart(From,Event,To)
+--  AirbossStennis2:SetRadioRelayMarshal(self:GetUnitName())
+--end
+--
+--
 
 
 
