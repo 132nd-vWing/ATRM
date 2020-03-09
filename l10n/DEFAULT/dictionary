@@ -6306,7 +6306,7 @@ TANKERS BLUE\
 AR101: KC-135, Tacan 38X. Freq: 150.0, FL120\
 \
 AR201: KC-135, Tacan 39X. Freq: 151.0, FL200\
-AR202: KC-135, Tacan 48X. Freq: 141.0, FL200\
+AR202: KC-135, Tacan 48Y. Freq: 141.0, FL200\
 AR203: KC-135, Tacan 49X. Freq: 140.0, FL200\
 \
 AR301: KC-135 MPRS, Tacan 40Y. Freq: 149.0, FL240\
@@ -6320,7 +6320,7 @@ AR305: KC-135 MPRS, Tacan 37Y. Freq: 139.0, FL240\
 AR401 KC-135 MPRS, TACAN 43Y. Freq: 145.0, FL230\
 AR402 KC-135, TACAN 44X. Freq: 144.0, FL200\
 AR403 KC-135, TACAN 45X. Freq: 143.0, FL200\
-AR404 KC-135 MPRS, TACAN 47Y. Freq: 142.0, FL230",
+AR404 KC-135 MPRS, TACsniAN 47Y. Freq: 142.0, FL230",
     ["DictKey_descriptionText_1"] = "",
     ["DictKey_sortie_5"] = "",
 } -- end of dictionary

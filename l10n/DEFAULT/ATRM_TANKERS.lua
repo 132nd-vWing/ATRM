@@ -1,6 +1,7 @@
 -- TANKERS --
 tanker1 = SPAWN:New("ARCO AR 201 #IFF5311FR")
 function tanker1spawn()
+tanker1_menu_spawn:Remove()
   tanker1:OnSpawnGroup(
     function (tanker1_group)
       tanker1_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -28,6 +29,7 @@ tanker1_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR201",tanker_m
 
 tanker2 = SPAWN:New("SHELL AR 301 #IFF5312FR")
 function tanker2spawn()
+tanker2_menu_spawn:Remove()
   tanker2:OnSpawnGroup(
     function (tanker2_group)
       tanker2_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -50,11 +52,12 @@ function tanker2spawn()
       ,{},5,300)
     end):Spawn()
 end
-tanker2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR301",tanker_menu_blue1,tanker2spawn)
+tanker2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR301",tanker_menu_blue2,tanker2spawn)
 
 
 tanker3 = SPAWN:New("Texaco AR 101 #IFF5314FR")
 function tanker3spawn()
+tanker3_menu_spawn:Remove()
   tanker3:OnSpawnGroup(
     function (tanker3_group)
       tanker3_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -82,6 +85,7 @@ tanker3_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR101",tanker_m
 
 tanker4 = SPAWN:New("SHELL AR 302 #IFF5313FR")
 function tanker4spawn()
+tanker4_menu_spawn:Remove()
   tanker4:OnSpawnGroup(
     function (tanker4_group)
       tanker4_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -108,6 +112,7 @@ tanker4_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR302",tanker_m
 
 tanker5 = SPAWN:New("SHELL AR 303 #IFF5315FR")
 function tanker5spawn()
+tanker5_menu_spawn:Remove()
   tanker5:OnSpawnGroup(
     function (tanker5_group)
       tanker5_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -134,6 +139,7 @@ tanker5_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR303",tanker_m
 
 tanker6 = SPAWN:New("SHELL AR 304 #IFF5316FR")
 function tanker6spawn()
+tanker6_menu_spawn:Remove()
   tanker6:OnSpawnGroup(
     function (tanker6_group)
       tanker6_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -160,6 +166,7 @@ tanker6_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR304",tanker_m
 
 tanker7 = SPAWN:New("AR 401 SHELL AGRESSOR #IFF5317")
 function tanker7spawn()
+tanker7_menu_spawn:Remove()
   tanker7:OnSpawnGroup(
     function (tanker7_group)
       tanker7_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -186,6 +193,7 @@ tanker7_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR401",tanker_me
 
 tanker8 = SPAWN:New("AR 402 SHELL AGRESSOR #IFF5318")
 function tanker8spawn()
+tanker8_menu_spawn:Remove()
   tanker8:OnSpawnGroup(
     function (tanker8_group)
       tanker8_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -212,6 +220,7 @@ tanker8_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR402",tanker_me
 
 tanker9 = SPAWN:New("AR 403 SHELL AGRESSOR #IFF5319")
 function tanker9spawn()
+tanker9_menu_spawn:Remove()
   tanker9:OnSpawnGroup(
     function (tanker9_group)
       tanker9_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -238,6 +247,7 @@ tanker9_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR403",tanker_me
 
 tanker10 = SPAWN:New("AR 404 SHELL AGRESSOR #IFF5320")
 function tanker10spawn()
+tanker10_menu_spawn:Remove()
   tanker10:OnSpawnGroup(
     function (tanker10_group)
       tanker10_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -264,6 +274,7 @@ tanker10_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR404",tanker_m
 
 tanker11 = SPAWN:New("ARCO AR 202 #IFF5321FR")
 function tanker11spawn()
+tanker11_menu_spawn:Remove()
   tanker11:OnSpawnGroup(
     function (tanker11_group)
       tanker11_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -291,6 +302,7 @@ tanker11_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR202",tanker_
 
 tanker12 = SPAWN:New("ARCO AR 203 #IFF5322FR")
 function tanker12spawn()
+tanker12_menu_spawn:Remove()
   tanker12:OnSpawnGroup(
     function (tanker12_group)
       tanker12_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
@@ -317,6 +329,7 @@ tanker12_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR203",tanker_
 
 tanker13 = SPAWN:New("SHELL AR 305 #IFF5317FR")
 function tanker13spawn()
+tanker13_menu_spawn:Remove()
   tanker13:OnSpawnGroup(
     function (tanker13_group)
       tanker13_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
