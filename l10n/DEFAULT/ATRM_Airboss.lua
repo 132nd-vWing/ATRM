@@ -5,7 +5,7 @@ local tanker=RECOVERYTANKER:New("CVN74_STENNIS", "CVN74_STENNIS_Tanker#IFF5321FR
 tanker:SetRespawnInAir()
 tanker:SetRadio(142.5)
 tanker:SetModex(511)
-tanker:SetTACAN(48, "C74")
+tanker:SetTACAN(64, "C74")
 tanker:__Start(3)
 
 -- S-3B Recovery Tanker spawning in air.
@@ -13,7 +13,7 @@ local tanker2=RECOVERYTANKER:New("CVN68_NIMITZ", "CVN68_NIMITZ_Tanker#IFF5322")
 tanker2:SetRespawnInAir()
 tanker2:SetRadio(143.5)
 tanker2:SetModex(512)
-tanker2:SetTACAN(49, "C68")
+tanker2:SetTACAN(65, "C68")
 tanker2:__Start(3)
 
 -- Rescue Helo ((needs to be global))
