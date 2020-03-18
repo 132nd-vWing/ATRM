@@ -53,7 +53,7 @@ function awacs2spawn()
 end
 awacs2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue AWACS DARKSTAR",awacs_menu,awacs2spawn)
 
-awacs3 = SPAWN:New("AWACS AGGRESSOR #IFF5213")
+awacs3 = SPAWN:New("AWACS AGGRESSOR #IFF:5213")
 function awacs3spawn()
   awacs3:OnSpawnGroup(
     function (awacs3_group)

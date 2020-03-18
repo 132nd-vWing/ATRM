@@ -1,5 +1,5 @@
 -- TANKERS --
-tanker1 = SPAWN:New("ARCO AR 201 #IFF5311FR")
+tanker1 = SPAWN:New("ARCO AR 201 #IFF:5311FR")
 function tanker1spawn()
 tanker1_menu_spawn:Remove()
   tanker1:OnSpawnGroup(
@@ -27,7 +27,7 @@ end
 tanker1_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR201",tanker_menu_blue1,tanker1spawn)
 
 
-tanker2 = SPAWN:New("SHELL AR 301 #IFF5312FR")
+tanker2 = SPAWN:New("SHELL AR 301 #IFF:5312FR")
 function tanker2spawn()
 tanker2_menu_spawn:Remove()
   tanker2:OnSpawnGroup(
@@ -55,7 +55,7 @@ end
 tanker2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR301",tanker_menu_blue2,tanker2spawn)
 
 
-tanker3 = SPAWN:New("Texaco AR 101 #IFF5314FR")
+tanker3 = SPAWN:New("Texaco AR 101 #IFF:5314FR")
 function tanker3spawn()
 tanker3_menu_spawn:Remove()
   tanker3:OnSpawnGroup(
@@ -83,7 +83,7 @@ end
 tanker3_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR101",tanker_menu_blue1,tanker3spawn)
 
 
-tanker4 = SPAWN:New("SHELL AR 302 #IFF5313FR")
+tanker4 = SPAWN:New("SHELL AR 302 #IFF:5313FR")
 function tanker4spawn()
 tanker4_menu_spawn:Remove()
   tanker4:OnSpawnGroup(
@@ -110,7 +110,7 @@ tanker4_menu_spawn:Remove()
 end
 tanker4_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR302",tanker_menu_blue2,tanker4spawn)
 
-tanker5 = SPAWN:New("SHELL AR 303 #IFF5315FR")
+tanker5 = SPAWN:New("SHELL AR 303 #IFF:5315FR")
 function tanker5spawn()
 tanker5_menu_spawn:Remove()
   tanker5:OnSpawnGroup(
@@ -137,7 +137,7 @@ tanker5_menu_spawn:Remove()
 end
 tanker5_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR303",tanker_menu_blue2,tanker5spawn)
 
-tanker6 = SPAWN:New("SHELL AR 304 #IFF5316FR")
+tanker6 = SPAWN:New("SHELL AR 304 #IFF:5316FR")
 function tanker6spawn()
 tanker6_menu_spawn:Remove()
   tanker6:OnSpawnGroup(
@@ -164,7 +164,7 @@ tanker6_menu_spawn:Remove()
 end
 tanker6_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR304",tanker_menu_blue2,tanker6spawn)
 
-tanker7 = SPAWN:New("AR 401 SHELL AGRESSOR #IFF5317")
+tanker7 = SPAWN:New("AR 401 SHELL AGRESSOR #IFF:5317")
 function tanker7spawn()
 tanker7_menu_spawn:Remove()
   tanker7:OnSpawnGroup(
@@ -191,7 +191,7 @@ tanker7_menu_spawn:Remove()
 end
 tanker7_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR401",tanker_menu_red,tanker7spawn)
 
-tanker8 = SPAWN:New("AR 402 SHELL AGRESSOR #IFF5318")
+tanker8 = SPAWN:New("AR 402 SHELL AGRESSOR #IFF:5318")
 function tanker8spawn()
 tanker8_menu_spawn:Remove()
   tanker8:OnSpawnGroup(
@@ -218,7 +218,7 @@ tanker8_menu_spawn:Remove()
 end
 tanker8_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR402",tanker_menu_red,tanker8spawn)
 
-tanker9 = SPAWN:New("AR 403 SHELL AGRESSOR #IFF5319")
+tanker9 = SPAWN:New("AR 403 SHELL AGRESSOR #IFF:5319")
 function tanker9spawn()
 tanker9_menu_spawn:Remove()
   tanker9:OnSpawnGroup(
@@ -245,7 +245,7 @@ tanker9_menu_spawn:Remove()
 end
 tanker9_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR403",tanker_menu_red,tanker9spawn)
 
-tanker10 = SPAWN:New("AR 404 SHELL AGRESSOR #IFF5320")
+tanker10 = SPAWN:New("AR 404 SHELL AGRESSOR #IFF:5320")
 function tanker10spawn()
 tanker10_menu_spawn:Remove()
   tanker10:OnSpawnGroup(
@@ -272,7 +272,7 @@ tanker10_menu_spawn:Remove()
 end
 tanker10_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Red TANKER AR404",tanker_menu_red,tanker10spawn)
 
-tanker11 = SPAWN:New("ARCO AR 202 #IFF5321FR")
+tanker11 = SPAWN:New("ARCO AR 202 #IFF:5321FR")
 function tanker11spawn()
 tanker11_menu_spawn:Remove()
   tanker11:OnSpawnGroup(
@@ -300,7 +300,7 @@ end
 tanker11_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR202",tanker_menu_blue1,tanker11spawn)
 
 
-tanker12 = SPAWN:New("ARCO AR 203 #IFF5322FR")
+tanker12 = SPAWN:New("ARCO AR 203 #IFF:5322FR")
 function tanker12spawn()
 tanker12_menu_spawn:Remove()
   tanker12:OnSpawnGroup(
@@ -327,7 +327,7 @@ tanker12_menu_spawn:Remove()
 end
 tanker12_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR203",tanker_menu_blue1,tanker12spawn)
 
-tanker13 = SPAWN:New("SHELL AR 305 #IFF5317FR")
+tanker13 = SPAWN:New("SHELL AR 305 #IFF:5317FR")
 function tanker13spawn()
 tanker13_menu_spawn:Remove()
   tanker13:OnSpawnGroup(
@@ -353,7 +353,6 @@ tanker13_menu_spawn:Remove()
     end):Spawn()
 end
 tanker13_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR305",tanker_menu_blue2,tanker13spawn)
-
 
 
 

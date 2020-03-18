@@ -1,7 +1,7 @@
 AIRBOSS.MenuF10Root=MENU_MISSION:New("Carrier Control").MenuPath
 
 -- S-3B Recovery Tanker spawning in air.
-local tanker=RECOVERYTANKER:New("CVN74_STENNIS", "CVN74_STENNIS_Tanker#IFF5321FR")
+local tanker=RECOVERYTANKER:New("CVN74_STENNIS", "CVN74_STENNIS_Tanker#IFF:5321FR")
 tanker:SetRespawnInAir()
 tanker:SetRadio(142.5)
 tanker:SetModex(511)
@@ -9,7 +9,7 @@ tanker:SetTACAN(64, "C74")
 tanker:__Start(3)
 
 -- S-3B Recovery Tanker spawning in air.
-local tanker2=RECOVERYTANKER:New("CVN68_NIMITZ", "CVN68_NIMITZ_Tanker#IFF5322")
+local tanker2=RECOVERYTANKER:New("CVN68_NIMITZ", "CVN68_NIMITZ_Tanker#IFF:5322")
 tanker2:SetRespawnInAir()
 tanker2:SetRadio(143.5)
 tanker2:SetModex(512)
@@ -17,15 +17,15 @@ tanker2:SetTACAN(65, "C68")
 tanker2:__Start(3)
 
 -- Rescue Helo ((needs to be global))
-rescuehelo=RESCUEHELO:New("CVN74_STENNIS", "CVN74_STENNIS_Rescue #IFFIFF5323FR")
+rescuehelo=RESCUEHELO:New("CVN74_STENNIS", "CVN74_STENNIS_Rescue #IFF:5323FR")
 rescuehelo:SetModex(42)
 rescuehelo:SetRespawnInAir()
--- rescuehelo:__Start(4)
+rescuehelo:__Start(4)
 
-rescuehelo2=RESCUEHELO:New("CVN68_NIMITZ", "CVN68_NIMITZ_Rescue #IFFIFF5324")
+rescuehelo2=RESCUEHELO:New("CVN68_NIMITZ", "CVN68_NIMITZ_Rescue #IFF:5324")
 rescuehelo2:SetModex(43)
 rescuehelo2:SetRespawnInAir()
--- rescuehelo2:__Start(4)
+rescuehelo2:__Start(4)
 
 
 
@@ -105,15 +105,19 @@ function tanker2:OnAfterStart(From,Event,To)
 end
 
 ----- Function called when rescue helo is started.
---function rescuehelo:OnAfterStart(From,Event,To)
---  AirbossStennis:SetRadioRelayMarshal(self:GetUnitName())
---end
+function rescuehelo:OnAfterStart(From,Event,To)
+  AirbossStennis:SetRadioRelayMarshal(self:GetUnitName())
+end
 --
---function rescuehelo2:OnAfterStart(From,Event,To)
---  AirbossStennis2:SetRadioRelayMarshal(self:GetUnitName())
---end
---
---
+function rescuehelo2:OnAfterStart(From,Event,To)
+  AirbossStennis2:SetRadioRelayMarshal(self:GetUnitName())
+end
+
+
+
+
+
+
 
 
 
