@@ -1,5 +1,14 @@
 range_12_menu_root = MENU_MISSION:New("Range 12",range_root_menu7_12)
 
+local function range_12_MQT()
+  range_12_MQT_menu:Remove()
+  trigger.action.setUserFlag(54,true)
+end
+range_12_MQT_menu = MENU_MISSION_COMMAND:New("Activate scenario for FW fast jet MQT checkout",range_12_menu_root,range_12_MQT)
+
+
+
+
 -- Deactivate all Threatsites at the start --
 ThreatSite_1 = GROUP:FindByName("Threatsite_12_1")
 ThreatSite_2 = GROUP:FindByName("Threatsite_12_2")

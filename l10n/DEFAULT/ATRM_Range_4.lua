@@ -1,5 +1,14 @@
 range_4_menu_root = MENU_MISSION:New("Range 4",range_root_menu1_6)
 
+
+local function range_4_CBU_Convoy()
+  range_4_menu_CBU_Convoy:Remove()
+  trigger.action.setUserFlag(50,true)
+end
+
+range_4_menu_CBU_Convoy = MENU_MISSION_COMMAND:New("Activate CBU convoy",range_4_menu_root,range_4_CBU_Convoy)
+
+
 -- ON DEMAND SPAWNING --
 BlueSpawnerR4 = UNIT:FindByName("BlueInfantryR4")
 RedSpawnerR4 = UNIT:FindByName("REDInfantryR4")

@@ -1,5 +1,13 @@
 range_6_menu_root = MENU_MISSION:New("Range 6",range_root_menu1_6)
 
+local function range_6_AR()
+  range_6_menu_AR:Remove()
+  trigger.action.setUserFlag(51,true)
+end
+
+range_6_menu_AR = MENU_MISSION_COMMAND:New("Activate AR (SCUD hunt)",range_6_menu_root,range_6_AR)
+
+
 local r6_number_sam = math.random(1,3)
 if r6_number_sam == 1 then
   R6_Sam = SPAWN:New("R6_Convoy_SAM1"):InitAIOff():Spawn()

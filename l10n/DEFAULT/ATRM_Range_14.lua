@@ -1,4 +1,16 @@
 range_14_menu_root = MENU_MISSION:New("Range 14",range_root_menu13_18)
+
+
+local function range_14_AR()
+  range_14_AR_menu:Remove()
+  trigger.action.setUserFlag(55,true)
+end
+range_14_AR_menu = MENU_MISSION_COMMAND:New("Activate AR scenario",range_14_menu_root,range_14_AR)
+
+
+
+
+
 local function range_14()
   range_14_menu:Remove()
   range_14_menu_sam_menu = MENU_MISSION_COMMAND:New("Activate Anti Air at Range 14",range_14_menu_root,range_14_SAMs)
