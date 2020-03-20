@@ -2,30 +2,35 @@ AIRBOSS.MenuF10Root=MENU_MISSION:New("Carrier Control").MenuPath
 
 -- S-3B Recovery Tanker spawning in air.
 local tanker=RECOVERYTANKER:New("CVN74_STENNIS", "CVN74_STENNIS_Tanker#IFF:5321FR")
-tanker:SetRespawnInAir()
+tanker:SetTakeoffAir()
 tanker:SetRadio(142.5)
 tanker:SetModex(511)
 tanker:SetTACAN(64, "C74")
-tanker:__Start(3)
+tanker:SetRespawnInAir()
+
+
 
 -- S-3B Recovery Tanker spawning in air.
 local tanker2=RECOVERYTANKER:New("CVN68_NIMITZ", "CVN68_NIMITZ_Tanker#IFF:5322")
-tanker2:SetRespawnInAir()
+tanker2:SetTakeoffAir()
 tanker2:SetRadio(143.5)
 tanker2:SetModex(512)
 tanker2:SetTACAN(65, "C68")
-tanker2:__Start(3)
+tanker2:SetRespawnInAir()
+
 
 -- Rescue Helo ((needs to be global))
-rescuehelo=RESCUEHELO:New("CVN74_STENNIS", "CVN74_STENNIS_Rescue #IFF:5323FR")
+local rescuehelo=RESCUEHELO:New("CVN74_STENNIS", "CVN74_STENNIS_Rescue #IFF:5323FR")
+rescuehelo:SetTakeoffAir()
 rescuehelo:SetModex(42)
 rescuehelo:SetRespawnInAir()
-rescuehelo:__Start(4)
 
-rescuehelo2=RESCUEHELO:New("CVN68_NIMITZ", "CVN68_NIMITZ_Rescue #IFF:5324")
+
+local rescuehelo2=RESCUEHELO:New("CVN68_NIMITZ", "CVN68_NIMITZ_Rescue #IFF:5324")
+rescuehelo:SetTakeoffAir()
 rescuehelo2:SetModex(43)
-rescuehelo2:SetRespawnInAir()
-rescuehelo2:__Start(4)
+rescuehelo:SetRespawnInAir()
+
 
 
 
@@ -44,21 +49,21 @@ AirbossStennis2:SetMarshalRadio(310.9)
 AirbossStennis2:SetTACAN(68,X,NIM)
 AirbossStennis2:SetICLS(2,NIM)
 
--- Add recovery windows:
--- Case I from 9 to 10 am.
-local window1=AirbossStennis:AddRecoveryWindow( "9:00", "10:00", 1, nil, true, 25)
--- Case II with +15 degrees holding offset from 15:00 for 60 min.
-local window2=AirbossStennis:AddRecoveryWindow("15:00", "16:00", 2,  15, true, 23)
--- Case III with +30 degrees holding offset from 2100 to 2200.
-local window3=AirbossStennis:AddRecoveryWindow("21:00", "22:00", 3,  30, true, 21)
-
--- Add recovery windows:
--- Case I from 9 to 10 am.
-local window1=AirbossStennis2:AddRecoveryWindow( "9:00", "10:00", 1, nil, true, 25)
--- Case II with +15 degrees holding offset from 15:00 for 60 min.
-local window2=AirbossStennis2:AddRecoveryWindow("15:00", "16:00", 2,  15, true, 23)
--- Case III with +30 degrees holding offset from 2100 to 2200.
-local window3=AirbossStennis2:AddRecoveryWindow("21:00", "22:00", 3,  30, true, 21)
+---- Add recovery windows:
+---- Case I from 9 to 10 am.
+--local window1=AirbossStennis:AddRecoveryWindow( "9:00", "10:00", 1, nil, true, 25)
+---- Case II with +15 degrees holding offset from 15:00 for 60 min.
+--local window2=AirbossStennis:AddRecoveryWindow("15:00", "16:00", 2,  15, true, 23)
+---- Case III with +30 degrees holding offset from 2100 to 2200.
+--local window3=AirbossStennis:AddRecoveryWindow("21:00", "22:00", 3,  30, true, 21)
+--
+---- Add recovery windows:
+---- Case I from 9 to 10 am.
+--local window1=AirbossStennis2:AddRecoveryWindow( "9:00", "10:00", 1, nil, true, 25)
+---- Case II with +15 degrees holding offset from 15:00 for 60 min.
+--local window2=AirbossStennis2:AddRecoveryWindow("15:00", "16:00", 2,  15, true, 23)
+---- Case III with +30 degrees holding offset from 2100 to 2200.
+--local window3=AirbossStennis2:AddRecoveryWindow("21:00", "22:00", 3,  30, true, 21)
 
 
 
@@ -80,10 +85,30 @@ AirbossStennis2:SetDespawnOnEngineShutdown()
 AirbossStennis:SetMaxFlightsPerStack(1)
 AirbossStennis2:SetMaxFlightsPerStack(1)
 
-
 -- Skipper menu.
-AirbossStennis:SetMenuRecovery(90, 30, false)
-AirbossStennis2:SetMenuRecovery(90, 30, false)
+AirbossStennis:SetMenuRecovery(90)
+AirbossStennis2:SetMenuRecovery(90)
+
+function AirbossStennis:OnAfterRecoveryStart(From,Event,To,Case,Offset)
+tanker:__Start(3)
+rescuehelo:__Start(4)
+end
+
+function AirbossStennis2:OnAfterRecoveryStart(From,Event,To,Case,Offset)
+tanker2:__Start(3)
+rescuehelo2:__Start(4)
+end
+
+function AirbossStennis:OnAfterRecoveryStop(From,Event,To)
+tanker:__Stop(3)
+rescuehelo:__Stop(4)
+end
+
+function AirbossStennis2:OnAfterRecoveryStart(From,Event,To,Case,Offset)
+tanker2:__Stop(3)
+rescuehelo2:__Stop(4)
+end
+
 
 -- Start airboss class.
 AirbossStennis:Start()
