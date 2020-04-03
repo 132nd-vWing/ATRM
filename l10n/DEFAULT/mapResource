@@ -14,12 +14,12 @@ mapResource =
     ["ResKey_Action_7131"] = "ATRM_Range_15.lua",
     ["ResKey_Action_7132"] = "ATRM_Range_12.lua",
     ["ResKey_Action_7134"] = "ATRM_Range_14.lua",
-    ["ResKey_Action_7150"] = "Moose.lua",
     ["ResKey_Action_7151"] = "ATRM_Airboss.lua",
     ["ResKey_Action_7153"] = "ATRM_MISC.lua",
     ["ResKey_Action_7330"] = "mist_4_3_74.lua",
     ["ResKey_Action_7331"] = "skynet-iads-compiled.lua",
     ["ResKey_Action_7359"] = "skynet-iads-setup-ATRM.lua",
+    ["ResKey_Action_7387"] = "Moose.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource
