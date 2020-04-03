@@ -6,6 +6,12 @@ local function range_12_MQT()
 end
 range_12_MQT_menu = MENU_MISSION_COMMAND:New("Activate scenario for FW fast jet MQT checkout",range_12_menu_root,range_12_MQT)
 
+local function range_12_MLRS ()
+  range_12_MLRS_menu:Remove()
+  trigger.action.setUserFlag(58,true)
+end
+range_12_MLRS_menu = MENU_MISSION_COMMAND:New("Activate AR Range 12 (MLRS hunt)",range_12_menu_root,range_12_MLRS)
+
 
 
 
