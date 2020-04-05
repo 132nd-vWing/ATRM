@@ -24,8 +24,35 @@ WILL REPORT BACK WHEN LAST ROUND IS ON GROUND",
     ["DictKey_ActionText_7649"] = "TO: JTAC\
 FROM: MORTAR\
 \
-LAST ROUND IS NOW ON GROUND",
+LAST ROUND IS NOW ON GROUND\
+\
+END OF FIREMISSION",
     ["DictKey_ActionText_7802"] = "",
+    ["DictKey_ActionText_7851"] = "TO: JTAC\
+FROM: GROUND FORCE COMMANDER\
+\
+I WANT TO NEUTRALIZE THE ENEMY SAM TO FACILITATE FOR A NON PERMISSIVE ENVIRONMENT\
+\
+I WILL TASK MY MORTARS TO FIRE SEAD AT SUSPECTED ENEMY SAM LOCATION: N24 42.000 E056 18.800\
+\
+I will have the MORTARS start firing a 3 minute suppression in about 10 minutes.",
+    ["DictKey_ActionText_7852"] = "TO: JTAC\
+FROM: MORTAR\
+\
+WE WILL START A SEAD SUPPRESSION FIREMISSION IN 5 MINUTES.\
+\
+GUN TARGET LINE (GTL): 269 DEGREES\
+TIME OF FLIGHT (TOF) 49 SECONDS\
+MAXORD: 15000ft\
+WE WILL FIRE SUPPRESSION FOR 3 MINUTES. \
+\
+WILL REPORT BACK WHEN LAST ROUND IS ON GROUND",
+    ["DictKey_ActionText_7853"] = "TO: JTAC\
+FROM: MORTAR\
+\
+LAST ROUND IS NOW ON GROUND\
+\
+END OF FIREMISSION",
     ["DictKey_GroupName_1"] = "CVN68_NIMITZ",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
@@ -1628,6 +1655,7 @@ LAST ROUND IS NOW ON GROUND",
     ["DictKey_GroupName_7839"] = "Ammo storage",
     ["DictKey_GroupName_7842"] = "Ammo storage #002",
     ["DictKey_GroupName_7845"] = "R11_SCUD #001",
+    ["DictKey_GroupName_7848"] = "R16_JTAC_3",
     ["DictKey_UnitName_2"] = "CVN68_NIMITZ",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -4455,6 +4483,8 @@ LAST ROUND IS NOW ON GROUND",
     ["DictKey_UnitName_7840"] = "New Static Object #034",
     ["DictKey_UnitName_7843"] = "Ammo storage",
     ["DictKey_UnitName_7846"] = "R11_SCUD",
+    ["DictKey_UnitName_7849"] = "R16_JTAC_3",
+    ["DictKey_UnitName_7854"] = "R16_CAS_ENY_Mortar #003",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -7344,6 +7374,7 @@ LAST ROUND IS NOW ON GROUND",
     ["DictKey_WptName_7841"] = "",
     ["DictKey_WptName_7844"] = "",
     ["DictKey_WptName_7847"] = "",
+    ["DictKey_WptName_7850"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
