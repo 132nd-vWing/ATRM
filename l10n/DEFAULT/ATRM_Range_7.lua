@@ -1,4 +1,12 @@
 range_7_menu_root = MENU_MISSION:New("Range 7",range_root_menu7_12)
+
+--- CAS Scenario
+local function range_7_AR_dyn()
+  range_7_AR_dyn_menu:Remove()
+  trigger.action.setUserFlag(63,true)
+end
+range_7_AR_dyn_menu = MENU_MISSION_COMMAND:New("Start Dynamic AR Scenario",range_7_menu_root,range_7_AR_dyn)
+
 ---BASIC AR Tasking at Range7
 local function range_7()
   local timeuntilmove = 15 -- time in minutes to move the groups
@@ -45,7 +53,6 @@ local function range_7_CAS2()
   range_7_menu_CAS2:Remove()
   trigger.action.setUserFlag(110,true)
 end
-
 
 local function range_7_CAS1()
   range_7_menu_CAS1:Remove()
