@@ -5,7 +5,7 @@ local function range_11_2flug_scenario()
   range_11_2flug_scenario_menu:Remove()
   trigger.action.setUserFlag(62,true)
 end
-range_11_2flug_scenario_menu = MENU_MISSION_COMMAND:New("Activate CAS units",range_11_menu_root,range_11_2flug_scenario)
+range_11_2flug_scenario_menu = MENU_MISSION_COMMAND:New("Activate 2FLUG scenario",range_11_menu_root,range_11_2flug_scenario)
 
 ---BASIC AR Tasking at Range11
 local function range_11()
