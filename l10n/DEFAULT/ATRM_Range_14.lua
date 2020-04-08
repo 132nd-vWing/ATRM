@@ -8,7 +8,11 @@ end
 range_14_AR_menu = MENU_MISSION_COMMAND:New("Activate AR scenario",range_14_menu_root,range_14_AR)
 
 
-
+local function range_14_custom_CAS_units()
+  range_14_CAS_menu:Remove()
+  trigger.action.setUserFlag(60,true)
+end
+range_14_CAS_menu = MENU_MISSION_COMMAND:New("Activate CAS units",range_14_menu_root,range_14_custom_CAS_units)
 
 
 local function range_14()

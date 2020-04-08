@@ -1,4 +1,12 @@
 range_11_menu_root = MENU_MISSION:New("Range 11",range_root_menu7_12)
+
+
+local function range_11_2flug_scenario()
+  range_11_2flug_scenario_menu:Remove()
+  trigger.action.setUserFlag(62,true)
+end
+range_11_2flug_scenario_menu = MENU_MISSION_COMMAND:New("Activate CAS units",range_11_menu_root,range_11_2flug_scenario)
+
 ---BASIC AR Tasking at Range11
 local function range_11()
   local timeuntilmove = 15 -- time in minutes to move the groups
