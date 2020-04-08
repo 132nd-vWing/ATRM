@@ -1411,7 +1411,7 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [295676]
-        [295971] = 
+        [152593] = 
         {
             ["gasoline"] = 
             {
@@ -1448,7 +1448,7 @@ warehouses =
             }, -- end of ["weapons"]
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
-        }, -- end of [295971]
+        }, -- end of [152593]
         [295793] = 
         {
             ["gasoline"] = 
@@ -1525,7 +1525,7 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [4875]
-        [152593] = 
+        [295971] = 
         {
             ["gasoline"] = 
             {
@@ -1562,7 +1562,7 @@ warehouses =
             }, -- end of ["weapons"]
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
-        }, -- end of [152593]
+        }, -- end of [295971]
         [295794] = 
         {
             ["gasoline"] = 
