@@ -53,6 +53,7 @@ FROM: MORTAR\
 LAST ROUND IS NOW ON GROUND\
 \
 END OF FIREMISSION",
+    ["DictKey_ActionText_8176"] = "",
     ["DictKey_GroupName_1"] = "CVN68_NIMITZ",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
