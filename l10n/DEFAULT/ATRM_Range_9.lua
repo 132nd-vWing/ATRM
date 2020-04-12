@@ -145,4 +145,4 @@ local evasion_for_client_planes_only = true
   
 end
 
-range_9_AR_menu = MENU_MISSION_COMMAND:New("EXGS - Activate AR R9",range_9_menu_root,range_9_AR)
+range_9_AR_menu = MENU_MISSION_COMMAND:New("Range 9 Activate AR scenario 1",range_9_menu_root,range_9_AR)

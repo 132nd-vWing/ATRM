@@ -5,14 +5,14 @@ local function range_14_AR()
   range_14_AR_menu:Remove()
   trigger.action.setUserFlag(55,true)
 end
-range_14_AR_menu = MENU_MISSION_COMMAND:New("Activate AR scenario",range_14_menu_root,range_14_AR)
+range_14_AR_menu = MENU_MISSION_COMMAND:New("Activate AR scenario 1 ",range_14_menu_root,range_14_AR)
 
 
 local function range_14_custom_CAS_units()
   range_14_CAS_menu:Remove()
   trigger.action.setUserFlag(60,true)
 end
-range_14_CAS_menu = MENU_MISSION_COMMAND:New("Activate CAS units",range_14_menu_root,range_14_custom_CAS_units)
+range_14_CAS_menu = MENU_MISSION_COMMAND:New("Activate on demand units",range_14_menu_root,range_14_custom_CAS_units)
 
 
 local function range_14()
@@ -168,7 +168,7 @@ function range_14_SAMs()
   end
 end
 
-range_14_menu = MENU_MISSION_COMMAND:New("Activate Range 14",range_14_menu_root,range_14)
+range_14_menu = MENU_MISSION_COMMAND:New("Activate CAS scenario 1",range_14_menu_root,range_14)
 
 ---BASIC AR Tasking at Range14
 --local function range_14_AR()

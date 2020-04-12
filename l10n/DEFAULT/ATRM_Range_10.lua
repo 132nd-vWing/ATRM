@@ -53,7 +53,7 @@ local function range_10()
   end,{},5,timeuntilmove*60,0.5)
 end
 
-range_10_menu = MENU_MISSION_COMMAND:New("Activate AR Targets at Range 10",range_10_menu_root,range_10)
+range_10_menu = MENU_MISSION_COMMAND:New("Activate AR scenario 1 at Range 10",range_10_menu_root,range_10)
 ---/BASIC AR Tasking at Range10
 
 

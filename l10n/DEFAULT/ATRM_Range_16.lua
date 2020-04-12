@@ -4,7 +4,7 @@ local function range_16_custom_CAS_units()
   range_16_CAS_menu:Remove()
   trigger.action.setUserFlag(61,true)
 end
-range_16_CAS_menu = MENU_MISSION_COMMAND:New("Activate CAS units",range_16_menu_root,range_16_custom_CAS_units)
+range_16_CAS_menu = MENU_MISSION_COMMAND:New("Activate Basic CAS scenario",range_16_menu_root,range_16_custom_CAS_units)
 
 -- Range 16 On Demand Spawning--
 Range16_Groups = SET_GROUP:New():FilterCategoryGround():FilterPrefixes("Range16 Target"):FilterStart()
