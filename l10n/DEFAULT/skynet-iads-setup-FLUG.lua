@@ -11,7 +11,7 @@ redIADSA:addEarlyWarningRadarsByPrefix('EWA')
 redIADSA:addSAMSitesByPrefix('IADSA')
 
 
--- activate the IADS
+-- activate the IADS -test
 redIADSA:activate()	
 
 
