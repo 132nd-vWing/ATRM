@@ -96,7 +96,7 @@ Range5:AddStrafePit(Range5_Strafepit_Table, 5000, 800, nil, true, 20, Range5_fou
 
 -- Add bombing targets. A good hit is if the bomb falls less then 50 m from the target.
 Range5:AddBombingTargets(bombtargets_Range5, 50)
-RANGE5:SetAutosaveOn()
+Range5:SetAutosaveOn()
 Range5:SetRangeControl(136.75)
 Range5:SetInstructorRadio(136.75)
 
