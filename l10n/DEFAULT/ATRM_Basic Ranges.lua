@@ -72,7 +72,7 @@ Range13:Start()
 Range5_Strafepit_Table={"R5_strafepit_N", "R5_strafepit_S"}
 
 -- Table of bombing target names.
-bombtargets_Range5={"R5 bombing circle NW", "R5 bombing circle SW" }
+bombtargets_Range5={"R5 bombing circle NW", "R5 bombing circle SW","R5 Bombing circle SE" }
 
 -- Create a range object.
 Range5=RANGE:New("Range 5")
