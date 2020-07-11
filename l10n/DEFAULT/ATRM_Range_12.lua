@@ -817,3 +817,18 @@ local menu_ON_DEMAND_4_MISC_SA13_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn S
 local menu_ON_DEMAND_4_MISC_SA19_vehicle_R12 = MENU_MISSION_COMMAND:New("Spawn SA19 Vehicle",spawn_menu_OD_MISC_R12,_ON_DEMAND_4_MISC_SA19_vehicle_R12)
 
 
+local function range_12_AR_rotary ()
+  range_12_AR_rotary_menu:Remove()
+  SPAWN:New("R12_SEAD_Recce_1"):Spawn()
+  SPAWN:New("R12_SEAD_SAM_1"):Spawn()
+  SPAWN:New("R12_SEAD_SAM_2"):Spawn()
+  SPAWN:New("R12_SEAD_SAM_3"):Spawn()
+  SPAWN:New("R12_SEAD_ARMOR_1"):Spawn()
+  SPAWN:New("R12_SEAD_ARMOR_2"):Spawn()
+end
+range_12_AR_rotary_menu = MENU_MISSION_COMMAND:New("Activate Rotary SEAD scenario Range 12 Western Coast",range_12_menu_root,range_12_AR_rotary)
+
+
+
+
+
