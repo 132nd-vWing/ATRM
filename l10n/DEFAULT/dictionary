@@ -8848,6 +8848,9 @@ END OF FIREMISSION",
     ["DictKey_WptName_9349"] = "",
     ["DictKey_WptName_9350"] = "",
     ["DictKey_WptName_9357"] = "",
+    ["DictKey_WptName_9361"] = "",
+    ["DictKey_WptName_9362"] = "",
+    ["DictKey_WptName_9363"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
