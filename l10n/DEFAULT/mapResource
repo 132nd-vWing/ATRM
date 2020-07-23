@@ -24,7 +24,7 @@ mapResource =
     ["ResKey_Action_9353"] = "Moose.lua",
     ["ResKey_Action_9354"] = "ATRM_Range_12.lua",
     ["ResKey_Action_9371"] = "ATRM_MISC.lua",
-    ["ResKey_Action_9377"] = "ATRM_NavyGroups.lua",
+    ["ResKey_Action_9378"] = "ATRM_NavyGroups.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource
