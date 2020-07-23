@@ -1378,7 +1378,7 @@ END OF FIREMISSION",
     ["DictKey_GroupName_6258"] = "New Ship Group #001",
     ["DictKey_GroupName_6271"] = "New Ship Group",
     ["DictKey_GroupName_6285"] = "New Ship Group #001",
-    ["DictKey_GroupName_6298"] = "Tawara",
+    ["DictKey_GroupName_6298"] = "Tarawa",
     ["DictKey_GroupName_6312"] = "Merchant",
     ["DictKey_GroupName_6338"] = "New Airplane Group",
     ["DictKey_GroupName_6359"] = "Radio Relay ATIS #001",
@@ -8851,6 +8851,8 @@ END OF FIREMISSION",
     ["DictKey_WptName_9361"] = "",
     ["DictKey_WptName_9362"] = "",
     ["DictKey_WptName_9363"] = "",
+    ["DictKey_WptName_9367"] = "",
+    ["DictKey_WptName_9368"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
