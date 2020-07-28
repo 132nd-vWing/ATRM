@@ -4,13 +4,27 @@ carrier_root_menu = MENU_MISSION:New("Navy Groups")
 CVN73 = NAVYGROUP:New("CVN-73")
 CVN73:SetPatrolAdInfinitum()
 CVN73:SetOptionROE(4)
+CVN_73_beacon_unit = UNIT:FindByName("CVN-73")
+if CVN_73_beacon_unit then
+  CVN73_Beacon = CVN_73_beacon_unit:GetBeacon()
+  CVN73_Beacon:ActivateICLS(13,"C73")
+  env.info("CVN73 ICLS started on channel 13")
+end
+
+SCHEDULER:New(nil,function()
+  if CVN_73_beacon_unit then
+    CVN73_Beacon = CVN_73_beacon_unit:GetBeacon()
+    CVN73_Beacon:ActivateTACAN(73,"X","C73",true)
+    env.info("CVN73 beacon and Tacan refreshed")
+  end
+end,{},5,120)
 
 function start_recovery()
   if CVN73:IsSteamingIntoWind() == true then
     MessageToAll("CVN-73 is currently recovering, recovery window closes at time "..timerecovery_end)
   else
     local timenow=timer.getAbsTime( )
-    local timeend=timenow+90*60
+    local timeend=timenow+45*60
     local timerecovery_start = UTILS.SecondsToClock(timenow,true)
     timerecovery_end = UTILS.SecondsToClock(timeend,true)
     CVN73:AddTurnIntoWind(timerecovery_start,timerecovery_end,25,true,-9)
