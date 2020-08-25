@@ -20,11 +20,11 @@ mapResource =
     ["ResKey_Action_8179"] = "ATRM_Range_10.lua",
     ["ResKey_Action_8727"] = "mist_4_3_74.lua",
     ["ResKey_Action_8750"] = "ATRM_Basic Ranges.lua",
-    ["ResKey_Action_8865"] = "ATRM_Range_15.lua",
-    ["ResKey_Action_9353"] = "Moose.lua",
     ["ResKey_Action_9354"] = "ATRM_Range_12.lua",
     ["ResKey_Action_9371"] = "ATRM_MISC.lua",
     ["ResKey_Action_9385"] = "ATRM_NavyGroups.lua",
+    ["ResKey_Action_9402"] = "Moose.lua",
+    ["ResKey_Action_9404"] = "ATRM_Range_15.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource
