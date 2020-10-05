@@ -3,13 +3,15 @@ carrier_root_menu = MENU_MISSION:New("Navy Groups")
 --- CVN73 Supercarrier ---
 CVN73 = NAVYGROUP:New("CVN-73")
 CVN73:SetPatrolAdInfinitum()
-CVN73:SetOptionROE(4)
+CVN73:SetDefaultROE(ENUMS.ROE.WeaponHold)
 CVN_73_beacon_unit = UNIT:FindByName("CVN-73")
 if CVN_73_beacon_unit then
   CVN73_Beacon = CVN_73_beacon_unit:GetBeacon()
   CVN73_Beacon:ActivateICLS(13,"C73")
   env.info("CVN73 ICLS started on channel 13")
 end
+
+
 
 SCHEDULER:New(nil,function()
   if CVN_73_beacon_unit then
@@ -38,7 +40,7 @@ menu_start_recovery = MENU_MISSION_COMMAND:New("Start Recovery at CVN73",carrier
 --- CVN71 Red Supercarrier ---
 CVN71 = NAVYGROUP:New("CVN71_Theodore Roosevelt")
 CVN71:SetPatrolAdInfinitum()
-CVN71:SetOptionROE(4)
+CVN71:SetDefaultROE(ENUMS.ROE.WeaponHold)
 CVN_71_beacon_unit = UNIT:FindByName("CVN71_Theodore Roosevelt")
 if CVN_71_beacon_unit then
   CVN71_Beacon = CVN_71_beacon_unit:GetBeacon()
@@ -76,7 +78,7 @@ menu_start_recovery_71 = MENU_MISSION_COMMAND:New("Start Recovery at CVN71 (Red 
 --- LHA-1 Tarawa and merchant ships ---
 tarawa = NAVYGROUP:New("Tarawa")
 tarawa:SetPatrolAdInfinitum()
-tarawa:SetOptionROE(4)
+tarawa:SetDefaultROE(ENUMS.ROE.WeaponHold)
 merchant = NAVYGROUP:New("Merchant")
 merchant:SetPatrolAdInfinitum()
 merchant:SetOptionROE(4)
