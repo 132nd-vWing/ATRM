@@ -142,15 +142,16 @@ function Sam_Footprints()
 end
 
 function InactiveThreadSites(ActiveThreatSites, SamtoRemove)
-  for i,SamtoRemove in ipairs(ActiveThreatSites)
+  for i,Samname in pairs(ActiveThreatSites)
   do
-    if SamtoRemove == SamtoRemove
+    if Samname == SamtoRemove
     then
       table.remove(ActiveThreatSites,i)
       env.info(SamtoRemove.." with index "..i.." removed from ActiveThreatSites")
     end
   end
 end
+
 
 
 
