@@ -21,7 +21,6 @@ mapResource =
     ["ResKey_Action_8750"] = "ATRM_Basic Ranges.lua",
     ["ResKey_Action_9371"] = "ATRM_MISC.lua",
     ["ResKey_Action_9404"] = "ATRM_Range_15.lua",
-    ["ResKey_Action_9438"] = "Moose.lua",
     ["ResKey_Action_9441"] = "ATRM_NavyGroups.lua",
     ["ResKey_Action_9444"] = "ATRM_Range_2.lua",
     ["ResKey_Action_9445"] = "ATRM_Range_12.lua",
@@ -30,6 +29,7 @@ mapResource =
     ["ResKey_Action_9448"] = "radio_sound.wav",
     ["ResKey_Action_9449"] = "radio_sound.wav",
     ["ResKey_Action_9450"] = "radio_sound.wav",
+    ["ResKey_Action_9451"] = "Moose.lua",
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
 } -- end of mapResource
