@@ -32,4 +32,6 @@ mapResource =
     ["ResKey_ImageBriefing_1"] = "DefaultRed20181208220652.png",
     ["ResKey_ImageBriefing_2"] = "Default20181208220652.png",
     ["ResKey_advancedFile_9641"] = "beacon.ogg",
+    ["ResKey_advancedFile_9651"] = "beacon.ogg",
+    ["ResKey_advancedFile_9665"] = "beacon.ogg",
 } -- end of mapResource
