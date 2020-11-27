@@ -1,5 +1,6 @@
 dictionary = 
 {
+    ["DictKey_ActionComment_9924"] = "",
     ["DictKey_ActionText_1920"] = "",
     ["DictKey_ActionText_1923"] = "",
     ["DictKey_ActionText_2086"] = "",
@@ -54,6 +55,186 @@ LAST ROUND IS NOW ON GROUND\
 \
 END OF FIREMISSION",
     ["DictKey_ActionText_8176"] = "",
+    ["DictKey_ActionText_9754"] = "\
+***GFC briefing***\
+\
+The enemy has launched an assault against our border.\
+The border is running parallel to MSR GREEN about 2nm to the EAST\
+The border crossing outpost in the junction of MSR GREEN / MSR YELLOW houses only a skeleton combat crew of 2xM1 ABRAMs and 2x M2 BRADLEYs currently in defensive position.\
+A reinforcement is due to arrive from the SOUTH along MSR GREEN.\
+\
+JTAC is a MANPAD unit at N24 35.268 / E056 01.475\
+\
+Enemy force is estimated at 1+ mechanized company attacking from the NORTH from the LOW HILLS area.\
+\
+Our outpost took some artillery fire. POO (Point Of Origin) estimated at NORTH, 3nm from the outpost.\
+\
+GFC intent for CAS is as follows:\
+1) Provide information on enemy forces in the area:  Look for possible ENY recon/ artillery observers on ROCKY MOUNTAINS and possible enemy reinforcements arriving from the EAST.\
+2) Hold off enemy offensive until friendly reinforcement are taking positions.\
+3) Degrade enemy combat/control capabilities by targeting the following (by priorities):\
+a. MBTs\
+b. ARTY\
+c. C2\
+d. IFVs\
+e. APCs\
+\
+GFC initials ALPHA BRAVO\
+\
+T1 and T2 are approved per JTAC discretion\
+T3 approved only 1 nm or more NORTH of MSR YELLOW\
+\
+",
+    ["DictKey_ActionText_9755"] = "FLAG 111 ON",
+    ["DictKey_ActionText_9756"] = "\
+***GFC briefing***\
+\
+The enemy has launched an assault against our border.\
+The border is running parallel to MSR GREEN about 2nm to the EAST\
+The border crossing outpost in the junction of MSR GREEN / MSR YELLOW houses only a skeleton combat crew of 2xM1 ABRAMs and 2x M2 BRADLEYs currently in defensive position.\
+A reinforcement is due to arrive from the SOUTH along MSR GREEN.\
+\
+JTAC is a MANPAD unit at N24 35.268 / E056 01.475\
+\
+Enemy force is estimated at 1+ mechanized company attacking from the NORTH from the LOW HILLS area.\
+\
+Our outpost took some artillery fire. POO (Point Of Origin) estimated at NORTH, 3nm from the outpost.\
+\
+GFC intent for CAS is as follows:\
+1) Provide information on enemy forces in the area:  Look for possible ENY recon/ artillery observers on ROCKY MOUNTAINS and possible enemy reinforcements arriving from the EAST.\
+2) Hold off enemy offensive until friendly reinforcement are taking positions.\
+3) Degrade enemy combat/control capabilities by targeting the following (by priorities):\
+a. MBTs\
+b. ARTY\
+c. C2\
+d. IFVs\
+e. APCs\
+\
+GFC initials ALPHA BRAVO\
+\
+T1 and T2 are approved per JTAC discretion\
+T3 approved only 1 nm or more NORTH of MSR YELLOW\
+\
+",
+    ["DictKey_ActionText_9757"] = "",
+    ["DictKey_ActionText_9758"] = "\
+***GFC briefing***\
+\
+SITUATION:\
+Our forces are launching an offensive into the enemy territory to the NORTH.\
+\
+FLOT (Forward Line of Own Troops) is between grids A6 and D6\
+\
+JTAC position is N24 37.850 / E055 57.440 elev 2339ft.\
+\
+Friendly task force consist of two platoons of M1 ABRAMs and M2 BRADLEYs deployed around grid A5\
+Battle plan is to proceed NORTH along road GREEN and seize tactically important areas.\
+Friendly artillery support located grid F2 (PALADIN 155mm, MaxOrd 15000ft). Artillery is under direct control of JTAC.\
+\
+Known enemy opposition consists of a armored and mechanized units.\
+\
+GFC intents for CAS is to attrit the enemy force by at least 50%. Priority targets are MBTs, RECON, IFVs and C2s\
+\
+Plan is to commence our offensive after the CAS effort began its attack on enemy units in the area.\
+\
+RESTRICTIONS:\
+T3 is only approved until friendly units begin their advance. Once they start moving only T1 and T2 are approved",
+    ["DictKey_ActionText_9923"] = "",
+    ["DictKey_ActionText_9925"] = "",
+    ["DictKey_ActionText_9926"] = "\
+***GFC briefing***\
+\
+SITUATION:\
+Our forces are launching an offensive into the enemy territory to the NORTH.\
+\
+FLOT (Forward Line of Own Troops) is between grids A6 and D6\
+\
+JTAC position is N24 37.850 / E055 57.440 elev 2339ft.\
+\
+Friendly task force consist of two platoons of M1 ABRAMs and M2 BRADLEYs deployed around grid A5\
+Battle plan is to proceed NORTH along road GREEN and seize tactically important areas.\
+Friendly artillery support located grid F2 (PALADIN 155mm, MaxOrd 15000ft). Artillery is under direct control of JTAC.\
+\
+Known enemy opposition consists of a armored and mechanized units.\
+\
+GFC intents for CAS is to attrit the enemy force by at least 50%. Priority targets are MBTs, RECON, IFVs and C2s\
+\
+Plan is to commence our offensive after the CAS effort began its attack on enemy units in the area.\
+\
+RESTRICTIONS:\
+T3 is only approved until friendly units begin their advance. Once they start moving only T1 and T2 are approved",
+    ["DictKey_ActionText_9927"] = "\
+***GFC briefing***\
+\
+SITUATION:\
+Our forces are launching an offensive into the enemy territory to the NORTH.\
+\
+FLOT (Forward Line of Own Troops) is between grids A6 and D6\
+\
+JTAC position is N24 37.850 / E055 57.440 elev 2339ft.\
+\
+Friendly task force consist of two platoons of M1 ABRAMs and M2 BRADLEYs deployed around grid A5\
+Battle plan is to proceed NORTH along road GREEN and seize tactically important areas.\
+Friendly artillery support located grid F2 (PALADIN 155mm, MaxOrd 15000ft). Artillery is under direct control of JTAC.\
+\
+Known enemy opposition consists of a armored and mechanized units.\
+\
+GFC intents for CAS is to attrit the enemy force by at least 50%. Priority targets are MBTs, RECON, IFVs and C2s\
+\
+Plan is to commence our offensive after the CAS effort began its attack on enemy units in the area.\
+\
+RESTRICTIONS:\
+T3 is only approved until friendly units begin their advance. Once they start moving only T1 and T2 are approved",
+    ["DictKey_ActionText_9928"] = "***GFC briefing***\
+\
+SITUATION:\
+Our forces are launching an offensive into the enemy territory to the NORTH.\
+\
+FLOT (Forward Line of Own Troops) is between grids A6 and D6\
+\
+JTAC position is N24 37.850 / E055 57.440 elev 2339ft.\
+\
+Friendly task force consist of two platoons of M1 ABRAMs and M2 BRADLEYs deployed around grid A5\
+Battle plan is to proceed NORTH along road GREEN and seize tactically important areas.\
+Friendly artillery support located grid F2 (PALADIN 155mm, MaxOrd 15000ft). Artillery is under direct control of JTAC.\
+\
+Known enemy opposition consists of a armored and mechanized units.\
+\
+GFC intents for CAS is to attrit the enemy force by at least 50%. Priority targets are MBTs, RECON, IFVs and C2s\
+\
+Plan is to commence our offensive after the CAS effort began its attack on enemy units in the area.\
+\
+RESTRICTIONS:\
+T3 is only approved until friendly units begin their advance. Once they start moving only T1 and T2 are approved",
+    ["DictKey_ActionText_9929"] = "***GFC briefing***\
+\
+The enemy has launched an assault against our border.\
+The border is running parallel to MSR GREEN about 2nm to the EAST\
+The border crossing outpost in the junction of MSR GREEN / MSR YELLOW houses only a skeleton combat crew of 2xM1 ABRAMs and 2x M2 BRADLEYs currently in defensive position.\
+A reinforcement is due to arrive from the SOUTH along MSR GREEN.\
+\
+JTAC is a MANPAD unit at N24 35.268 / E056 01.475\
+\
+Enemy force is estimated at 1+ mechanized company attacking from the NORTH from the LOW HILLS area.\
+\
+Our outpost took some artillery fire. POO (Point Of Origin) estimated at NORTH, 3nm from the outpost.\
+\
+GFC intent for CAS is as follows:\
+1) Provide information on enemy forces in the area:  Look for possible ENY recon/ artillery observers on ROCKY MOUNTAINS and possible enemy reinforcements arriving from the EAST.\
+2) Hold off enemy offensive until friendly reinforcement are taking positions.\
+3) Degrade enemy combat/control capabilities by targeting the following (by priorities):\
+a. MBTs\
+b. ARTY\
+c. C2\
+d. IFVs\
+e. APCs\
+\
+GFC initials ALPHA BRAVO\
+\
+T1 and T2 are approved per JTAC discretion\
+T3 approved only 1 nm or more NORTH of MSR YELLOW\
+\
+",
     ["DictKey_GroupName_1"] = "CVN71_Theodore Roosevelt",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
@@ -2002,6 +2183,54 @@ END OF FIREMISSION",
     ["DictKey_GroupName_9655"] = "",
     ["DictKey_GroupName_9658"] = "",
     ["DictKey_GroupName_9661"] = "R6_MovingTGT_4_Terrain-1",
+    ["DictKey_GroupName_9672"] = "R14_Preset_1_red-1",
+    ["DictKey_GroupName_9682"] = "R14_Preset_1_red-2",
+    ["DictKey_GroupName_9687"] = "R14_Preset_1_red-3",
+    ["DictKey_GroupName_9693"] = "R14_Preset_1_red-4",
+    ["DictKey_GroupName_9699"] = "R14_Preset_1_red-5",
+    ["DictKey_GroupName_9705"] = "R14_Preset_1_red-7",
+    ["DictKey_GroupName_9711"] = "R14_Preset_1_red-6",
+    ["DictKey_GroupName_9718"] = "R14_Preset_1_red-8",
+    ["DictKey_GroupName_9724"] = "R14_Preset_1_red-9",
+    ["DictKey_GroupName_9730"] = "R14_Preset_1_red-10",
+    ["DictKey_GroupName_9733"] = "R14_Preset_1_red-11",
+    ["DictKey_GroupName_9737"] = "R14_Preset_1_blue-1",
+    ["DictKey_GroupName_9743"] = "R14_Preset_1_blue-2",
+    ["DictKey_GroupName_9750"] = "R14_Preset_1_JTAC",
+    ["DictKey_GroupName_9759"] = "R14_Preset_2_blue-1",
+    ["DictKey_GroupName_9764"] = "R14_Preset_2_JTAC",
+    ["DictKey_GroupName_9768"] = "R14_Preset_2_blue-2",
+    ["DictKey_GroupName_9773"] = "R14_Preset_2_blue-3",
+    ["DictKey_GroupName_9778"] = "R14_Preset_2_blue-ARTY-1",
+    ["DictKey_GroupName_9783"] = "R14_Preset_2_red-14",
+    ["DictKey_GroupName_9789"] = "R14_Preset_2_red-11",
+    ["DictKey_GroupName_9793"] = "R14_Preset_2_blue-1",
+    ["DictKey_GroupName_9798"] = "R14_Preset_2_JTAC",
+    ["DictKey_GroupName_9802"] = "R14_Preset_2_blue-2",
+    ["DictKey_GroupName_9807"] = "R14_Preset_2_blue-3",
+    ["DictKey_GroupName_9812"] = "R14_Preset_2_blue-ARTY-1",
+    ["DictKey_GroupName_9817"] = "R14_Preset_2_red-14",
+    ["DictKey_GroupName_9823"] = "R14_Preset_2_red-11",
+    ["DictKey_GroupName_9827"] = "REMOVE!!!-1",
+    ["DictKey_GroupName_9830"] = "R14_Preset_2_blue-1",
+    ["DictKey_GroupName_9835"] = "R14_Preset_2_JTAC",
+    ["DictKey_GroupName_9839"] = "R14_Preset_2_blue-2",
+    ["DictKey_GroupName_9844"] = "R14_Preset_2_blue-3",
+    ["DictKey_GroupName_9849"] = "R14_Preset_2_blue-ARTY-1",
+    ["DictKey_GroupName_9854"] = "R14_Preset_2_red-1",
+    ["DictKey_GroupName_9858"] = "R14_Preset_2_red-4",
+    ["DictKey_GroupName_9864"] = "R14_Preset_2_red-5",
+    ["DictKey_GroupName_9870"] = "R14_Preset_2_red-6",
+    ["DictKey_GroupName_9877"] = "R14_Preset_2_red-7",
+    ["DictKey_GroupName_9881"] = "R14_Preset_2_red-2",
+    ["DictKey_GroupName_9885"] = "R14_Preset_2_red-3",
+    ["DictKey_GroupName_9889"] = "R14_Preset_2_red-8",
+    ["DictKey_GroupName_9895"] = "R14_Preset_2_red-13",
+    ["DictKey_GroupName_9899"] = "R14_Preset_2_red-9",
+    ["DictKey_GroupName_9903"] = "R14_Preset_2_red-10",
+    ["DictKey_GroupName_9907"] = "R14_Preset_2_red-11",
+    ["DictKey_GroupName_9911"] = "R14_Preset_2_red-12",
+    ["DictKey_GroupName_9918"] = "R14_Preset_2_red-11",
     ["DictKey_UnitName_2"] = "CVN71_Theodore Roosevelt",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -5557,6 +5786,153 @@ END OF FIREMISSION",
     ["DictKey_UnitName_9656"] = "",
     ["DictKey_UnitName_9659"] = "",
     ["DictKey_UnitName_9662"] = "R6_MovingTGT_4_Terrain-1-1",
+    ["DictKey_UnitName_9673"] = "R14_Preset_1_red-1-8",
+    ["DictKey_UnitName_9674"] = "R14_Preset_1_red-1-7",
+    ["DictKey_UnitName_9675"] = "R14_Preset_1_red-1-6",
+    ["DictKey_UnitName_9676"] = "R14_Preset_1_red-1-5",
+    ["DictKey_UnitName_9677"] = "R14_Preset_1_red-1-4",
+    ["DictKey_UnitName_9678"] = "R14_Preset_1_red-1-3",
+    ["DictKey_UnitName_9679"] = "R14_Preset_1_red-1-2",
+    ["DictKey_UnitName_9680"] = "R14_Preset_1_red-1-1",
+    ["DictKey_UnitName_9683"] = "R14_Preset_1_red-2-3",
+    ["DictKey_UnitName_9684"] = "R14_Preset_1_red-2-2",
+    ["DictKey_UnitName_9685"] = "R14_Preset_1_red-2-1",
+    ["DictKey_UnitName_9688"] = "R14_Preset_1_red-3-4",
+    ["DictKey_UnitName_9689"] = "R14_Preset_1_red-3-3",
+    ["DictKey_UnitName_9690"] = "R14_Preset_1_red-3-2",
+    ["DictKey_UnitName_9691"] = "R14_Preset_1_red-3-1",
+    ["DictKey_UnitName_9694"] = "R14_Preset_1_red-4-4",
+    ["DictKey_UnitName_9695"] = "R14_Preset_1_red-4-3",
+    ["DictKey_UnitName_9696"] = "R14_Preset_1_red-4-2",
+    ["DictKey_UnitName_9697"] = "R14_Preset_1_red-4-1",
+    ["DictKey_UnitName_9700"] = "R14_Preset_1_red-5-4",
+    ["DictKey_UnitName_9701"] = "R14_Preset_1_red-5-3",
+    ["DictKey_UnitName_9702"] = "R14_Preset_1_red-5-2",
+    ["DictKey_UnitName_9703"] = "R14_Preset_1_red-5-1",
+    ["DictKey_UnitName_9706"] = "R14_Preset_1_red-7-4",
+    ["DictKey_UnitName_9707"] = "R14_Preset_1_red-7-3",
+    ["DictKey_UnitName_9708"] = "R14_Preset_1_red-7-2",
+    ["DictKey_UnitName_9709"] = "R14_Preset_1_red-7-1",
+    ["DictKey_UnitName_9712"] = "R14_Preset_1_red-6-4",
+    ["DictKey_UnitName_9713"] = "R14_Preset_1_red-6-3",
+    ["DictKey_UnitName_9714"] = "R14_Preset_1_red-6-2",
+    ["DictKey_UnitName_9715"] = "R14_Preset_1_red-6-1",
+    ["DictKey_UnitName_9719"] = "R14_Preset_1_red-8-4",
+    ["DictKey_UnitName_9720"] = "R14_Preset_1_red-8-3",
+    ["DictKey_UnitName_9721"] = "R14_Preset_1_red-8-2",
+    ["DictKey_UnitName_9722"] = "R14_Preset_1_red-8-1",
+    ["DictKey_UnitName_9725"] = "R14_Preset_1_red-9-4",
+    ["DictKey_UnitName_9726"] = "R14_Preset_1_red-9-3",
+    ["DictKey_UnitName_9727"] = "R14_Preset_1_red-9-2",
+    ["DictKey_UnitName_9728"] = "R14_Preset_1_red-9-1",
+    ["DictKey_UnitName_9731"] = "R14_Preset_1_red-10-1",
+    ["DictKey_UnitName_9734"] = "R14_Preset_1_red-11-2",
+    ["DictKey_UnitName_9735"] = "R14_Preset_1_red-11-1",
+    ["DictKey_UnitName_9738"] = "R14_Preset_1_blue-1-4",
+    ["DictKey_UnitName_9739"] = "R14_Preset_1_blue-1-3",
+    ["DictKey_UnitName_9740"] = "R14_Preset_1_blue-1-2",
+    ["DictKey_UnitName_9741"] = "R14_Preset_1_blue-1-1",
+    ["DictKey_UnitName_9744"] = "R14_Preset_1_blue-2-4",
+    ["DictKey_UnitName_9745"] = "R14_Preset_1_blue-2-3",
+    ["DictKey_UnitName_9746"] = "R14_Preset_1_blue-2-2",
+    ["DictKey_UnitName_9747"] = "R14_Preset_1_blue-2-1",
+    ["DictKey_UnitName_9751"] = "R14_Preset_1_JTAC-2",
+    ["DictKey_UnitName_9752"] = "R14_Preset_1_JTAC-1",
+    ["DictKey_UnitName_9760"] = "R14_Preset_2_blue-1-3",
+    ["DictKey_UnitName_9761"] = "R14_Preset_2_blue-1-2",
+    ["DictKey_UnitName_9762"] = "R14_Preset_2_blue-1-1",
+    ["DictKey_UnitName_9765"] = "R14_Preset_2_JTAC-2",
+    ["DictKey_UnitName_9766"] = "R14_Preset_2_JTAC-1",
+    ["DictKey_UnitName_9769"] = "R14_Preset_2_blue-2-3",
+    ["DictKey_UnitName_9770"] = "R14_Preset_2_blue-2-2",
+    ["DictKey_UnitName_9771"] = "R14_Preset_2_blue-2-1",
+    ["DictKey_UnitName_9774"] = "R14_Preset_2_blue-3-3",
+    ["DictKey_UnitName_9775"] = "R14_Preset_2_blue-3-2",
+    ["DictKey_UnitName_9776"] = "R14_Preset_2_blue-3-1",
+    ["DictKey_UnitName_9779"] = "R14_Preset_2_blue-ARTY-1-3",
+    ["DictKey_UnitName_9780"] = "R14_Preset_2_blue-ARTY-1-2",
+    ["DictKey_UnitName_9781"] = "R14_Preset_2_blue-ARTY-1-1",
+    ["DictKey_UnitName_9784"] = "R14_Preset_2_red-14-4",
+    ["DictKey_UnitName_9785"] = "R14_Preset_2_red-14-3",
+    ["DictKey_UnitName_9786"] = "R14_Preset_2_red-14-2",
+    ["DictKey_UnitName_9787"] = "R14_Preset_2_red-14-1",
+    ["DictKey_UnitName_9790"] = "R14_Preset_2_red-11-2",
+    ["DictKey_UnitName_9791"] = "R14_Preset_2_red-11-1",
+    ["DictKey_UnitName_9794"] = "R14_Preset_2_blue-1-3",
+    ["DictKey_UnitName_9795"] = "R14_Preset_2_blue-1-2",
+    ["DictKey_UnitName_9796"] = "R14_Preset_2_blue-1-1",
+    ["DictKey_UnitName_9799"] = "R14_Preset_2_JTAC-2",
+    ["DictKey_UnitName_9800"] = "R14_Preset_2_JTAC-1",
+    ["DictKey_UnitName_9803"] = "R14_Preset_2_blue-2-3",
+    ["DictKey_UnitName_9804"] = "R14_Preset_2_blue-2-2",
+    ["DictKey_UnitName_9805"] = "R14_Preset_2_blue-2-1",
+    ["DictKey_UnitName_9808"] = "R14_Preset_2_blue-3-3",
+    ["DictKey_UnitName_9809"] = "R14_Preset_2_blue-3-2",
+    ["DictKey_UnitName_9810"] = "R14_Preset_2_blue-3-1",
+    ["DictKey_UnitName_9813"] = "R14_Preset_2_blue-ARTY-1-3",
+    ["DictKey_UnitName_9814"] = "R14_Preset_2_blue-ARTY-1-2",
+    ["DictKey_UnitName_9815"] = "R14_Preset_2_blue-ARTY-1-1",
+    ["DictKey_UnitName_9818"] = "R14_Preset_2_red-14-4",
+    ["DictKey_UnitName_9819"] = "R14_Preset_2_red-14-3",
+    ["DictKey_UnitName_9820"] = "R14_Preset_2_red-14-2",
+    ["DictKey_UnitName_9821"] = "R14_Preset_2_red-14-1",
+    ["DictKey_UnitName_9824"] = "R14_Preset_2_red-11-2",
+    ["DictKey_UnitName_9825"] = "R14_Preset_2_red-11-1",
+    ["DictKey_UnitName_9828"] = "REMOVE!!!-1-1",
+    ["DictKey_UnitName_9831"] = "R14_Preset_2_blue-1-3",
+    ["DictKey_UnitName_9832"] = "R14_Preset_2_blue-1-2",
+    ["DictKey_UnitName_9833"] = "R14_Preset_2_blue-1-1",
+    ["DictKey_UnitName_9836"] = "R14_Preset_2_JTAC-2",
+    ["DictKey_UnitName_9837"] = "R14_Preset_2_JTAC-1",
+    ["DictKey_UnitName_9840"] = "R14_Preset_2_blue-2-3",
+    ["DictKey_UnitName_9841"] = "R14_Preset_2_blue-2-2",
+    ["DictKey_UnitName_9842"] = "R14_Preset_2_blue-2-1",
+    ["DictKey_UnitName_9845"] = "R14_Preset_2_blue-3-3",
+    ["DictKey_UnitName_9846"] = "R14_Preset_2_blue-3-2",
+    ["DictKey_UnitName_9847"] = "R14_Preset_2_blue-3-1",
+    ["DictKey_UnitName_9850"] = "R14_Preset_2_blue-ARTY-1-3",
+    ["DictKey_UnitName_9851"] = "R14_Preset_2_blue-ARTY-1-2",
+    ["DictKey_UnitName_9852"] = "R14_Preset_2_blue-ARTY-1-1",
+    ["DictKey_UnitName_9855"] = "R14_Preset_2_red-1-2",
+    ["DictKey_UnitName_9856"] = "R14_Preset_2_red-1-1",
+    ["DictKey_UnitName_9859"] = "R14_Preset_2_red-4-4",
+    ["DictKey_UnitName_9860"] = "R14_Preset_2_red-4-3",
+    ["DictKey_UnitName_9861"] = "R14_Preset_2_red-4-2",
+    ["DictKey_UnitName_9862"] = "R14_Preset_2_red-4-1",
+    ["DictKey_UnitName_9865"] = "R14_Preset_2_red-5-4",
+    ["DictKey_UnitName_9866"] = "R14_Preset_2_red-5-3",
+    ["DictKey_UnitName_9867"] = "R14_Preset_2_red-5-2",
+    ["DictKey_UnitName_9868"] = "R14_Preset_2_red-5-1",
+    ["DictKey_UnitName_9871"] = "R14_Preset_2_red-6-5",
+    ["DictKey_UnitName_9872"] = "R14_Preset_2_red-6-4",
+    ["DictKey_UnitName_9873"] = "R14_Preset_2_red-6-3",
+    ["DictKey_UnitName_9874"] = "R14_Preset_2_red-6-2",
+    ["DictKey_UnitName_9875"] = "R14_Preset_2_red-6-1",
+    ["DictKey_UnitName_9878"] = "R14_Preset_2_red-7-2",
+    ["DictKey_UnitName_9879"] = "R14_Preset_2_red-7-1",
+    ["DictKey_UnitName_9882"] = "R14_Preset_2_red-2-2",
+    ["DictKey_UnitName_9883"] = "R14_Preset_2_red-2-1",
+    ["DictKey_UnitName_9886"] = "R14_Preset_2_red-3-2",
+    ["DictKey_UnitName_9887"] = "R14_Preset_2_red-3-1",
+    ["DictKey_UnitName_9890"] = "R14_Preset_2_red-8-4",
+    ["DictKey_UnitName_9891"] = "R14_Preset_2_red-8-3",
+    ["DictKey_UnitName_9892"] = "R14_Preset_2_red-8-2",
+    ["DictKey_UnitName_9893"] = "R14_Preset_2_red-8-1",
+    ["DictKey_UnitName_9896"] = "R14_Preset_2_red-13-2",
+    ["DictKey_UnitName_9897"] = "R14_Preset_2_red-13-1",
+    ["DictKey_UnitName_9900"] = "R14_Preset_2_red-9-2",
+    ["DictKey_UnitName_9901"] = "R14_Preset_2_red-9-1",
+    ["DictKey_UnitName_9904"] = "R14_Preset_2_red-10-2",
+    ["DictKey_UnitName_9905"] = "R14_Preset_2_red-10-1",
+    ["DictKey_UnitName_9908"] = "R14_Preset_2_red-11-2",
+    ["DictKey_UnitName_9909"] = "R14_Preset_2_red-11-1",
+    ["DictKey_UnitName_9912"] = "R14_Preset_2_red-12-5",
+    ["DictKey_UnitName_9913"] = "R14_Preset_2_red-12-4",
+    ["DictKey_UnitName_9914"] = "R14_Preset_2_red-12-3",
+    ["DictKey_UnitName_9915"] = "R14_Preset_2_red-12-2",
+    ["DictKey_UnitName_9916"] = "R14_Preset_2_red-12-1",
+    ["DictKey_UnitName_9919"] = "R14_Preset_2_red-11-1",
+    ["DictKey_UnitName_9920"] = "R14_Preset_2_red-11-2",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -9114,6 +9490,57 @@ END OF FIREMISSION",
     ["DictKey_WptName_9669"] = "",
     ["DictKey_WptName_9670"] = "",
     ["DictKey_WptName_9671"] = "",
+    ["DictKey_WptName_9681"] = "",
+    ["DictKey_WptName_9686"] = "",
+    ["DictKey_WptName_9692"] = "",
+    ["DictKey_WptName_9698"] = "",
+    ["DictKey_WptName_9704"] = "",
+    ["DictKey_WptName_9710"] = "",
+    ["DictKey_WptName_9716"] = "",
+    ["DictKey_WptName_9717"] = "",
+    ["DictKey_WptName_9723"] = "",
+    ["DictKey_WptName_9729"] = "",
+    ["DictKey_WptName_9732"] = "",
+    ["DictKey_WptName_9736"] = "",
+    ["DictKey_WptName_9742"] = "",
+    ["DictKey_WptName_9748"] = "",
+    ["DictKey_WptName_9749"] = "",
+    ["DictKey_WptName_9753"] = "",
+    ["DictKey_WptName_9763"] = "",
+    ["DictKey_WptName_9767"] = "",
+    ["DictKey_WptName_9772"] = "",
+    ["DictKey_WptName_9777"] = "",
+    ["DictKey_WptName_9782"] = "",
+    ["DictKey_WptName_9788"] = "",
+    ["DictKey_WptName_9792"] = "",
+    ["DictKey_WptName_9797"] = "",
+    ["DictKey_WptName_9801"] = "",
+    ["DictKey_WptName_9806"] = "",
+    ["DictKey_WptName_9811"] = "",
+    ["DictKey_WptName_9816"] = "",
+    ["DictKey_WptName_9822"] = "",
+    ["DictKey_WptName_9826"] = "",
+    ["DictKey_WptName_9829"] = "",
+    ["DictKey_WptName_9834"] = "",
+    ["DictKey_WptName_9838"] = "",
+    ["DictKey_WptName_9843"] = "",
+    ["DictKey_WptName_9848"] = "",
+    ["DictKey_WptName_9853"] = "",
+    ["DictKey_WptName_9857"] = "",
+    ["DictKey_WptName_9863"] = "",
+    ["DictKey_WptName_9869"] = "",
+    ["DictKey_WptName_9876"] = "",
+    ["DictKey_WptName_9880"] = "",
+    ["DictKey_WptName_9884"] = "",
+    ["DictKey_WptName_9888"] = "",
+    ["DictKey_WptName_9894"] = "",
+    ["DictKey_WptName_9898"] = "",
+    ["DictKey_WptName_9902"] = "",
+    ["DictKey_WptName_9906"] = "",
+    ["DictKey_WptName_9910"] = "",
+    ["DictKey_WptName_9917"] = "",
+    ["DictKey_WptName_9921"] = "",
+    ["DictKey_WptName_9922"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
