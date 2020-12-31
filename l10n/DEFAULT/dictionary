@@ -2250,6 +2250,7 @@ T3 approved only 1 nm or more NORTH of MSR YELLOW\
     ["DictKey_GroupName_9985"] = "F/A-18 park Washington #2",
     ["DictKey_GroupName_9988"] = "F/A-18 park Washington #3",
     ["DictKey_GroupName_9991"] = "F/A-18 park Washington #4",
+    ["DictKey_GroupName_9994"] = "Static AS32-31A-1",
     ["DictKey_UnitName_2"] = "CVN71_Theodore Roosevelt",
     ["DictKey_UnitName_5"] = "",
     ["DictKey_UnitName_7"] = "Pilot #001",
@@ -5971,6 +5972,7 @@ T3 approved only 1 nm or more NORTH of MSR YELLOW\
     ["DictKey_UnitName_9986"] = "F/A-18 park Washington #2",
     ["DictKey_UnitName_9989"] = "F/A-18 park Washington #3",
     ["DictKey_UnitName_9992"] = "F/A-18 park Washington #4",
+    ["DictKey_UnitName_9995"] = "",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
@@ -9599,6 +9601,7 @@ T3 approved only 1 nm or more NORTH of MSR YELLOW\
     ["DictKey_WptName_9987"] = "",
     ["DictKey_WptName_9990"] = "",
     ["DictKey_WptName_9993"] = "",
+    ["DictKey_WptName_9996"] = "",
     ["DictKey_descriptionBlueTask_3"] = "AWACS BLUE\
 MAGIC: Freq:305.0, FL400\
 DARKSTAR: Freq: 306.9, FL390\
