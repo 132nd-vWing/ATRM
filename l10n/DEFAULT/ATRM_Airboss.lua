@@ -44,6 +44,8 @@ Washington:SetICLS(13,"C73")
 Washington:SetMaxMarshalStacks(6)
 Washington:SetWelcomePlayers(false)
 Washington:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
+Washington:SetPatrolAdInfinitum(true)
+Washington:SetMaxSectionSize(4)
 
 
 ---- Create AIRBOSS object.
@@ -86,11 +88,11 @@ Washington:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carr
 Washington:SetDespawnOnEngineShutdown()
 ---Nimitz:SetDespawnOnEngineShutdown()
 
-Washington:SetMaxFlightsPerStack(4)
+Washington:SetMaxFlightsPerStack(1)
 ---Nimitz:SetMaxFlightsPerStack(1)
 
 -- Skipper menu.
-Washington:SetMenuRecovery(90)
+Washington:SetMenuRecovery(90,25)
 ---Nimitz:SetMenuRecovery(90)
 
 
