@@ -5973,6 +5973,7 @@ T3 approved only 1 nm or more NORTH of MSR YELLOW\
     ["DictKey_UnitName_9989"] = "F/A-18 park Washington #3",
     ["DictKey_UnitName_9992"] = "F/A-18 park Washington #4",
     ["DictKey_UnitName_9995"] = "",
+    ["DictKey_UnitName_10000"] = "MI-8 Washington-1",
     ["DictKey_WptName_3"] = "",
     ["DictKey_WptName_6"] = "",
     ["DictKey_WptName_8"] = "",
