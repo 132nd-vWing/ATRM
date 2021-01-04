@@ -79,11 +79,11 @@ Washington:SetSoundfilesFolder("Airboss Soundfiles/")
 
 
 -- Load all saved player grades from your "Saved Games\DCS" folder (if lfs was desanitized).
-Washington:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
----Nimitz:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
+Washington:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
+---Nimitz:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
 
-Washington:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
----Nimitz:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta","132nd_Carrier_Landing_Stats.csv")
+Washington:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
+---Nimitz:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
 
 Washington:SetDespawnOnEngineShutdown()
 ---Nimitz:SetDespawnOnEngineShutdown()
