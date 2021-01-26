@@ -179,7 +179,7 @@ MessageToAll("R14 CAS scenario 1 activated")
 end
 
 local function range14_flag112()
-trigger.action.setUserFlag(111, true )
+trigger.action.setUserFlag(112, true )
 range_14_menu_flag111:Remove()
 range_14_menu_flag112:Remove()
 range_14_menu_flag111_112:Remove()
