@@ -237,6 +237,7 @@ T3 approved only 1 nm or more NORTH of MSR YELLOW\
 ",
     ["DictKey_ActionText_10391"] = "",
     ["DictKey_ActionText_10485"] = "***R14 Basic CAS scenario is activated***",
+    ["DictKey_ActionText_10496"] = "",
     ["DictKey_GroupName_1"] = "CVN71_Theodore Roosevelt",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",

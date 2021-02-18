@@ -10,13 +10,13 @@ tanker:SetRespawnInAir()
 
 
 
----- S-3B Recovery Tanker spawning in air.
---local tanker2=RECOVERYTANKER:New("CVN68_NIMITZ", "CVN68_NIMITZ_Tanker#IFF:5322")
---tanker2:SetTakeoffAir()
---tanker2:SetRadio(143.5)
---tanker2:SetModex(512)
---tanker2:SetTACAN(65, "C68")
---tanker2:SetRespawnInAir()
+-- S-3B Recovery Tanker spawning in air.
+tanker2=RECOVERYTANKER:New("CVN71_Theodore Roosevelt", "CVN68_NIMITZ_Tanker#IFF:5322")
+tanker2:SetTakeoffAir()
+tanker2:SetRadio(143.5)
+tanker2:SetModex(512)
+tanker2:SetTACAN(65, "C68")
+tanker2:SetRespawnInAir()
 
 
 -- Rescue Helo ((needs to be global))
@@ -26,17 +26,17 @@ rescuehelo:SetModex(42)
 rescuehelo:SetRespawnInAir()
 
 
----local rescuehelo2=RESCUEHELO:New("CVN68_NIMITZ", "CVN68_NIMITZ_Rescue #IFF:5324")
----rescuehelo:SetTakeoffAir()
----rescuehelo2:SetModex(43)
----rescuehelo:SetRespawnInAir()
+local rescuehelo2=RESCUEHELO:New("CVN71_Theodore Roosevelt", "CVN68_NIMITZ_Rescue #IFF:5324")
+rescuehelo:SetTakeoffAir()
+rescuehelo2:SetModex(43)
+rescuehelo:SetRespawnInAir()
 
 
 
 
 -- Create AIRBOSS object.
 Washington=AIRBOSS:New("CVN-73")
-Washington:_InitNimitz()
+Washington:_InitNimitz() -- configures for Supercarrier
 Washington:SetLSORadio(309.1)
 Washington:SetMarshalRadio(309.9)
 Washington:SetTACAN(73,X,"C73")
@@ -48,12 +48,18 @@ Washington:SetPatrolAdInfinitum(true)
 Washington:SetMaxSectionSize(4)
 
 
----- Create AIRBOSS object.
---local Nimitz=AIRBOSS:New("CVN68_NIMITZ")
---Nimitz:SetLSORadio(310.5)
---Nimitz:SetMarshalRadio(310.9)
---Nimitz:SetTACAN(68,X,NIM)
---Nimitz:SetICLS(2,NIM)
+-- Create AIRBOSS object.
+Nimitz=AIRBOSS:New("CVN71_Theodore Roosevelt")
+Nimitz:_InitNimitz() -- configures for Supercarrier
+Nimitz:SetLSORadio(310.5)
+Nimitz:SetMarshalRadio(310.9)
+Nimitz:SetTACAN(68,X,NIM)
+Nimitz:SetICLS(2,NIM)
+Nimitz:SetMaxMarshalStacks(6)
+Nimitz:SetWelcomePlayers(false)
+Nimitz:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
+Nimitz:SetPatrolAdInfinitum(true)
+Nimitz:SetMaxSectionSize(4)
 
 ---- Add recovery windows:
 ---- Case I from 9 to 10 am.
@@ -75,25 +81,25 @@ Washington:SetMaxSectionSize(4)
 
 -- Set folder of airboss sound files within miz file.
 Washington:SetSoundfilesFolder("Airboss Soundfiles/")
----Nimitz:SetSoundfilesFolder("Airboss Soundfiles/")
+Nimitz:SetSoundfilesFolder("Airboss Soundfiles/")
 
 
 -- Load all saved player grades from your "Saved Games\DCS" folder (if lfs was desanitized).
 Washington:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
----Nimitz:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
+Nimitz:Load("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
 
 Washington:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
----Nimitz:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
+Nimitz:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_Carrier_Landing_Stats.csv")
 
 Washington:SetDespawnOnEngineShutdown()
----Nimitz:SetDespawnOnEngineShutdown()
+Nimitz:SetDespawnOnEngineShutdown()
 
 Washington:SetMaxFlightsPerStack(1)
----Nimitz:SetMaxFlightsPerStack(1)
+Nimitz:SetMaxFlightsPerStack(1)
 
 -- Skipper menu.
 Washington:SetMenuRecovery(90,25)
----Nimitz:SetMenuRecovery(90)
+Nimitz:SetMenuRecovery(90,25)
 
 
 function Washington:OnAfterRecoveryStart(From,Event,To,Case,Offset)
@@ -101,25 +107,25 @@ tanker:__Start(3)
 rescuehelo:__Start(4)
 end
 
---function Nimitz:onafterRecoveryStart(From,Event,To,Case,Offset)
---tanker2:__Start(3)
---rescuehelo2:__Start(4)
---end
+function Nimitz:onafterRecoveryStart(From,Event,To,Case,Offset)
+tanker2:__Start(3)
+rescuehelo2:__Start(4)
+end
 
 function Washington:onafterRecoveryStop(From,Event,To)
 tanker:__Stop(3)
 rescuehelo:__Stop(4)
 end
 
---function Nimitz:onafterRecoveryStart(From,Event,To,Case,Offset)
---tanker2:__Stop(3)
---rescuehelo2:__Stop(4)
---end
+function Nimitz:onafterRecoveryStart(From,Event,To,Case,Offset)
+tanker2:__Stop(3)
+rescuehelo2:__Stop(4)
+end
 
 
 -- Start airboss class.
 Washington:Start()
---Nimitz:Start()
+Nimitz:Start()
 
 
 
@@ -129,21 +135,21 @@ function tanker:OnAfterStart(From,Event,To)
   Washington:SetRadioRelayLSO(self:GetUnitName())
 end
 
---function tanker2:OnAfterStart(From,Event,To)
---  Nimitz:SetRecoveryTanker(tanker2)
---  Nimitz:SetRadioRelayLSO(self:GetUnitName())
---end
+function tanker2:OnAfterStart(From,Event,To)
+  Nimitz:SetRecoveryTanker(tanker2)
+  Nimitz:SetRadioRelayLSO(self:GetUnitName())
+end
 
 ----- Function called when rescue helo is started.
 function rescuehelo:OnAfterStart(From,Event,To)
   Washington:SetRadioRelayMarshal(self:GetUnitName())
   env.info("Marshal Radio Relay set")
 end
---
---function rescuehelo2:OnAfterStart(From,Event,To)
---  Nimitz:SetRadioRelayMarshal(self:GetUnitName())
---end
---
+
+function rescuehelo2:OnAfterStart(From,Event,To)
+  Nimitz:SetRadioRelayMarshal(self:GetUnitName())
+end
+
 
 
 
