@@ -45,7 +45,7 @@ Washington:SetMaxMarshalStacks(6)
 Washington:SetWelcomePlayers(false)
 Washington:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
 Washington:SetPatrolAdInfinitum(true)
-Washington:SetMaxSectionSize(4)
+Washington:SetMaxSectionSize(1)
 
 
 -- Create AIRBOSS object.
@@ -53,13 +53,13 @@ Nimitz=AIRBOSS:New("CVN71_Theodore Roosevelt")
 Nimitz:_InitNimitz() -- configures for Supercarrier
 Nimitz:SetLSORadio(310.5)
 Nimitz:SetMarshalRadio(310.9)
-Nimitz:SetTACAN(68,X,NIM)
-Nimitz:SetICLS(2,NIM)
+Nimitz:SetTACAN(71,X,"C73")
+Nimitz:SetICLS(11,"C73")
 Nimitz:SetMaxMarshalStacks(6)
 Nimitz:SetWelcomePlayers(false)
 Nimitz:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
 Nimitz:SetPatrolAdInfinitum(true)
-Nimitz:SetMaxSectionSize(4)
+Nimitz:SetMaxSectionSize(1)
 
 ---- Add recovery windows:
 ---- Case I from 9 to 10 am.
