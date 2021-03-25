@@ -45,7 +45,8 @@ Washington:SetMaxMarshalStacks(6)
 Washington:SetWelcomePlayers(false)
 Washington:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
 Washington:SetPatrolAdInfinitum(true)
-Washington:SetMaxSectionSize(1)
+Washington:SetMaxSectionSize(4)
+Washington:SetMaxFlightsPerStack(1)
 
 
 -- Create AIRBOSS object.
@@ -53,29 +54,14 @@ Nimitz=AIRBOSS:New("CVN71_Theodore Roosevelt")
 Nimitz:_InitNimitz() -- configures for Supercarrier
 Nimitz:SetLSORadio(310.5)
 Nimitz:SetMarshalRadio(310.9)
-Nimitz:SetTACAN(71,X,"C73")
-Nimitz:SetICLS(11,"C73")
+Nimitz:SetTACAN(71,X,"C71")
+Nimitz:SetICLS(11,"C71")
 Nimitz:SetMaxMarshalStacks(6)
 Nimitz:SetWelcomePlayers(false)
 Nimitz:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
 Nimitz:SetPatrolAdInfinitum(true)
-Nimitz:SetMaxSectionSize(1)
-
----- Add recovery windows:
----- Case I from 9 to 10 am.
---local window1=Washington:AddRecoveryWindow( "9:00", "10:00", 1, nil, true, 25)
----- Case II with +15 degrees holding offset from 15:00 for 60 min.
---local window2=Washington:AddRecoveryWindow("15:00", "16:00", 2,  15, true, 23)
----- Case III with +30 degrees holding offset from 2100 to 2200.
---local window3=Washington:AddRecoveryWindow("21:00", "22:00", 3,  30, true, 21)
---
----- Add recovery windows:
----- Case I from 9 to 10 am.
---local window1=Nimitz:AddRecoveryWindow( "9:00", "10:00", 1, nil, true, 25)
----- Case II with +15 degrees holding offset from 15:00 for 60 min.
---local window2=Nimitz:AddRecoveryWindow("15:00", "16:00", 2,  15, true, 23)
----- Case III with +30 degrees holding offset from 2100 to 2200.
---local window3=Nimitz:AddRecoveryWindow("21:00", "22:00", 3,  30, true, 21)
+Nimitz:SetMaxSectionSize(4)
+Nimitz:SetMaxFlightsPerStack(1)
 
 
 
@@ -94,8 +80,7 @@ Nimitz:SetAutoSave("C:\\Users\\132nd\\Saved Games\\DCS.openbeta_server","132nd_C
 Washington:SetDespawnOnEngineShutdown()
 Nimitz:SetDespawnOnEngineShutdown()
 
-Washington:SetMaxFlightsPerStack(1)
-Nimitz:SetMaxFlightsPerStack(1)
+
 
 -- Skipper menu.
 Washington:SetMenuRecovery(90,25)
