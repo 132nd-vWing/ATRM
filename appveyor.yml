@@ -1,4 +1,4 @@
-version: 2.5.7.{build}
+version: 2.5.8.000 {build}
 skip_branch_with_pr: true
 skip_tags: false
 environment:
