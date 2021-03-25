@@ -1,6 +1,6 @@
-version: 2.5.8.000{build}
+version: 2.5.8{build}
 skip_branch_with_pr: true
-skip_tags: false
+skip_tags: true
 environment:
   fast_finish: true
 install:
