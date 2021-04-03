@@ -52,7 +52,7 @@ Washington:SetMaxFlightsPerStack(1)
 -- Create AIRBOSS object.
 Nimitz=AIRBOSS:New("CVN71_Theodore Roosevelt")
 Nimitz:_InitNimitz() -- configures for Supercarrier
-Nimitz:SetLSORadio(310.5)
+Nimitz:SetLSORadio(310.1)
 Nimitz:SetMarshalRadio(310.9)
 Nimitz:SetTACAN(71,X,"C71")
 Nimitz:SetICLS(11,"C71")
