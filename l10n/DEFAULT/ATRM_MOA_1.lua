@@ -2,7 +2,8 @@ local Moa1_Migs = {}
 local zoneCAP=ZONE_POLYGON:NewFromGroupName("MOA1_patrolzone")
 local zoneOrbit=ZONE_POLYGON:NewFromGroupName("MOA1_Orbit_Zone")
 local mission_racetrack=AUFTRAG:NewORBIT_RACETRACK(zoneOrbit:GetRandomCoordinate(), 26000, 400, 90, 20)
-local mig29 = SPAWN:New("redair_moa1_mig29")
+local mig29 = SPAWN:New("redair_moa1_mig29_2xship")
+local mig29_2 =  SPAWN:New("redair_moa1_mig29_4xship")
 
 
 local function flightgroupMiG(group)
@@ -37,7 +38,13 @@ local function moa_1_SpawnMigs_active()
   mig29:Spawn()
 end
 
-moa_1_menu_Migs_spawn = MENU_MISSION_COMMAND:New("Spawn Red Mig29 in MOA 1",moa_root_menu,moa_1_SpawnMigs_active)
+local function moa_1_SpawnMigs_active2()
+  mig29_2:OnSpawnGroup(flightgroupMiG)
+  mig29_2:Spawn()
+end
+
+moa_1_menu_Migs_spawn = MENU_MISSION_COMMAND:New("Spawn 2-ship Red Mig29 in MOA 1",moa_root_menu,moa_1_SpawnMigs_active)
+moa_1_menu_Migs_spawn_2 = MENU_MISSION_COMMAND:New("Spawn 4-ship Red Mig29 in MOA 1",moa_root_menu,moa_1_SpawnMigs_active2)
 moa_1_menu_Migs_destroy = MENU_MISSION_COMMAND:New("Destroy all Mig29s in MOA 1",moa_root_menu,destroyallmigs)
 
 
