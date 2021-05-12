@@ -47,6 +47,8 @@ Washington:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
 Washington:SetPatrolAdInfinitum(true)
 Washington:SetMaxSectionSize(4)
 Washington:SetMaxFlightsPerStack(1)
+Washington:SetRadioRelayLSO("Helo_Relay")
+Washington:SetRadioRelayMarshal("Tanker_Relay")
 
 
 -- Create AIRBOSS object.
@@ -62,6 +64,8 @@ Nimitz:SetDefaultPlayerSkill(AIRBOSS.Difficulty.Hard)
 Nimitz:SetPatrolAdInfinitum(true)
 Nimitz:SetMaxSectionSize(4)
 Nimitz:SetMaxFlightsPerStack(1)
+Nimitz:SetRadioRelayLSO("Helo_Relay2")
+Nimitz:SetRadioRelayMarshal("Tanker_Relay2")
 
 
 
@@ -117,22 +121,22 @@ Nimitz:Start()
 --- Function called when recovery tanker is started.
 function tanker:OnAfterStart(From,Event,To)
   Washington:SetRecoveryTanker(tanker)
-  Washington:SetRadioRelayLSO(self:GetUnitName())
+  --Washington:SetRadioRelayLSO(self:GetUnitName())
 end
 
 function tanker2:OnAfterStart(From,Event,To)
   Nimitz:SetRecoveryTanker(tanker2)
-  Nimitz:SetRadioRelayLSO(self:GetUnitName())
+  --Nimitz:SetRadioRelayLSO(self:GetUnitName())
 end
 
 ----- Function called when rescue helo is started.
 function rescuehelo:OnAfterStart(From,Event,To)
-  Washington:SetRadioRelayMarshal(self:GetUnitName())
-  env.info("Marshal Radio Relay set")
+  --Washington:SetRadioRelayMarshal(self:GetUnitName())
+  --env.info("Marshal Radio Relay set")
 end
 
 function rescuehelo2:OnAfterStart(From,Event,To)
-  Nimitz:SetRadioRelayMarshal(self:GetUnitName())
+  --Nimitz:SetRadioRelayMarshal(self:GetUnitName())
 end
 
 
