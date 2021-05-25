@@ -339,7 +339,6 @@ tanker12_menu_spawn:Remove()
 end
 tanker12_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR203",tanker_menu_blue1,tanker12spawn)
 
-
 function tanker13spawn()
 tanker13 = SPAWN:New("SHELL AR 305 #IFF:5317FR")
 tanker13_menu_spawn:Remove()
@@ -369,4 +368,30 @@ tanker13_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR305",tanker_
 
 
 
+function tanker14spawn()
+tanker14 = SPAWN:New("ARCO AR 204 #IFF:5323FR")
+tanker14_menu_spawn:Remove()
+  tanker14:OnSpawnGroup(
+    function (tanker14_group)
+      tanker14_unit_fuel_scheduler = SCHEDULER:New(nil,function ()
+        tanker14_unit = tanker14_group:GetUnit(1)
+        if tanker14_unit
+        then
+          tanker14_unit_fuel = tanker14_unit:GetFuel()
+          if tanker14_unit_fuel <= 0.3
+          then
+            tanker14_group:ClearTasks()
+            tanker14_unit_fuel_scheduler:Stop()
+            env.info(tanker14_group:GetName().." is low on fuel and RTBing")
+            tanker14spawn()
+          end
+        else
+          tanker14_unit_fuel_scheduler:Stop()
+          tanker14spawn()
+        end 
+      end
+      ,{},5,300)
+    end):Spawn()
+end
+tanker14_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue TANKER AR204",tanker_menu_blue1,tanker14spawn)
 
