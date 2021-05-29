@@ -212,7 +212,7 @@ range_14_menu_flag111_112:Remove()
 end
 end
 
-range_14_menu_flag111 = MENU_MISSION_COMMAND:New("Activate Range-14 preset CAS scenario 1",range_14_menu_root,range14_flag111)
-range_14_menu_flag112 = MENU_MISSION_COMMAND:New("Activate Range-14 preset CAS scenario 2",range_14_menu_root,range14_flag112)
-range_14_menu_flag113 = MENU_MISSION_COMMAND:New("Activate Range-14 basic CAS scenario",range_14_menu_root,range14_flag113)
-range_14_menu_flag111_112 = MENU_MISSION_COMMAND:New("Activate Range-14 preset CAS scenario randomly",range_14_menu_root,range14_flag_111_112)
+range_14_menu_flag111 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 1",range_14_menu_root,range14_flag111)
+range_14_menu_flag112 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 2",range_14_menu_root,range14_flag112)
+range_14_menu_flag113 = MENU_MISSION_COMMAND:New("Activate R14 basic CAS scenario",range_14_menu_root,range14_flag113)
+range_14_menu_flag111_112 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario randomly",range_14_menu_root,range14_flag_111_112)
