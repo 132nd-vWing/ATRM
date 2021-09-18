@@ -1,11 +1,15 @@
 Elint_blue = HoundElint:create(coalition.side.BLUE)
 Elint_blue:systemOn()
 
+function HoundElint:notifyDeadEmitter(emitter) 
+  return
+end
+
 controller_args = {
             freq = 310.000,
             modulation = "AM",
             volume = "1.0",
-            name = "SCULLY", -- For ATIS this will be used in the opening line
+            name = "SCULLY", 
             gender = "female",
             culture = "en-UK" -- (any installed on your system)
 }
@@ -13,11 +17,13 @@ controller_args = {
 atis_args = {
         freq = 315.000,
         modulation = "AM",
-        name = "VACUUM",
-        reportEWR = false,
+        name = "MULDER", -- For ATIS this will be used in the opening line
+        gender = "male",
+        reportEWR = true,
         NATO = true
 }
 
+HoundElint:disableMarkers()
 Elint_blue:configureController(controller_args)
 Elint_blue:enableController()
 Elint_blue:configureAtis(atis_args)
