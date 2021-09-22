@@ -1,5 +1,6 @@
 -- ELINT --
 function elint1spawn()
+  Elint_blue:enableController()
   elint1 = SPAWN:New("ELINT1 #IFF:5411FR")
   elint1:OnSpawnGroup(
     function (elint1_group)
@@ -25,7 +26,7 @@ function elint1spawn()
       ,{},5,300)
     end):Spawn()
 end
-elint1_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue ELINT SCULLY",elint_menu_elint1,elint1spawn)
+elint1_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue ELINT VACUUM",elint_menu_elint1,elint1spawn)
 
 function elint2spawn()
   elint2 = SPAWN:New("ELINT2 #IFF:5412FR")
@@ -54,4 +55,4 @@ function elint2spawn()
       ,{},5,300)
     end):Spawn()
 end
-elint2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue ELINT MULDER",elint_menu_elint2,elint2spawn)
+elint2_menu_spawn = MENU_MISSION_COMMAND:New("Spawn Blue ELINT VULCAN",elint_menu_elint2,elint2spawn)
