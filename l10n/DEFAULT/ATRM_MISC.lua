@@ -1,6 +1,6 @@
 _SETTINGS:SetPlayerMenuOff()
 
-awacs_root_menu = MENU_MISSION:New("AWACS and TANKER Control")
+awacs_root_menu = MENU_MISSION:New("AWACS TANKER and ELINT Control")
 range_root_menu = MENU_MISSION:New("RANGE Control")
 RANGE.MenuF10Root=MENU_MISSION:New("Basic Ranges",range_root_menu).MenuPath
 range_root_menu1_6 = MENU_MISSION:New("RANGES 1-6",range_root_menu)
@@ -10,11 +10,13 @@ moa_root_menu = MENU_MISSION:New("MOAs")
 
 awacs_menu = MENU_MISSION:New("AWACS Control", awacs_root_menu )
 tanker_menu = MENU_MISSION:New("TANKER Control", awacs_root_menu )
+elint_menu = MENU_MISSION:New("ELINT Control", awacs_root_menu )
+elint_menu_elint1 = MENU_MISSION:New("VACUUM", elint_menu )
+elint_menu_elint2 = MENU_MISSION:New("VULCAN", elint_menu )
 tanker_menu_blue = MENU_MISSION:New("BLUE TANKER Control", tanker_menu )
 tanker_menu_blue1 = MENU_MISSION:New("AR 10X - 20X", tanker_menu_blue )
 tanker_menu_blue2 = MENU_MISSION:New("AR 30X", tanker_menu_blue )
 tanker_menu_red = MENU_MISSION:New("RED TANKER Control", tanker_menu )
-
 range_root_menu_misc = MENU_MISSION:New("Miscellaneous ")
 
 --- FOX script (replaces Missiletrainer)
