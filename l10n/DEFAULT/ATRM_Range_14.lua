@@ -174,6 +174,7 @@ local function range14_flag111()
 range_14_menu_flag111:Remove()
 range_14_menu_flag112:Remove()
 range_14_menu_flag111_112:Remove()
+range_14_menu_flag116:Remove()
 trigger.action.setUserFlag(111, true )
 MessageToAll("R14 CAS scenario 1 activated")
 end
@@ -183,6 +184,7 @@ trigger.action.setUserFlag(112, true )
 range_14_menu_flag111:Remove()
 range_14_menu_flag112:Remove()
 range_14_menu_flag113:Remove()
+range_14_menu_flag116:Remove()
 range_14_menu_flag111_112:Remove()
 MessageToAll("R14 CAS scenario 2 activated")
 end
@@ -192,8 +194,19 @@ trigger.action.setUserFlag(113, true )
 range_14_menu_flag111:Remove()
 range_14_menu_flag112:Remove()
 range_14_menu_flag113:Remove()
+range_14_menu_flag116:Remove()
 range_14_menu_flag111_112:Remove()
 MessageToAll("R14 CAS scenario 2 activated")
+end
+
+
+local function range14_flag116()
+trigger.action.setUserFlag(116, true )
+range_14_menu_flag111:Remove()
+range_14_menu_flag112:Remove()
+range_14_menu_flag113:Remove()
+range_14_menu_flag111_112:Remove()
+MessageToAll("R14 CAS scenario 3 activated")
 end
 
 local function range14_flag_111_112()
@@ -202,17 +215,21 @@ trigger.action.setUserFlag(111, true )
 range_14_menu_flag111:Remove()
 range_14_menu_flag112:Remove()
 range_14_menu_flag113:Remove()
+range_14_menu_flag116:Remove()
 range_14_menu_flag111_112:Remove()
 else
+
 trigger.action.setUserFlag(112, true )
 range_14_menu_flag111:Remove()
 range_14_menu_flag112:Remove()
 range_14_menu_flag113:Remove()
+range_14_menu_flag116:Remove()
 range_14_menu_flag111_112:Remove()
 end
 end
 
 range_14_menu_flag111 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 1",range_14_menu_root,range14_flag111)
 range_14_menu_flag112 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 2",range_14_menu_root,range14_flag112)
+range_14_menu_flag116 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 3",range_14_menu_root,range14_flag116)
 range_14_menu_flag113 = MENU_MISSION_COMMAND:New("Activate R14 basic CAS scenario",range_14_menu_root,range14_flag113)
 range_14_menu_flag111_112 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario randomly",range_14_menu_root,range14_flag_111_112)
