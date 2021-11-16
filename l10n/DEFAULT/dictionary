@@ -239,6 +239,44 @@ T3 approved only 1 nm or more NORTH of MSR YELLOW\
     ["DictKey_ActionText_10485"] = "***R14 Basic CAS scenario is activated***",
     ["DictKey_ActionText_10496"] = "",
     ["DictKey_ActionText_10819"] = "",
+    ["DictKey_ActionText_10824"] = "********\
+JTAC this is PREDATOR\
+We're done tearing down our equipment. Expecting to be on our way in three mikes!\
+*******",
+    ["DictKey_ActionText_10825"] = "*****\
+JTAC this is PREDATOR, on our way South!\
+*****",
+    ["DictKey_ActionText_10826"] = "R16 CAS PRESET SCENARIO #2 - GFC BRIEFING\
+\
+A friendly special operations (SOF) team callsign PREDATOR is located in a hostile village behind enemy lines.\
+PREDATOR was conducting SIGINT gathering when it has been compromised.\
+PREDATOR position is in a house at N24 47.640 / E056 08.485. PREDATOR has two HMMWV vehicles parked outside. They are currently working on tearing down their SIGINT gear and once ready they will use the two HMMWV to exfil the area towards the South.\
+\
+An enemy force consisting at least one motorized company has entered the region. PREDATOR reports intercepting transmissions about enemy infantry teams with RPGs deploying to the South of their position along with roadblocks deployed around their position. They also indicate of a mechanized force of at least one company inbound from the North-West\
+\
+JTAC position is on the ridge at N24 45.8 / E056 08.2\
+The FLOT is running East-West through the small village at N24 45.8 / E056 10.0\
+\
+With no friendly forces that are combat-capable, it is up to the CAS assets to ensure the safety of PREDATOR by:\
+1) Target any enemy forces closing in on VENOMs location\
+2) Ensure the exfil route for VENOM is cleared of any threats\
+",
+    ["DictKey_ActionText_10827"] = "",
+    ["DictKey_ActionText_10828"] = "RANGE 14 CAS PRESET SCENARIO #3 - GFC BRIEF\
+SITUATION\
+- A critical MSR running SW to NE is being used for resupplying our forces in the East coast. The road has been blocked by an enemy attack of commando team.\
+- The enemy commandos have seized a group of small villages around N24 39.0 / E056 07.0. The enemy has also seized adjacent vantage points and was able to close the road.\
+- A friendly resupply convoy traveling on that road came under attack and was destroyed.\
+- We've had contact with some survivors from the convoy who're still hiding close to the location of the ambush and are in critical condition\
+- A friendly QRF (Quick Reaction Force) callsign HAMMER is set to counterattack into the area, retake the villages and secure the survivors of the convoy.\
+HAMMER is staging at N24 36.9 / E056 04.0 and consists of an armored section , a mechanized platoon and a medical team on APCs- all Western type vehicles.  HAMMER is under control of the JTAC.\
+- JTAC location is N24 37.4 / E056 06.2\
+\
+GFC intent for CAS is\
+1) Get a positive position of the convoy's ambush location and locate the survivors\
+2) Evaluate enemy disposition \
+3) Destroy all threats to our QRF. Prioritize IFVs, ATGM squads and artillery assets\
+",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
     ["DictKey_GroupName_14"] = "New Vehicle Group #004",

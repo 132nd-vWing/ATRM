@@ -327,3 +327,12 @@ local menu_ON_DEMAND_4_MISC_MLRS_vehicle_R16 = MENU_MISSION_COMMAND:New("Spawn M
 local menu_ON_DEMAND_4_MISC_SA13_vehicle_R16 = MENU_MISSION_COMMAND:New("Spawn SA13 Vehicle",spawn_menu_OD_MISC_R16,_ON_DEMAND_4_MISC_SA13_vehicle_R16)
 local menu_ON_DEMAND_4_MISC_SA19_vehicle_R16 = MENU_MISSION_COMMAND:New("Spawn SA19 Vehicle",spawn_menu_OD_MISC_R16,_ON_DEMAND_4_MISC_SA19_vehicle_R16)
 
+-- Adding menu items for R16 CAS preset scenario 2
+
+local function range16_flag117()
+trigger.action.setUserFlag(117, true )
+MessageToAll("R16 CAS scenario 2 activated")
+end
+
+
+range_16_menu_flag117 = MENU_MISSION_COMMAND:New("Activate R16 preset CAS scenario 2",range_16_menu_root,range16_flag117)
