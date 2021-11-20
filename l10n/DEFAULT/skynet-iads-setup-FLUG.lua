@@ -1,6 +1,7 @@
 do
+
 --create an instance of the IADS
-redIADSA = SkynetIADS:create(FLUG)
+redIADS = SkynetIADS:create(FLUG)
 
 
 ---debug settings remove from here on if you do not wan't any output on what the IADS is doing by default
