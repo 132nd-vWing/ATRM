@@ -1,6 +1,6 @@
 do
 --create an instance of the IADS
-redIADSA = SkynetIADS:create()
+redIADSA = SkynetIADS:create(FLUG)
 
 
 --add all units with unit name beginning with 'EW' to the IADS:
@@ -20,7 +20,8 @@ local sa15 = redIADS:getSAMSiteByGroupName('IADSA_SA15_PD_2')
 redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- activate the IADS -test-
-redIADSA:activate()	
+--redIADSA:activate()	
+redIADS:setupSAMSitesAndThenActivate()
 
 
 end
