@@ -60,7 +60,18 @@ range_15_menu_AR_Mahdah = MENU_MISSION_COMMAND:New("Range 15 AR Attack on Mahdah
 local function range15_flag114()
 trigger.action.setUserFlag(114, true )
 range_15_menu_flag115:Remove()
+range_15_menu_flag120:Remove()
 MessageToAll("R15 CAS scenario 1 activated")
 end
 
+
+--R15 CAS PRESET 2--
+local function range15_flag120()
+trigger.action.setUserFlag(120, true )
+range_15_menu_flag115:Remove() 
+range_15_menu_flag120:Remove() 
+MessageToAll("R15 CAS scenario 2 activated")
+end
+
 range_15_menu_flag111 = MENU_MISSION_COMMAND:New("Activate R15 preset CAS scenario 1",range_15_menu_root,range15_flag114)
+range_15_menu_flag120 = MENU_MISSION_COMMAND:New("Activate R15 preset CAS scenario 2",range_15_menu_root,range15_flag120)
