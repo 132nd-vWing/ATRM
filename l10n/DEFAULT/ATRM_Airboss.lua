@@ -96,17 +96,17 @@ tanker:__Start(3)
 rescuehelo:__Start(4)
 end
 
-function Nimitz:onafterRecoveryStart(From,Event,To,Case,Offset)
+function Nimitz:OnAfterRecoveryStart(From,Event,To,Case,Offset)
 tanker2:__Start(3)
 rescuehelo2:__Start(4)
 end
 
-function Washington:onafterRecoveryStop(From,Event,To)
+function Washington:OnAfterRecoveryStop(From,Event,To)
 tanker:__Stop(3)
 rescuehelo:__Stop(4)
 end
 
-function Nimitz:onafterRecoveryStart(From,Event,To,Case,Offset)
+function Nimitz:OnAfterRecoveryStop(From,Event,To,Case,Offset)
 tanker2:__Stop(3)
 rescuehelo2:__Stop(4)
 end
