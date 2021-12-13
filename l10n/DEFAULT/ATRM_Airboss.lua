@@ -1,7 +1,7 @@
 AIRBOSS.MenuF10Root=MENU_MISSION:New("Carrier Control").MenuPath
 
 -- S-3B Recovery Tanker spawning in air.
-tanker=RECOVERYTANKER:New("CVN-73", "CVN73_Tanker#IFF:5321FR")
+tanker=RECOVERYTANKER:New("CVN-73", "CVN73_Tanker#IFF:5327FR")
 tanker:SetTakeoffAir()
 tanker:SetRadio(142.5)
 tanker:SetModex(511)
@@ -11,7 +11,7 @@ tanker:SetRespawnInAir()
 
 
 -- S-3B Recovery Tanker spawning in air.
-tanker2=RECOVERYTANKER:New("CVN71_Theodore Roosevelt", "CVN68_NIMITZ_Tanker#IFF:5322")
+tanker2=RECOVERYTANKER:New("CVN71_Theodore Roosevelt", "CVN68_NIMITZ_Tanker#IFF:5328")
 tanker2:SetTakeoffAir()
 tanker2:SetRadio(143.5)
 tanker2:SetModex(512)
@@ -20,7 +20,7 @@ tanker2:SetRespawnInAir()
 
 
 -- Rescue Helo ((needs to be global))
-rescuehelo=RESCUEHELO:New("CVN-73", "CVN73_Rescue #IFF:5323FR")
+rescuehelo=RESCUEHELO:New("CVN-73", "CVN73_Rescue #IFF:5326FR")
 rescuehelo:SetTakeoffAir()
 rescuehelo:SetModex(42)
 rescuehelo:SetRespawnInAir()
