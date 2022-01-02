@@ -228,8 +228,20 @@ range_14_menu_flag111_112:Remove()
 end
 end
 
+
+local function range14_flag122()
+trigger.action.setUserFlag(122, true )
+range_14_menu_flag111:Remove()
+range_14_menu_flag112:Remove()
+range_14_menu_flag113:Remove()
+range_14_menu_flag116:Remove()
+range_14_menu_flag111_112:Remove()
+MessageToAll("R14 CAS scenario 4 activated")
+end
+
 range_14_menu_flag111 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 1",range_14_menu_root,range14_flag111)
 range_14_menu_flag112 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 2",range_14_menu_root,range14_flag112)
 range_14_menu_flag116 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 3",range_14_menu_root,range14_flag116)
 range_14_menu_flag113 = MENU_MISSION_COMMAND:New("Activate R14 basic CAS scenario",range_14_menu_root,range14_flag113)
+range_14_menu_flag122 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 4",range_14_menu_root,range14_flag122)
 range_14_menu_flag111_112 = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario randomly",range_14_menu_root,range14_flag_111_112)
