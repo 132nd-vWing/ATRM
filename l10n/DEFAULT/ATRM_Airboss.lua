@@ -49,6 +49,7 @@ Washington:SetMaxSectionSize(4)
 Washington:SetMaxFlightsPerStack(1)
 Washington:SetRadioRelayLSO("Helo_Relay")
 Washington:SetRadioRelayMarshal("Tanker_Relay")
+Washington:SetMPWireCorrection(15)
 
 
 -- Create AIRBOSS object.
@@ -66,6 +67,7 @@ Nimitz:SetMaxSectionSize(4)
 Nimitz:SetMaxFlightsPerStack(1)
 Nimitz:SetRadioRelayLSO("Helo_Relay2")
 Nimitz:SetRadioRelayMarshal("Tanker_Relay2")
+Nimitz:SetMPWireCorrection(15)
 
 
 
