@@ -24,7 +24,7 @@ redIADS:addEarlyWarningRadarsByPrefix('ADV_SCEN_1_SBORKA')
 --add all groups begining with group name 'IADS' to the IADS:
 redIADS:addSAMSitesByPrefix('ADV_SCEN_1_SAM')
 
-ewRadarOrSamSite:setAutonomousBehaviour(SkynetIADSAbstractRadarElement.AUTONOMOUS_STATE_DCS_AI)
+redIADS:ewRadarOrSamSite:setAutonomousBehaviour(SkynetIADSAbstractRadarElement.AUTONOMOUS_STATE_DCS_AI)
 
 --activate the radio menu to toggle IADS Status output
 redIADS:addRadioMenu()
