@@ -33,12 +33,12 @@ redIADS:getEarlyWarningRadarByUnitName('ADV_SCEN_1_SBORKA'):addPointDefence(sa15
 
 
 --set this SA-11 site to go live 70% of max range of its missiles (default value: 100%), its HARM detection probability is set to 50% (default value: 70%)
-redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_11_Battery'):setGoLiveRangeInPercent(80):setHARMDetectionChance(50)
+redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_11_Battery'):setGoLiveRangeInPercent(80)
 
-redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-1'):setGoLiveRangeInPercent(85):setHARMDetectionChance(90)
-redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-2'):setGoLiveRangeInPercent(85):setHARMDetectionChance(90)
-redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-3'):setGoLiveRangeInPercent(85):setHARMDetectionChance(90)
-redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-4'):setGoLiveRangeInPercent(85):setHARMDetectionChance(90)
+redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-1'):setGoLiveRangeInPercent(85)
+redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-2'):setGoLiveRangeInPercent(85
+redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-3'):setGoLiveRangeInPercent(85)
+redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_8-4'):setGoLiveRangeInPercent(85)
 
 
 -- activate the IADS 
