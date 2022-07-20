@@ -36,6 +36,6 @@ redIADS:getSAMSiteByGroupName('ADV_SCEN_1_SAM_SA_11_Battery'):setGoLiveRangeInPe
 
 
 -- activate the IADS 
-redIADSA:activate()	
+redIADS:activate()
 end
 

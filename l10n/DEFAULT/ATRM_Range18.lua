@@ -50,7 +50,6 @@ Range18_IADS:addEarlyWarningRadar('Range18_EWR#001-02')
 
 local commandCenter = StaticObject.getByName("Range 18 Command Center")
 Range18_IADS:addCommandCenter(commandCenter)
-Range18_IADS:setupSAMSitesAndThenActivate(60)
 
 --Range18_IADS:addRadioMenu()
 

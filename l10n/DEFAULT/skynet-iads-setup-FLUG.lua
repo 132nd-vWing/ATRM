@@ -30,8 +30,7 @@ redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectio
 redIADS:addSAMSite('Threatsite_6')
 
 -- activate the IADS 
---redIADSA:activate()	
-redIADS:setupSAMSitesAndThenActivate()
+redIADS:activate()
 
 
 end
