@@ -54,7 +54,7 @@ Range18_IADS:addCommandCenter(commandCenter)
 --Range18_IADS:addRadioMenu()
 
 local sa15 = Range18_IADS:getSAMSiteByGroupName('Range18 SAM PD#001')
-Range18_IADS:getSAMSiteByGroupName('Range18 SAM SA-10#001'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+Range18_IADS:getSAMSiteByGroupName('Range18 SAM SA-10#001'):addPointDefence(sa15):setHARMDetectionChance(100)
 
 Range18_IADS:activate()
 
