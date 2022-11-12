@@ -277,6 +277,7 @@ GFC intent for CAS is\
 2) Evaluate enemy disposition \
 3) Destroy all threats to our QRF. Prioritize IFVs, ATGM squads and artillery assets\
 ",
+    ["DictKey_ActionText_10868"] = "",
     ["DictKey_GroupName_4"] = "New Static Object",
     ["DictKey_GroupName_6"] = "New Airplane Group",
     ["DictKey_GroupName_14"] = "New Vehicle Group #004",
