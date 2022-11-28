@@ -23,6 +23,27 @@ fox=FOX:New()
 fox:SetExplosionDistance(20)
 fox:SetDisableF10Menu(true)
 fox:SetDefaultLaunchAlerts(false)
+
+-- Custom Fox handler for after missile destoryed
+function fox:OnAfterMissileDestroyed(From, Event, To, missile)
+  if missile.targetPlayer then
+
+	-- unit ID
+	local unit_id = missile.targetPlayer.unit:GetID()
+
+	-- I have disabled the text output in the main moose library as it doesn't allow you to disable notifications
+	--
+	-- If we update moose, and don't remember to disable it again, the worst case scenario, is we get two messages, the regular
+	-- group wide one, with silly message, and this one, standard and targeted.
+
+	local text=string.format("%s: You were hit, destroying missile", missile.targetPlayer.name)
+	MESSAGE:New(text, 10):ToGroup(missile.targetPlayer.group)
+
+	-- And our noise for those in VR, sent only to the player who was hit
+	trigger.action.outSoundForUnit(unit_id, 'missile_kill.ogg')
+  end
+end
+
 fox:Start()
 ---/Fox
 
