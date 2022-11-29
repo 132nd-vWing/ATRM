@@ -15,23 +15,22 @@ redIADS:addSAMSitesByPrefix('IADSA')
 
 -- POINT DEFENCE SA-2
 local sa15 = redIADS:getSAMSiteByGroupName('IADSA_SA15_PD_1')
-redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectionChance(100)
 
 
 local sa15 = redIADS:getSAMSiteByGroupName('IADSA_SA15_PD_2')
-redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectionChance(100)
 
 
 local sa15 = redIADS:getSAMSiteByGroupName('IADSA_SA15_PD_3')
-redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+redIADS:getSAMSiteByGroupName('IADSA_SA2'):addPointDefence(sa15):setHARMDetectionChance(100)
 
 
 --Add threat site 6 (SA-11) to IADS
 redIADS:addSAMSite('Threatsite_6')
 
 -- activate the IADS 
---redIADSA:activate()	
-redIADS:setupSAMSitesAndThenActivate()
+redIADS:activate()
 
 
 end
