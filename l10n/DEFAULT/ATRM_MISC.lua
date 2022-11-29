@@ -50,7 +50,11 @@ fox:Start()
 
 --- AlDafra SAM
 
-local AlDafraSam = SPAWN:New("AL_DAHFRA_PATRIOT"):Spawn()
+-- MartinCo: Commenting these out as AL_DAHFRA_PATRIOT was removed in c139629, rather
+-- than wait and see, I'll remove the errors now and ask if intentional and then this
+-- block can be removed
+
+-- local AlDafraSam = SPAWN:New("AL_DAHFRA_PATRIOT"):Spawn()
 
 function AlDafraSam_on()
   misc2:Remove()
@@ -67,8 +71,9 @@ function AlDafraSam_off()
     misc2 = MENU_MISSION_COMMAND:New("Activate AlDafra AirDefenses",range_root_menu_misc,AlDafraSam_on)
   end
 end
-misc1 = MENU_MISSION_COMMAND:New("Deactivate AlDafra AirDefenses",range_root_menu_misc,AlDafraSam_off)
-AlDafraSam_off()
+
+-- misc1 = MENU_MISSION_COMMAND:New("Deactivate AlDafra AirDefenses",range_root_menu_misc,AlDafraSam_off)
+-- AlDafraSam_off()
 --- /AlDafra SAM
 
 
