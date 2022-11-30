@@ -28,9 +28,6 @@ fox:SetDefaultLaunchAlerts(false)
 function fox:OnAfterMissileDestroyed(From, Event, To, missile)
   if missile.targetPlayer then
 
-	-- unit ID
-	local unit_id = missile.targetPlayer.unit:GetID()
-
 	-- I have disabled the text output in the main moose library as it doesn't allow you to disable notifications
 	--
 	-- If we update moose, and don't remember to disable it again, the worst case scenario, is we get two messages, the regular
@@ -39,8 +36,11 @@ function fox:OnAfterMissileDestroyed(From, Event, To, missile)
 	local text=string.format("%s: You were hit, destroying missile", missile.targetPlayer.name)
 	MESSAGE:New(text, 10):ToGroup(missile.targetPlayer.group)
 
-	-- And our noise for those in VR, sent only to the player who was hit
-	trigger.action.outSoundForUnit(unit_id, '132nd_Sounds/missile_kill.ogg')
+	-- And our noise for those in VR, unfortunately, due to a bug in MP for outSoundForUnit where unitID != GroupID this doesn't work!
+	-- https://forum.dcs.world/topic/308436-triggeractionoutsoundforunit-not-working-as-intended-in-multiplayer/
+	-- So for now, we send to a group as a hint to look at the kill message to see who was hit
+
+	trigger.action.outSoundForGroup(missile.targetPlayer.group:GetID(), '132nd_Sounds/missile_kill.ogg')
   end
 end
 
