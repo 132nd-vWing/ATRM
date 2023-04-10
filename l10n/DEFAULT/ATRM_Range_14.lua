@@ -196,7 +196,7 @@ range_14_menu_flag112:Remove()
 range_14_menu_flag113:Remove()
 range_14_menu_flag116:Remove()
 range_14_menu_flag111_112:Remove()
-MessageToAll("R14 CAS scenario 2 activated")
+MessageToAll("R14 CAS BASIC scenario activated")
 end
 
 
