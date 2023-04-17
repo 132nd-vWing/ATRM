@@ -390,3 +390,58 @@ local menu_ON_DEMAND_4_MISC_MLRS_vehicle_R7 = MENU_MISSION_COMMAND:New("Spawn ML
 local menu_ON_DEMAND_4_MISC_SA13_vehicle_R7 = MENU_MISSION_COMMAND:New("Spawn SA13 Vehicle",spawn_menu_OD_MISC_R7,_ON_DEMAND_4_MISC_SA13_vehicle_R7)
 local menu_ON_DEMAND_4_MISC_SA19_vehicle_R7 = MENU_MISSION_COMMAND:New("Spawn SA19 Vehicle",spawn_menu_OD_MISC_R7,_ON_DEMAND_4_MISC_SA19_vehicle_R7)
 
+-- BEGIN RW SCENARIOS
+
+RW_SCENARIO = range_7_menu_root
+
+range_7_rw_spawns = {}
+range_7_rw_menu_items = {}
+range_7_rw_menu_builder = nil
+
+local function range_7_clear_rw_menu()
+	for k, v in pairs(range_7_rw_menu_items) do
+		v:Remove()
+	end
+  range_7_rw_menu_items = {}
+end
+
+local function range_7_spawn(group_id)
+  range_7_rw_spawns[group_id] = SPAWN:New(group_id)
+  range_7_rw_spawns[group_id]:Spawn()
+end
+
+local function range_7_RW_SEAD_1_create()
+  MessageToAll("Activating R7 RW SEAD 1 (hot)")
+  
+  range_7_spawn("R7_RW_SEAD_1_SA-3_1")
+  range_7_spawn("R7_RW_SEAD_1_SA-3_2")
+  range_7_spawn("R7_RW_SEAD_1_ADF_1")
+  range_7_spawn("R7_RW_SEAD_1_ADF_2")  
+
+  MessageToAll("R7 RW SEAD 1 (hot) activated")
+  range_7_clear_rw_menu()
+end
+
+local function range_7_RW_BCM_1_create()
+  MessageToAll("Activating R7 RW BCM 1 (cold)")
+  range_7_spawn("R7_RW_BCM_1")
+  range_7_clear_rw_menu()
+  range_7_rw_menu_items["range_7_RW_BCM_1_destroy"] = MENU_MISSION_COMMAND:New("Deactivate RW BCM 1", RW_SCENARIO, range_7_RW_BCM_1_destroy)
+end
+
+local function range_7_RW_Gunnery_1_create()
+  MessageToAll("Activating R7 RW Gunnery 1 (cold)")
+  range_7_spawn("R7_RW_GUNNERY_1")
+  range_7_clear_rw_menu()
+  range_7_rw_menu_items["range_7_RW_Gunnery_1_destroy"] = MENU_MISSION_COMMAND:New("Deactivate RW Gunnery 1", RW_SCENARIO, range_7_RW_Gunnery_1_destroy)
+end
+
+local function range_7_setup_rw_menu()
+  range_7_rw_menu_items["range_7_menu_RW_SEAD_1"] = MENU_MISSION_COMMAND:New("Activate RW SEAD scenario 1 (hot)", RW_SCENARIO, range_7_RW_SEAD_1_create)
+  range_7_rw_menu_items["range_7_menu_RW_BCM_1"] = MENU_MISSION_COMMAND:New("Activate RW BCM 1 (cold)", RW_SCENARIO, range_7_RW_BCM_1_create)
+  range_7_rw_menu_items["range_7_menu_RW_Gunnery_1"] = MENU_MISSION_COMMAND:New("Activate RW Gunnery 1 (cold)", RW_SCENARIO, range_7_RW_Gunnery_1_create)
+end
+
+range_7_setup_rw_menu()
+
+-- END RW SCENARIOS
