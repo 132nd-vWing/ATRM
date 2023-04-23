@@ -334,5 +334,12 @@ trigger.action.setUserFlag(117, true )
 MessageToAll("R16 CAS scenario 2 activated")
 end
 
+-- Adding menu items for R16 CAS preset scenario 4
+
+local function range16_flag126()
+trigger.action.setUserFlag(126, true )
+MessageToAll("R16 CAS scenario 4 activated")
+end
 
 range_16_menu_flag117 = MENU_MISSION_COMMAND:New("Activate R16 preset CAS scenario 2",range_16_menu_root,range16_flag117)
+range_16_menu_flag126 = MENU_MISSION_COMMAND:New("Activate R16 preset CAS scenario 4",range_16_menu_root,range16_flag126)
