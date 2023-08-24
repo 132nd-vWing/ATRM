@@ -18,53 +18,67 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-        with:
-          fetch-tags: true
-
-      - name: Find Tag
-        id: tag
-        run: |
-          # Get our new version from existing git tags
-          NEW_VER="${DCS_BASE_VERSION}.$(git tag -l ${DCS_BASE_VERSION}.* | awk -F. 'BEGIN { N=0 } { if ($NF > N) N = $NF } END { print N+1 }')"
-
-          echo "New version: ${NEW_VER}"
-
-          # Save it for next steps
-          echo "TAG_VERSION=$NEW_VER" >> "$GITHUB_ENV"
-
-      - name: Tag Version
-        uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.git.createRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: `refs/tags/${process.env.TAG_VERSION}`,
-              sha: context.sha
-            })
 
       - name: Package Miz
         run: |
           # Zip up our 
-          zip -r -q ATRM-${TAG_VERSION}.miz . -x *.md *.yml
+          zip -r -q ATRM.miz . -x *.md *.yml
 
-      - name: Release
+      - name: Tag and Release
         uses: actions/github-script@v6
         with:
           script: |
+
             const fs = require('fs');
 
-            let release = github.rest.repos.createRelease({
+            tags = github.rest.git.listMatchingRefs({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              tag_name: `${process.env.TAG_VERSION}`
-            })
+              ref: `ref/tags/${process.env.DCS_BASE_VERSION}`
+            });
 
-            github.rest.repos.uploadReleaseAsset({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              name: `ATRM-${process.env.TAG_VERSION}.miz`,
-              release_id: release.id,
-              data: await fs.readFileSync(`ATRM-${process.env.TAG_VERSION}.miz`)
-            })
+            next_ver = Math.max(
+              ...(tags.data ?? []).map((x) => {
+                try {
+                  return parseInt(x.ref.split(".").pop())
+                } catch {
+                  return 0 
+                }
+              }),
+              0)+1;
 
+            next_ver_complete = `${process.env.DCS_BASE_VERSION}.${next_ver}`;
+            core.notice(`Tagging ${next_ver_complete}`);
+
+            try {
+              github.rest.git.createRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `refs/tags/${next_ver_complete}`,
+                sha: context.sha
+              });
+            } catch (err) {
+              core.setFailed(err.message);
+            }
+
+            try {
+              let release = github.rest.repos.createRelease({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                tag_name: `${next_ver_complete}`
+              });
+            } catch (err) {
+              core.setFailed(err.message);
+            }
+
+            try {
+              github.rest.repos.uploadReleaseAsset({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: `ATRM-${next_ver_complete}.miz`,
+                release_id: release.id,
+                data: await fs.readFileSync("ATRM.miz")
+              });
+            } catch (err) {
+              core.setFailed(err.message);
+            }
