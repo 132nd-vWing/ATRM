@@ -1,0 +1,67 @@
+---
+
+name: Build
+
+env:
+  DCS_BASE_VERSION: 2.8.8
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Tag Version
+        id: tag
+        run: |
+          # Get our new version from existing git tags
+          NEW_VER="${DCS_BASE_VER}.$(git tag -l ${DCS_BASE_VERSION}.* | awk -F. 'BEGIN { N=0 } { if ($NF > N) N = $NF } END { print N+1 }')"
+
+          # Save it for next steps
+          echo "::set-output name=NEW_VER::$NEW_VER"
+
+
+      - name: Tag Version
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: refs/tags/${{ steps.tag.outputs.NEW_VER }}
+              sha: context.sha,
+            })
+
+      - name: Package Miz
+        run: |
+          # Zip up our 
+          zip -r -q ATRM-${{ steps.tag.outputs.NEW_VER }}.miz . -x *.md *.yml
+
+      - name: Release
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+
+            let release = github.rest.git.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: ${{ steps.tag.outputs.NEW_VER }},
+              tag_name: ${{ steps.tag.outputs.NEW_VER }}
+            })
+
+            github.reset.git.uploadReleaseAsset({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: "ATRM-${{ steps.tag.outputs.NEW_VER }}.miz",
+              release_id: release.id
+              data: await fs.readFileSync("ATRM-${{ steps.tag.outputs.NEW_VER }}.miz")
+            })
+
+
