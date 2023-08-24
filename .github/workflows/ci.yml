@@ -1,0 +1,76 @@
+---
+
+name: Build
+
+env:
+  DCS_BASE_VERSION: 2.8.8
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Package Miz
+        run: |
+          # Zip up our mission file excluding the top level yaml and markdown and
+          # all git related directories
+          zip -r -q ATRM.miz . -x *.md *.yml '.git*'
+
+      - name: Tag and Release
+        uses: actions/github-script@v6
+        with:
+          script: |
+
+            const fs = require('fs');
+
+            tags = await github.rest.git.listMatchingRefs({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `tags/${process.env.DCS_BASE_VERSION}`
+            });
+
+            let next_ver = Math.max(
+              ...(tags.data ?? []).map((x) => {
+                try {
+                  return parseInt(x.ref.split(".").pop())
+                  } catch {
+                    return 0
+                  }
+                }),
+                0)+1;
+
+            let next_ver_complete = `${process.env.DCS_BASE_VERSION}.${next_ver}`;
+            core.notice(`Tagging ${next_ver_complete}`);
+
+            let release;
+            try {
+              release = await github.rest.repos.createRelease({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                tag_name: `${next_ver_complete}`,
+                latest: "true"
+              });
+            } catch (err) {
+              core.setFailed(err.message);
+            }
+
+            try {
+              await github.rest.repos.uploadReleaseAsset({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: `ATRM-${next_ver_complete}.miz`,
+                release_id: release.data.id,
+                data: await fs.readFileSync("ATRM.miz")
+              });
+            } catch (err) {
+              core.setFailed(err.message);
+            }
