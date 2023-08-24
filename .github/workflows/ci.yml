@@ -7,7 +7,9 @@ env:
 
 on:
   push:
-    branches: [main]
+    branches: [master]
+  workflow_dispatch:
+
 
 jobs:
   package:
@@ -16,16 +18,19 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          fetch-tags: true
 
-      - name: Tag Version
+      - name: Find Tag
         id: tag
         run: |
           # Get our new version from existing git tags
-          NEW_VER="${DCS_BASE_VER}.$(git tag -l ${DCS_BASE_VERSION}.* | awk -F. 'BEGIN { N=0 } { if ($NF > N) N = $NF } END { print N+1 }')"
+          NEW_VER="${DCS_BASE_VERSION}.$(git tag -l ${DCS_BASE_VERSION}.* | awk -F. 'BEGIN { N=0 } { if ($NF > N) N = $NF } END { print N+1 }')"
+
+          echo "New version: ${NEW_VER}"
 
           # Save it for next steps
-          echo "::set-output name=NEW_VER::$NEW_VER"
-
+          echo "TAG_VERSION=$NEW_VER" >> "$GITHUB_ENV"
 
       - name: Tag Version
         uses: actions/github-script@v6
@@ -34,14 +39,14 @@ jobs:
             github.rest.git.createRef({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              ref: refs/tags/${{ steps.tag.outputs.NEW_VER }}
-              sha: context.sha,
+              ref: `refs/tags/${process.env.TAG_VERSION}`,
+              sha: context.sha
             })
 
       - name: Package Miz
         run: |
           # Zip up our 
-          zip -r -q ATRM-${{ steps.tag.outputs.NEW_VER }}.miz . -x *.md *.yml
+          zip -r -q ATRM-${TAG_VERSION}.miz . -x *.md *.yml
 
       - name: Release
         uses: actions/github-script@v6
@@ -49,19 +54,17 @@ jobs:
           script: |
             const fs = require('fs');
 
-            let release = github.rest.git.createRelease({
+            let release = github.rest.repos.createRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              name: ${{ steps.tag.outputs.NEW_VER }},
-              tag_name: ${{ steps.tag.outputs.NEW_VER }}
+              tag_name: `${process.env.TAG_VERSION}`
             })
 
-            github.reset.git.uploadReleaseAsset({
+            github.rest.repos.uploadReleaseAsset({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              name: "ATRM-${{ steps.tag.outputs.NEW_VER }}.miz",
-              release_id: release.id
-              data: await fs.readFileSync("ATRM-${{ steps.tag.outputs.NEW_VER }}.miz")
+              name: `ATRM-${process.env.TAG_VERSION}.miz`,
+              release_id: release.id,
+              data: await fs.readFileSync(`ATRM-${process.env.TAG_VERSION}.miz`)
             })
-
 
