@@ -8,9 +8,6 @@ env:
 on:
   push:
     branches: [master]
-    paths-ignore:
-      - README.md
-      - .github/**
   workflow_dispatch:
 
 
