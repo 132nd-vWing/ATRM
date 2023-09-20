@@ -16,7 +16,7 @@ tanker_menu_blue = MENU_MISSION:New("BLUE TANKER Control", tanker_menu )
 tanker_menu_blue1 = MENU_MISSION:New("AR 10X - 20X", tanker_menu_blue )
 tanker_menu_blue2 = MENU_MISSION:New("AR 30X", tanker_menu_blue )
 tanker_menu_red = MENU_MISSION:New("RED TANKER Control", tanker_menu )
-range_root_menu_misc = MENU_MISSION:New("Miscellaneous ")
+--range_root_menu_misc = MENU_MISSION:New("Miscellaneous ")
 
 --- FOX script (replaces Missiletrainer)
 fox=FOX:New()
