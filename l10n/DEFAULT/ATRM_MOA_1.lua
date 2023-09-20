@@ -1,7 +1,7 @@
 local Moa1_Migs = {}
 local zoneCAP=ZONE_POLYGON:NewFromGroupName("MOA1_patrolzone")
 local zoneOrbit=ZONE_POLYGON:NewFromGroupName("MOA1_Orbit_Zone")
-local mission_racetrack=AUFTRAG:NewORBIT_RACETRACK(zoneOrbit:GetRandomCoordinate(), 26000, 400, 180, 20)
+local mission_racetrack=AUFTRAG:NewORBIT_RACETRACK(zoneOrbit:GetRandomCoordinate(), 26000, 300, 180, 20)
 local mig29 = SPAWN:New("redair_moa1_mig29_2xship")
 local mig29_2 =  SPAWN:New("redair_moa1_mig29_4xship")
 
