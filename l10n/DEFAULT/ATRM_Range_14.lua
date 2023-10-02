@@ -7,6 +7,15 @@ local function range_14_AR()
 end
 range_14_AR_menu = MENU_MISSION_COMMAND:New("Activate AR scenario 1 ",range_14_menu_root,range_14_AR)
 
+local function range_14_CAS_preset5()
+  range_14_CAS_preset5_menu:Remove()
+  trigger.action.setUserFlag("R14-CAS_Preset_5",true)
+end
+range_14_CAS_preset5_menu = MENU_MISSION_COMMAND:New("Activate R14 preset CAS scenario 5",range_14_menu_root,range_14_CAS_preset5)
+
+
+
+
 
 local function range_14_custom_CAS_units()
   range_14_CAS_menu:Remove()
