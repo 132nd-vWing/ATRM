@@ -29,7 +29,7 @@ function start_recovery()
     local timeend=timenow+45*60
     local timerecovery_start = UTILS.SecondsToClock(timenow,true)
     timerecovery_end = UTILS.SecondsToClock(timeend,true)
-    CVN73:AddTurnIntoWind(timerecovery_start,timerecovery_end,25,true,-9)
+    CVN73:AddTurnIntoWind(timerecovery_start,timerecovery_end,25,true,0)
     MessageToAll("CVN73 is turning, Recovery Window open from time "..timerecovery_start.." until "..timerecovery_end)
   end
 end
@@ -65,7 +65,7 @@ function start_recovery_71()
     local timeend_71=timenow_71+45*60
     local timerecovery_start_71 = UTILS.SecondsToClock(timenow_71,true)
     timerecovery_end_71 = UTILS.SecondsToClock(timeend_71,true)
-    CVN71:AddTurnIntoWind(timerecovery_start_71,timerecovery_end_71,25,true,-9)
+    CVN71:AddTurnIntoWind(timerecovery_start_71,timerecovery_end_71,25,true,0)
     MessageToAll("CVN71 is turning, Recovery Window open from time "..timerecovery_start_71.." until "..timerecovery_end_71)
   end
 end
