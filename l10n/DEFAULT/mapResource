@@ -32,7 +32,6 @@ mapResource =
     ["ResKey_Action_10822"] = "ATRM_ELINT.lua",
     ["ResKey_Action_10823"] = "DCS-SimpleTextToSpeech.lua",
     ["ResKey_Action_10831"] = "skynet-iads-setup-ATRM_adv_scenario1.lua",
-    ["ResKey_Action_10901"] = "Splash_Damage_2_0.lua",
     ["ResKey_Action_10905"] = "ATRM_MOA_1.lua",
     ["ResKey_Action_10910"] = "ATRM_Navygroup.lua",
     ["ResKey_Action_10918"] = "Moose.lua",
