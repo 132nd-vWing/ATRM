@@ -29,13 +29,13 @@ SCHEDULER:New(nil,function()
   end
 end,{},1,1*30)
 
-SCHEDULER:New(nil,function()
-  if CVN_73_beacon_unit then
-    CVN73_Beacon = CVN_73_beacon_unit:GetBeacon()
-    CVN73_Beacon:ActivateTACAN(73,"X","C73",true)
-    env.info("CVN73 Tacan refreshed")
-  end
-end,{},5,5*60)
+--SCHEDULER:New(nil,function()
+--  if CVN_73_beacon_unit then
+--    CVN73_Beacon = CVN_73_beacon_unit:GetBeacon()
+--    CVN73_Beacon:ActivateTACAN(73,"X","C73",true)
+--    env.info("CVN73 Tacan refreshed")
+--  end
+--end,{},5,5*60)
 
 function start_recovery73()
  if CVN73:IsSteamingIntoWind() == true then
